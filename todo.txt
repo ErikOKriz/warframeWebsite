@@ -1,0 +1,39 @@
+In order to cut down on RAM necessities, we will create a text file, called 
+text-1 for now. Which will simply have a prime item on each line. Where each
+item is one we would like to farm, put in lowercase letters. we might also
+want to put on each line the type of the item, being weapon, warframe, 
+companion, etc separated by the item's name by a hyphen. This will help with
+the url building process in the next step. we will also be creating a database
+which will house all the data that we will construct our webpagge out of, for 
+now, let's call it text-3.
+
+The first real step is to create a program which can pull data from the warframe wiki.
+This program will most likely ping a specific url and send all data stored
+on a text file, each instance being called text-2. 
+Note: maybe we can just pull the html doc of the site straight into a text
+document, and parse it later. (it that allowed? I think so.) 
+
+The next step is to create a second program whose sole job is to parse 
+the raw info from a text-2 document into useful, more concrete data.
+Since we will only be feeding info from prime item pages into this program,
+there will always be relics needed on the page. This program will take 
+these relics and each of the item's components rarity in that relic and 
+put that info into our database, text-3. Then, if at all possile, this
+program will look up the relic and figure out where to farm that specific
+relic in the solar system. and add that to the item's portion of our database.   
+
+the next step is to create a program that is a for loop, which takes all the
+items in text-1, creates that item's warframe wiki url, and feeds that url to the 
+first program, creating a text-2 instance. Then, the for loop will put that text-2
+instance into the second program. Once all of the info from that text-2 instance 
+is in our database, it moves on to the next item in text-1. Once all the items 
+from text-1 are gone through, our database should be done. It is worth noting that 
+we can separate items in our database however we wish by manipulating how the 
+second program inputs data into text-3. 
+
+finally we need to create the website using text-3. Once we get to this step, we
+can format the website however we want. I think that the website will consist of 
+a list of the prime items we want to farm, and each item can be clicked to expand
+to the component parts, the relics to find those parts, the rarity in those relics
+of those parts, and where to farm those relics in the solar system, if possible. 
+Any style choice past that is just for fun. 
