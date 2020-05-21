@@ -1,11 +1,11 @@
 In order to cut down on RAM necessities, we will create a text file, called 
-text-1 for now. Which will simply have a prime item on each line. Where each
+primes(or text-1) for now. Which will simply have a prime item on each line. Where each
 item is one we would like to farm, put in lowercase letters. we might also
 want to put on each line the type of the item, being weapon, warframe, 
 companion, etc separated by the item's name by a hyphen. This will help with
 the url building process in the next step. we will also be creating a database
 which will house all the data that we will construct our webpagge out of, for 
-now, let's call it text-3.
+now, let's call it text-3 (database.txt).
 
 The first real step is to create a program which can pull data from the warframe wiki.
 This program will most likely ping a specific url and send all data stored
