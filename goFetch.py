@@ -2,7 +2,8 @@
 
 #this funciton should take a valid url as in input, and have no output.
 # It should truncate htmlTemp.txt and place the html file of the url in
-# htmlTemp.txt in text form.
+# htmlTemp.txt in text form. can easliy be changed to have an output/ go
+# to another file
 
 from urllib3 import PoolManager
 from bs4 import BeautifulSoup
@@ -10,21 +11,23 @@ from bs4 import BeautifulSoup
 
 def goFetch(url):
     http = PoolManager()
-    #html is of a strange type, might be able to convery it to raw text
     html = http.request('GET', url)
 
     #the line below needs a second item to pass ot the function that
     # tells it how to parse the html data
-    soup = BeautifulSoup(html.data)
+    #Can use the defualt python html parser (html.parser), xlml, or html5lib
+    #   seems to be no difference between html.parser and xlml, html5lib, however
+    #   pulls the raw htmml file instead of the text. will use parser for now
+    #check https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+    #for more info on this function.
+    soup = BeautifulSoup(html.data, "html.parser")
 
-    #can pull html title if wanted
-    #title = soup.title
-
-    #should be full html text of type string
+    #tuns the htmp type of soup into a string
     strText = soup.get_text()
 
-    #edit text to get rid of white lines
+    #change string to list for in-place character replacement
     text = list(strText)
+    #for loop to remove empty lines
     cur = 0
     for x in range(len(text)):
         if text[x] == '\n':
@@ -36,17 +39,18 @@ def goFetch(url):
                 cur = 0
                 text[x-1] = '\n'
 
+    #change list of chars back to string
     strText = ''.join(text)
 
-    print(strText)
+    #only print for debugging, just check htmpTemp.txt for the print
+    #print(strText)
 
     #next is to write text to htmlTemp.txt
     file = open('htmlTemp.txt', 'w')
     file.write(strText)
-
     file.close()
 
 
 #test case
-url1 = "https://warframe.fandom.com/wiki/Atlas/Prime"
-goFetch(url1)
+#url1 = "https://warframe.fandom.com/wiki/Atlas/Prime"
+#goFetch(url1)
