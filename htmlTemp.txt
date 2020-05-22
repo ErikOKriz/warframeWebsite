@@ -1,1029 +1,294 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Atlas Prime | WARFRAME Wiki | Fandom
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-FANDOM
-
-
-
-
-
- 
-
-
-	Games
-
-	Movies
-
-	TV
-
-	Video
-
-
+                     
+Atlas Prime | WARFRAME Wiki | Fandom                                 
+FANDOM     
+   
+	Games 
+	Movies 
+	TV 
+	Video  
 Wikis
- 
-
-
-
-
-	Explore Wikis
-
-
-
-	Community Central
-
-
-
-	Start a Wiki
-
-
-
-
-
-
-
-
-
-
-
+     
+	Explore Wikis   
+	Community Central   
+	Start a Wiki           
   
-				Search			
-
-
-
-
-
+				Search			     
+  
+        
  
-
- 
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-					Sign In				
-
-
-Don't have an account?
-
-					Register				
-
-
-
-
-
-
-	Start a Wiki
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-WARFRAME Wiki
-
-
+     
+					Sign In				  
+Don't have an account? 
+					Register				      
+	Start a Wiki                                 
+WARFRAME Wiki  
 5,776
-Pages
-
-
-
- Add new page
-
-
-
-
-
-
-
-
-
-Gameplay
-
- 
-
-
-
-
+Pages   
+ Add new page         
+Gameplay 
+     
 Quests
- 
-
-
-
-Vor's Prize
-
-
-Once Awake
-
-
-The Howl of Kubrow
-
-
-The Archwing
-
-
-Stolen Dreams
-
-
-The New Strange
-
-
-The Limbo Theorem
-
-
-Hidden Messages
-
-
-Patient Zero
-
-
-Natah
-
-
-
-
-
-
+    
+Vor's Prize  
+Once Awake  
+The Howl of Kubrow  
+The Archwing  
+Stolen Dreams  
+The New Strange  
+The Limbo Theorem  
+Hidden Messages  
+Patient Zero  
+Natah      
 Missions
- 
-
-
-
-Assassination
-
-
-Capture
-
-
-Defection
-
-
-Defense
-
-
-Excavation
-
-
-Exterminate
-
-
-Interception
-
-
-Rescue
-
-
-Sabotage
-
-
-Spy
-
-
-
-
-
-
+    
+Assassination  
+Capture  
+Defection  
+Defense  
+Excavation  
+Exterminate  
+Interception  
+Rescue  
+Sabotage  
+Spy      
 Game Mechanics
- 
-
-
-
-Attributes
-
-
-Codex
-
-
-Currencies
-
-
-Damage
-
-
-Foundry
-
-
-Maximization
-
-
-Mods
-
-
-Polarity
-
-
-Stance
-
-
-Stealth
-
-
-
-
-
-
+    
+Attributes  
+Codex  
+Currencies  
+Damage  
+Foundry  
+Maximization  
+Mods  
+Polarity  
+Stance  
+Stealth      
 Tile Sets
- 
-
-
-
-Grineer Tileset
-
-
-Corpus Tileset
-
-
-Infested Tileset
-
-
-Orokin Tileset
-
-
-Tenno Tileset
-
-
-Conclave Tileset
-
-
-Archwing Tileset
-
-
-
-
-
-
-
-
-
-
-
-
-Combat
-
- 
-
-
-
-
+    
+Grineer Tileset  
+Corpus Tileset  
+Infested Tileset  
+Orokin Tileset  
+Tenno Tileset  
+Conclave Tileset  
+Archwing Tileset            
+Combat 
+     
 Warframes
- 
-
-
-
-Ash
-
-
-Excalibur
-
-
-Frost
-
-
-Loki
-
-
-Mag
-
-
-Nova
-
-
-Nyx
-
-
-Rhino
-
-
-Trinity
-
-
-Volt
-
-
-
-
-
-
+    
+Ash  
+Excalibur  
+Frost  
+Loki  
+Mag  
+Nova  
+Nyx  
+Rhino  
+Trinity  
+Volt      
 Weapons
- 
-
-
-
-Primary Weapons
-
-
-Secondary Weapons
-
-
-Melee Weapons
-
-
-Archwing Weapons
-
-
-Weapon Comparison
-
-
-
-
-
-
+    
+Primary Weapons  
+Secondary Weapons  
+Melee Weapons  
+Archwing Weapons  
+Weapon Comparison      
 Mods
- 
-
-
-
-Regular Mods
-
-
-Aura Mods
-
-
-Stance Mods
-
-
-Nightmare Mods
-
-
-Corrupted Mods
-
-
-Augment Mods
-
-
-Conclave Mods
-
-
-Flawed Mods
-
-
-
-
-
-
+    
+Regular Mods  
+Aura Mods  
+Stance Mods  
+Nightmare Mods  
+Corrupted Mods  
+Augment Mods  
+Conclave Mods  
+Flawed Mods      
 Factions
- 
-
-
-
-Grineer
-
-
-Corpus
-
-
-Infested
-
-
-Orokin
-
-
-Syndicates
-
-
-Sentient
-
-
-
-
-
-
-
-
-
-
-
-
-Development
-
- 
-
-
-
-
-												WARFRAME											
-
-
-
+    
+Grineer  
+Corpus  
+Infested  
+Orokin  
+Syndicates  
+Sentient            
+Development 
+     
+												WARFRAME											   
 Version History
- 
-
-
-
-Update 27: Empyrean
-
-
-Update 26: The Old Blood
-
-
-Update 25: The Jovian Concord
-
-
-Update 24: Fortuna
-
-
-Update 23: The Sacrifice
-
-
-Update 22: Plains of Eidolon
-
-
-Update 21: Chains of Harrow
-
-
-Update 20: Octavia's Anthem
-
-
-Update 19: The War Within
-
-
-Update 18: The Second Dream
-
-
-
-
-
-
+    
+Update 27: Empyrean  
+Update 26: The Old Blood  
+Update 25: The Jovian Concord  
+Update 24: Fortuna  
+Update 23: The Sacrifice  
+Update 22: Plains of Eidolon  
+Update 21: Chains of Harrow  
+Update 20: Octavia's Anthem  
+Update 19: The War Within  
+Update 18: The Second Dream      
 Technical Information
- 
-
-
-
-System Requirements
-
-
-Running Warframe
-
-
-Settings
-
-
-Key Bindings
-
-
-Upcoming Features
-
-
-Stress Test
-
-
-
-
-
-
+    
+System Requirements  
+Running Warframe  
+Settings  
+Key Bindings  
+Upcoming Features  
+Stress Test      
 Developer Videos
- 
-
-
-
-Dev Diaries
-
-
-DevStreams
-
-
-Prime Time
-
-
-Tenno Reinforcements
-
-
-Warframe Profile
-
-
-
-
-
-
-
-
-
-
-
-
-Community
-
- 
-
-
-
-
+    
+Dev Diaries  
+DevStreams  
+Prime Time  
+Tenno Reinforcements  
+Warframe Profile            
+Community 
+     
 Forum
- 
-
-
-
-Warframe Discussion
-
-
-Wiki Discussion
-
-
-General Discussion
-
-
-Trading
-
-
-Mission Assistance
-
-
-Clan Recruitment
-
-
-Feedback and Ideas
-
-
-Questions and Answers
-
-
-Off Topic
-
-
-
-
-
-
+    
+Warframe Discussion  
+Wiki Discussion  
+General Discussion  
+Trading  
+Mission Assistance  
+Clan Recruitment  
+Feedback and Ideas  
+Questions and Answers  
+Off Topic      
 Community Portal
- 
-
-
-
-Recent Blog Posts
-
-
-Clan List
-
-
-User Guides
-
-
-Fan Zone
-
-
-
-
-
-
+    
+Recent Blog Posts  
+Clan List  
+User Guides  
+Fan Zone      
 Wiki Policies
- 
-
-
-
-Article Policy
-
-
-Media Policy
-
-
-Data Mining Policy
-
-
-Blog Policy
-
-
-Chat Policy
-
-
-Banning Policy
-
-
-Talk Page and Comment Policy
-
-
-Privacy Policy
-
-
-
-
-
-
+    
+Article Policy  
+Media Policy  
+Data Mining Policy  
+Blog Policy  
+Chat Policy  
+Banning Policy  
+Talk Page and Comment Policy  
+Privacy Policy      
 Administrators
- 
-
-
-
-6079Smith
-
-
-ArcticEngie
-
-
-Brizingr5
-
-
-ChickenBar
-
-
-Darthmufin
-
-
-SonyaUliana
-
-
-USouLz
-
-
-
-
-
-
+    
+6079Smith  
+ArcticEngie  
+Brizingr5  
+ChickenBar  
+Darthmufin  
+SonyaUliana  
+USouLz      
 Editing Help
- 
-
-
-
-Styling Guide
-
-
-Template List
-
-
-Ask Administrators!
-
-
-
-
-
-
-												Report Users!											
-
-
-
-
-
-
-
-
+    
+Styling Guide  
+Template List  
+Ask Administrators!      
+												Report Users!											        
  Explore
- 
-
-
-
-Wiki Activity
-
-
-Random page
-
-
-Community
-
-
-Videos
-
-
-Images
-
-
-Forum
-
-
-
-
-
-
-
-
- Discuss
-
-
- 
-
-
-
-
-
-
-
-
-
-in:
-
-Warframes, Prime, Atlas, Update 25 
-
+    
+Wiki Activity  
+Random page  
+Community  
+Videos  
+Images  
+Forum        
+ Discuss  
+          
+in: 
+Warframes, Prime, Atlas, Update 25  
 Atlas Prime
-< Atlas
-
-
- 
-
-
-English 
-
-
-
-Español
-
-
-
-
-
-
-
-
- Edit
-
-
-
- 
-
-
-
-
-							VisualEditor						
-
-
-
-							History						
-
-
-
-
-
-
-Comments (42)
-
-
- Share
-
-
-
-
-
-
-
-
-
-
-
-
-
-Atlas Prime
-
-
-
-
-
-
+< Atlas  
+   
+English    
+Español        
+ Edit   
+     
+							VisualEditor						   
+							History						      
+Comments (42)  
+ Share             
+Atlas Prime      
 Mastery Rank
-0
-
-
+0  
 Health
-175 (525 at rank 30)
-
-
+175 (525 at rank 30)  
 Shield
-150 (450 at rank 30)
-
-
+150 (450 at rank 30)  
 Armor
-475
-
-
+475  
 Energy
-175 (262 at rank 30)
-
-
+175 (262 at rank 30)  
 Sprint Speed
-1.0
-
-
-Polarities
-
-
-
+1.0  
+Polarities   
 Exilus Polarity
-None
-
-
-Aura Polarity
-
-
-
+None  
+Aura Polarity   
 Introduced
-Update 25.8
-
-
-
+Update 25.8   
 CODEX
-In bygone ages, mountains were said to house warriors. In this age, the mountain has become the warrior.
-
+In bygone ages, mountains were said to house warriors. In this age, the mountain has become the warrior. 
 Release Date: October 1st, 2019
-Atlas Prime is the Primed variant of  Atlas, acting as a direct upgrade. Atlas Prime was released alongside  Tekko Prime and Dethcube Prime.
-
-
-
-Manufacturing Requirements
-
-
-25,000
-
-
-
+Atlas Prime is the Primed variant of  Atlas, acting as a direct upgrade. Atlas Prime was released alongside  Tekko Prime and Dethcube Prime.   
+Manufacturing Requirements  
+25,000   
 5
-Time: 72 hrs
-
-
-Rush:  50
-
-
+Time: 72 hrs  
+Rush:  50  
 Market Price: N/A
-Blueprint Price: N/A
-
-
-Neuroptics
-
-
+Blueprint Price: N/A  
+Neuroptics  
 15,000
 2
 525
 4,700
 200
-Time: 12 hrs
-
-
-Rush:  25
-
-
-Chassis
-
-
+Time: 12 hrs  
+Rush:  25  
+Chassis  
 15,000
 2
 2
 725
 3,600
-Time: 12 hrs
-
-
-Rush:  25
-
-
-Systems
-
-
+Time: 12 hrs  
+Rush:  25  
+Systems  
 15,000
 2
 4
 1,200
 3,200
-Time: 12 hrs
-
-
-Rush:  25
-
-
+Time: 12 hrs  
+Rush:  25  
  
-Drop Locations
-
-
-
-
+Drop Locations    
 Blueprint
-Lith D1 CommonLith M5 Common
-
-
+Lith D1 CommonLith M5 Common  
 Neuroptics
-Axi A6 RareAxi A9 Rare
-
-
+Axi A6 RareAxi A9 Rare  
 Chassis
-Neo M3 UncommonAxi B3 UncommonMeso E3 Uncommon (V)
-
-
+Neo M3 UncommonAxi B3 UncommonMeso E3 Uncommon (V)  
 Systems
-Lith N4 UncommonMeso C4 UncommonNeo A3 Uncommon
-
-
-
-
-
+Lith N4 UncommonMeso C4 UncommonNeo A3 Uncommon     
 Blueprint
-Lith D1 CommonLith M5 Common
-
-
+Lith D1 CommonLith M5 Common  
 Neuroptics
-Axi A6 RareAxi A9 Rare
-
-
+Axi A6 RareAxi A9 Rare  
 Chassis
-Neo M3 UncommonAxi B3 UncommonMeso E3 Uncommon (V)
-
-
+Neo M3 UncommonAxi B3 UncommonMeso E3 Uncommon (V)  
 Systems
-Lith N4 UncommonMeso C4 UncommonNeo A3 Uncommon
-
-
-
-
-
+Lith N4 UncommonMeso C4 UncommonNeo A3 Uncommon     
 Blueprint
-Lith D1 CommonLith M5 Common
-
-
+Lith D1 CommonLith M5 Common  
 Neuroptics
-Axi A6 RareAxi A9 Rare
-
-
+Axi A6 RareAxi A9 Rare  
 Chassis
-Neo M3 UncommonAxi B3 UncommonMeso E3 Uncommon (V)
-
-
+Neo M3 UncommonAxi B3 UncommonMeso E3 Uncommon (V)  
 Systems
-Lith N4 UncommonMeso C4 UncommonNeo A3 Uncommon
-
-
-
-Lith/Meso/Neo/Axi refer to Void Relics(V) Denotes Vaulted Void Relics(B) Denotes Baro Ki'Teer Exclusive Void Relic
-
+Lith N4 UncommonMeso C4 UncommonNeo A3 Uncommon   
+Lith/Meso/Neo/Axi refer to Void Relics(V) Denotes Vaulted Void Relics(B) Denotes Baro Ki'Teer Exclusive Void Relic 
 NotesEdit
 Atlas Prime, compared to  Atlas:
 Higher Armor (475 vs. 450)
@@ -1031,421 +296,80 @@ Higher Energy (175/262 vs. 150/225)
 Higher Health (175/525 vs. 100/300)
 Higher Shield (150/450 vs. 100/300)
 Higher Sprint Speed (1.0 vs. 0.9)
-Additional Polarity ( vs. )
-
-
+Additional Polarity ( vs. )  
 As a Prime Warframe, Atlas Prime possesses a special passive ability where contact with an Orokin Void Death Orb will make them release an energy pulse that grants 250 Energy to all nearby allies. This effect can only occur once per Death Orb, and can occur even if the Death Orb has been previously destroyed.
 Atlas Prime's earthly elemental constructs feature alternate appearances:
 Atlas Prime's  Tectonics rock wall has a slightly darker color and features additional gold ore veins and cracks that glow with an orange lava color.
 Atlas Prime's  Rumblers are formed by a solid, dense, and uniform rock formation, as opposed to looser and irregular rock for his non-Primed counterpart, featuring Atlas Prime's chosen primary color and cracks that glow with chosen emissive colors. The Rumblers also have gold ornaments on their torsos and knuckles, resembling those on Atlas Prime himself.
-The Rumblers will retain its appearance if a player choose to equip non-Prime default skin. However, equipping other skins will still change Rumblers' appearance accordingly.
-
-
-
+The Rumblers will retain its appearance if a player choose to equip non-Prime default skin. However, equipping other skins will still change Rumblers' appearance accordingly.   
 TriviaEdit
 Atlas Prime is the first Primed Warframe to have five enhanced stats over his regular counterpart.
 Atlas Prime's helmet design resembles the Cyclopes, giant one-eyed creatures in Greek mythology, symbolizing his immense strength.
 Atlas Prime is the fourth Primed Warframe whose non-primed variant was unlockable through a quest (The Jordas Precept), after  Mirage,  Limbo and  Chroma.
 Before his global debut, Atlas Prime was first announced during TennoVip 2019 at Tokyo Game Show.
-Atlas Prime's Rumblers were dubbed Prime Rumblers in a Twitter post by [DE]Rebecca
-
+Atlas Prime's Rumblers were dubbed Prime Rumblers in a Twitter post by [DE]Rebecca 
 MediaEdit
-    The Strongest Atlas Build 2020 Warframe-1  
-
-
-
-Retrieved from "https://warframe.fandom.com/wiki/Atlas/Prime?oldid=2084030"
-
-
-
-Categories:
-
-
-Warframes
-
-
-
-
-
-
-Prime
-
-
-
-
-
-
-Atlas
-
-
-
-
-
-
-Update 25
-
-
-
-
-
-
+    The Strongest Atlas Build 2020 Warframe-1     
+Retrieved from "https://warframe.fandom.com/wiki/Atlas/Prime?oldid=2084030"   
+Categories:  
+Warframes      
+Prime      
+Atlas      
+Update 25      
 Add category
- 
-
-
-
+    
 Cancel
-Save
-
-
-
-Languages: 
-
-Español
-
-
-
-
+Save   
+Languages:  
+Español    
 	Community content is available under CC-BY-SA
- unless otherwise noted.
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Fan Feed		
-
-
-
-
-More WARFRAME Wiki
-
-
-
-
+ unless otherwise noted.  
+                        
+Fan Feed		    
+More WARFRAME Wiki    
 1
-Mastery Rank
-
-
-
-
+Mastery Rank    
 2
-Warframes
-
-
-
-
+Warframes    
 3
-Kuva Lich/Rewards
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Kuva Lich/Rewards                   
 		Explore Wikis
-	
-
-
-
-
-
-Final Space Wiki
-
-
-
-
-
-
-
-Rocko's Modern Life Wiki
-
-
-
-
-
-
-
-Rurouni Kenshin Wiki
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-Explore properties
-
-
-
-	Fandom
-
-
-
-	Gamepedia
-
-
-
-	D&D Beyond
-
-
-
-	Muthead
-
-
-
-	Futhead
-
-
-
-
-Follow Us
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Overview
-
-
-
-	About
-
-
-
-	Careers
-
-
-
-	Press
-
-
-
-	Contact
-
-
-
-	Terms of Use
-
-
-
-	Privacy Policy
-
-
-
-	Global Sitemap
-
-
-
-	Local Sitemap
-
-
-
-
-
-
-Community
-
-
-
-	Community Central
-
-
-
-	Support
-
-
-
-	Help
-
-
-
-	Do Not Sell My Info
-
-
-
-
-Advertise
-
-
-
-	Media Kit
-
-
-
-	Contact
-
-
-
-
-
-
+	     
+Final Space Wiki       
+Rocko's Modern Life Wiki       
+Rurouni Kenshin Wiki                        
+     
+Explore properties   
+	Fandom   
+	Gamepedia   
+	D&D Beyond   
+	Muthead   
+	Futhead    
+Follow Us                          
+Overview   
+	About   
+	Careers   
+	Press   
+	Contact   
+	Terms of Use   
+	Privacy Policy   
+	Global Sitemap   
+	Local Sitemap      
+Community   
+	Community Central   
+	Support   
+	Help   
+	Do Not Sell My Info    
+Advertise   
+	Media Kit   
+	Contact      
 Fandom Apps
-Take your favorite fandoms with you and never miss a beat.
-
-
-
+Take your favorite fandoms with you and never miss a beat.   
+              
  
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-			D&D Beyond		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-WARFRAME Wiki is a FANDOM Games Community.
-
-
-		View Mobile Site	
-
-
-
-
-
-
-
-
-
-
-
-
-
-JokeyPsych
-
-
-
-EndgameHonest
-
-
-
-GalaxyQuest
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			D&D Beyond		               
+WARFRAME Wiki is a FANDOM Games Community.  
+		View Mobile Site	             
+JokeyPsych   
+EndgameHonest   
+GalaxyQuest                               

@@ -21,9 +21,10 @@ def goFetch(url):
     #title = soup.title
 
     #should be full html text of type string
-    text = soup.get_text()
+    strText = soup.get_text()
 
     #edit text to get rid of white lines
+    text = list(strText)
     cur = 0
     for x in range(len(text)):
         if text[x] == '\n':
@@ -34,11 +35,14 @@ def goFetch(url):
             if cur != 0:
                 cur = 0
                 text[x-1] = '\n'
-    print(text)
+
+    strText = ''.join(text)
+
+    print(strText)
 
     #next is to write text to htmlTemp.txt
     file = open('htmlTemp.txt', 'w')
-    file.write(text)
+    file.write(strText)
 
     file.close()
 
