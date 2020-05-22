@@ -1,6 +1,6 @@
 # this program takes a string as input and creates a warframe wiki url based on that string.
 # each string will be a line from our primes wanted text Doc.
-# the format oof the line should have each word of the item capitalized, and its type in lower
+# the format of the line should have each word of the item capitalized, and its type in lower
 # case, example: Atlas Prime - warframe
 # https://warframe.fandom.com/wiki/Soma_Prime
 # https://warframe.fandom.com/wiki/Atlas/Prime
@@ -27,4 +27,4 @@ def urlCreator(line):
     else:
         return "not a valid type"
 
-    return url
+    return url, itemName
