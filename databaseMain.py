@@ -1,6 +1,6 @@
 from urlGenerator import urlCreator
 from goFetch import goFetch
-import dropSearch
+from dropSearch import Farm
 
 #this main function should lok at our primes wanted Doc and for each line
 #       create a url for the item on that line
@@ -11,19 +11,34 @@ import dropSearch
 
 def main():
     #primes is the list of items we want
-    primes = open(primes.txt, 'r')
+    primes = open('primes.txt', 'r')
     #this deletes database for a new one, keep old copies ;)
-    database = open(database.txt, 'w')
+    database = open('database.txt', 'w')
 
     #each line in primes is a different number
     for line in primes:
         #use url generator to create the url to search
-        url, name = urlGenerator.urlCreator(line)
+        # type returns and integer. 1 means weapon, 2 means warframe
+        #   add more later
+        url, type = urlCreator(line.capitalize())
         #get the html of that url
-        goFetch.goFetch(url)
+        goFetch(url, type)
         #parse out the drop tables from the html
-        dropTables = Parser()
+        dropTables = Farm()
+
         #insert the drop tables into database.txt
+        # FORMAT - most important lines as this txt has to play well with the website
+        database.write("Item: " + line.capitalize())
+        for x in dropTables:
+            database.write("Component: " + '\n'.join(x))
+        #make sure there's an extra line between items
+        database.write('\n' + '\n')
+
+
+
+    #cleanup
     primes.close()
     database.close()
-    return
+
+#for testing
+main()
