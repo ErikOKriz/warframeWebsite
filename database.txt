@@ -1,13 +1,29 @@
 Item: Atlas prime - warframe
 Component: Blueprint
 Lith D1 Common
-Lith M5 CommonComponent: Neuroptics
+Lith M5 Common
+Component: Neuroptics
 Axi A6 Rare
-Axi A9 RareComponent: Chassis
+Axi A9 Rare
+Component: Chassis
 Neo M3 Uncommon
 Axi B3 Uncommon
-Meso E3 Uncommon (V)Component: Systems
+Meso E3 Uncommon (V)
+Component: Systems
 Lith N4 Uncommon
 Meso C4 Uncommon
 Neo A3 Uncommon
+
+
+Item: Tekko prime - weapon
+Component: Blueprint
+Meso E4 Uncommon
+Lith L2 Uncommon (V)
+Component: Blade
+Neo T2 Rare
+Component: Gauntlet
+Meso N9 Common
+Axi G4 Common
+Meso W1 Common (V)
+
 
