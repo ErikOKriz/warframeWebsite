@@ -5,7 +5,7 @@
 # rarity, and whether the relic is vaulted or not
 
 #info is different
-def Farm(typeCode):
+def Frame():
     file = open('htmlTemp.txt', 'r')
     lines = file.readlines()
     lines = [x.strip() for x in lines]
@@ -34,7 +34,7 @@ def Farm(typeCode):
 
         #if you haven't found "drop locations" yet, keep going
         if dropFound == 0:
-            if len(line) >= 14 and line[0:14] == "Drop Locations":
+            if "Drop Locations" in line:
                 #drop locations itself is not an interesting line, we want the
                 # info that starts on the next line.
                 dropFound = 1
@@ -81,16 +81,83 @@ def Farm(typeCode):
 
     for x in range(len(parts)):
         dropTable.append([parts[x]] + partRelics[x])
-
+        dropTable[x][-1] = dropTable[x][-1] + '\n'
 
     file.close()
 
     #for testing
-    print(parts)
-    print(partRelics)
-    print(dropTable)
+    #print(parts)
+    #print(partRelics)
+    #print(dropTable)
 
     return dropTable
 
 #test
-Farm()
+#Frame()
+
+def weapon():
+    file = open('htmlTemp.txt', 'r')
+    lines = file.readlines()
+    lines = [x.strip() for x in lines]
+
+    #dropTable is going to be the final returned item, which will be used
+    # by the main function as the info for database.txt
+    dropTable = []
+
+    #dropFound is how the program know where in the file it is
+    dropFound = 0
+
+    #partName is just initialized here, not totally necessary
+    partName = ''
+
+    #part relics is a list of lists which contain the relics
+    # that make up the parts of the parts list, in the format
+    # of partRelics[x] is the list of all relics that can
+    # roll parts[x].
+    partRelics = []
+
+    for line in lines:
+        #line is a string
+
+        #if you haven't found "drop locations" yet, keep going
+        if dropFound == 0:
+            if "Drop Locations" in line:
+                #drop locations itself is not an interesting line, we want the
+                # info that starts on the next line.
+                dropFound = 1
+
+        #dropFound == 1 only once we have found "Drop Locations" and before we exit
+        #the weapon pages
+        elif dropFound == 1:
+            if line[0:4] == "Lith":
+                break
+            partRelics.append([])
+            prev = 0
+            for y in range(len(line)):
+                # if y is the first character of a new relic, or if it's the last
+                # character in the line, then put that relic in partRelics
+                if line[y] == '\n' or line[y:y + 4] == "Lith" or line[y:y + 4] == "Meso" or line[y:y + 3] == "Neo" or line[y:y + 3] == "Axi" and y != 0:
+                    # send the string to partsRelics
+                    relic = line[prev:y]
+                    if relic != '':
+                        partRelics[-1].append(relic)
+                    prev = y
+            relic = line[prev:]
+            partRelics[-1].append(relic)
+    # build dropTable
+    for x in range(len(partRelics)):
+        dropTable.append(partRelics[x])
+        dropTable[x][-1] = dropTable[x][-1] + '\n'
+
+    #testing
+    #print(dropTable)
+    #print(partRelics)
+
+    return dropTable
+
+def dropSearch(typeCode):
+    if typeCode == 2:
+        return Frame()
+    elif typeCode == 1:
+        return weapon()
+
