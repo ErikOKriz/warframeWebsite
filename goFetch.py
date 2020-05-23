@@ -9,6 +9,7 @@ from urllib3 import PoolManager
 from bs4 import BeautifulSoup
 
 
+
 def goFetch(url):
     http = PoolManager()
     html = http.request('GET', url)
@@ -53,4 +54,5 @@ def goFetch(url):
 
 #test case
 #url1 = "https://warframe.fandom.com/wiki/Atlas/Prime"
-#goFetch(url1)
+url1 = "https://warframe.fandom.com/wiki/Tekko_Prime"
+goFetch(url1)
