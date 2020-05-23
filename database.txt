@@ -1,0 +1,13 @@
+Item: Atlas prime - warframe
+Component: Blueprint
+Lith D1 Common
+Lith M5 CommonComponent: Neuroptics
+Axi A6 Rare
+Axi A9 RareComponent: Chassis
+Neo M3 Uncommon
+Axi B3 Uncommon
+Meso E3 Uncommon (V)Component: Systems
+Lith N4 Uncommon
+Meso C4 Uncommon
+Neo A3 Uncommon
+
