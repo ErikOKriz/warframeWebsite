@@ -104,7 +104,7 @@ def weapon():
     # by the main function as the info for database.txt
     dropTable = []
 
-    #dropFound is how the program know where in the file it is
+    #dropFound is how the program knows where in the file it is
     dropFound = 0
 
     #partName is just initialized here, not totally necessary
@@ -160,4 +160,5 @@ def dropSearch(typeCode):
         return Frame()
     elif typeCode == 1:
         return weapon()
+
 
