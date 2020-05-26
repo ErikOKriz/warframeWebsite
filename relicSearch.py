@@ -3,15 +3,22 @@
 
 #this function should be called on a relic by relic basis.
 # we dont need to include the relic in the final output
-# we just need
+# since we already knwo the relic
 
 def relicsSearch():
-    #info starts after line that starts with Component
-    compFound = 0
+    #initialize file and lines
     file = open('htmlTemp.txt', 'r')
     lines = file.readlines()
     lines = [x.strip() for x in lines]
 
+    #info starts after line that starts with Component.
+    # compFOund helps us find broad places in the file,
+    compFound = 0
+
+    #each element in dropList is just an item that is dropped
+    # by the relic. It's in order of rarity. with dropList[0,1, and 2]
+    # being common drops. dropList[2,3] being uncommon drops, and
+    # dropList[3] being the rare drop
     dropList = []
 
     #each element in missionList is a list, R,
@@ -30,6 +37,14 @@ def relicsSearch():
     #varibale to help sort out missions from html info
     missionCount = 0
 
+    #dropCount serves the same purpose as missionCount, just in a separate part of the html
+    # it also works with dropAdd to do this
+    dropCount = 0
+
+    #this list helps us choose which line to append when iterating through the drop tables
+    # There's probably an easier way to do this
+    dropAdd = [0, 3, 5, 7, 10, 12]
+
     #rotationList keeps track of mission rotations temporarily
     rotationList = []
 
@@ -46,12 +61,16 @@ def relicsSearch():
             # amount, then it is a part drop
             if "Intact" in line:
                 compFound = 2
-            if not('%' in line or line.strip().isdigit()):
-                dropList.append(line.strip())
+            else:
+                if dropCount in dropAdd:
+                    dropList.append(line.strip())
+                dropCount += 1
+
         #look for the start of mission drop list
         elif compFound == 2:
             if "Chances" in line:
                 compFound = 3
+
         #when compFound == 3, we are in the mission dor list
         elif compFound == 3:
             #each mission drop table takes up 3 lines. each block
@@ -92,23 +111,33 @@ def relicsSearch():
             elif missionCount  == 3:
                 listStr = list(line)
                 perc = []
+                prev = 0
                 for y in range(len(listStr)):
-                    prev = 0
-                    if listStr[y] == ' ':
-                        prev += 1
-                    elif listStr[y] == ',':
-                        perc.append(line[prev:y])
-                perc.append(line[prev:])
+
+                    if listStr[y] == ',':
+                        perc.append(line[prev:y].strip())
+                        prev = y + 1
+                perc.append(line[prev:].strip())
                 #now perc has all the percentages
-                tempList = []
-                #after this loop, rotationList will be a list of tuples
+
+                #after this loop, tempList will be a list of tuples
                 # with the first element being A,B, or C and the second
                 # element is the percentage odds that that mission at that
                 # rotation will drop that relic.
+
+                tempList = []
                 for x in range(len(rotationList)):
-                    tempList.append(tuple(rotationList[x], perc[x]))
-                    rotationList = tempList
+                    tempList.append([rotationList[x], perc[x]])
+                #the put the rotations/drop %s where they go
+                missionList[-1].append(tempList)
 
                 missionCount = 0
 
+    #to test
+    print(dropList)
+    print(missionList)
+
     return relicTable
+
+#to test
+relicsSearch()
