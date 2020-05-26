@@ -62,6 +62,6 @@ def goFetch(url):
 #url1 = "https://warframe.fandom.com/wiki/Tekko_Prime"
 #url1 = "https://warframe.fandom.com/wiki/Axi_A9"
 #url1 = "https://warframe.fandom.com/wiki/Capture"
-url1 = "https://warframe.fandom.com/wiki/Meso_B4"
+#url1 = "https://warframe.fandom.com/wiki/Meso_B4"
 
 goFetch(url1)
