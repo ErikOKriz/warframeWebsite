@@ -21,7 +21,12 @@ def goFetch(url):
     #   pulls the raw htmml file instead of the text. will use parser for now
     #check https://www.crummy.com/software/BeautifulSoup/bs4/doc/
     #for more info on this function.
+
+    #this is the usual value
     soup = BeautifulSoup(html.data, "html.parser")
+
+    #for testing
+    #soup = BeautifulSoup(html.data, "html5lib")
 
     #tuns the htmp type of soup into a string
     strText = soup.get_text()
@@ -54,5 +59,9 @@ def goFetch(url):
 
 #test case
 #url1 = "https://warframe.fandom.com/wiki/Atlas/Prime"
-url1 = "https://warframe.fandom.com/wiki/Tekko_Prime"
+#url1 = "https://warframe.fandom.com/wiki/Tekko_Prime"
+#url1 = "https://warframe.fandom.com/wiki/Axi_A9"
+#url1 = "https://warframe.fandom.com/wiki/Capture"
+url1 = "https://warframe.fandom.com/wiki/Meso_B4"
+
 goFetch(url1)
