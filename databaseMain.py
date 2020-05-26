@@ -1,6 +1,7 @@
 from urlGenerator import urlCreator
 from goFetch import goFetch
 import dropSearch
+from relicSearch import relicSearch
 
 #this main function should lok at our primes wanted Doc and for each line
 #       create a url for the item on that line
