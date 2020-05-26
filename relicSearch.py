@@ -5,7 +5,7 @@
 # we dont need to include the relic in the final output
 # since we already knwo the relic
 
-def relicsSearch():
+def relicSearch():
     #initialize file and lines
     file = open('htmlTemp.txt', 'r')
     lines = file.readlines()
@@ -134,10 +134,10 @@ def relicsSearch():
                 missionCount = 0
 
     #to test
-    print(dropList)
-    print(missionList)
+    #print(dropList)
+    #print(missionList)
 
     return relicTable
 
 #to test
-relicsSearch()
+#relicSearch()
