@@ -1,6 +1,3 @@
-
-
-
 #this function should be called on a relic by relic basis.
 # we dont need to include the relic in the final output
 # since we already knwo the relic
@@ -10,6 +7,7 @@ def relicSearch():
     file = open('htmlTemp.txt', 'r')
     lines = file.readlines()
     lines = [x.strip() for x in lines]
+    file.close()
 
     #info starts after line that starts with Component.
     # compFOund helps us find broad places in the file,
