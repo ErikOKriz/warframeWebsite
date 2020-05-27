@@ -57,11 +57,13 @@ def goFetch(url):
     file.close()
 
 
-#test case
+#test cases
 #url1 = "https://warframe.fandom.com/wiki/Atlas/Prime"
 #url1 = "https://warframe.fandom.com/wiki/Tekko_Prime"
 #url1 = "https://warframe.fandom.com/wiki/Axi_A9"
 #url1 = "https://warframe.fandom.com/wiki/Capture"
 #url1 = "https://warframe.fandom.com/wiki/Meso_B4"
+#url1 = "https://warframe.fandom.com/wiki/Exterminate"
+#url1 = "https://warframe.fandom.com/wiki/Defection"
 
-goFetch(url1)
+#goFetch(url1)
