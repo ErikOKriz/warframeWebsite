@@ -134,6 +134,7 @@ def relicSearch():
     #to test
     #print(dropList)
     #print(missionList)
+    #print(relicTable)
 
     return relicTable
 
