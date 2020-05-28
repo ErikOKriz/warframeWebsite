@@ -81,7 +81,8 @@ def Frame():
 
     for x in range(len(parts)):
         dropTable.append([parts[x]] + partRelics[x])
-        dropTable[x][-1] = dropTable[x][-1] + '\n'
+        #why did I include the below line?
+        #dropTable[x][-1] = dropTable[x][-1] + '\n'
 
     file.close()
 
@@ -156,9 +157,14 @@ def weapon():
     return dropTable
 
 def dropSearch(typeCode):
-    if typeCode == 2:
+    if typeCode == 0:
         return Frame()
     elif typeCode == 1:
         return weapon()
+
+
+#for testing
+#dropSearch(0)
+
 
 

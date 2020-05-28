@@ -66,7 +66,11 @@ def relicSearch():
 
         #look for the start of mission drop list
         elif compFound == 2:
-            if "Chances" in line:
+            #clause for vaulted relics
+            if "Vaulted" in line:
+                missionList.append("")
+                break
+            elif "Chances" in line:
                 compFound = 3
 
         #when compFound == 3, we are in the mission dor list
@@ -131,12 +135,5 @@ def relicSearch():
 
                 missionCount = 0
 
-    #to test
-    #print(dropList)
-    #print(missionList)
-    #print(relicTable)
-
     return relicTable
 
-#to test
-#relicSearch()

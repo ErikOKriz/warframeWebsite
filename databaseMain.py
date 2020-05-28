@@ -1,4 +1,5 @@
 from urlGenerator import urlCreator
+from urlGenerator import relicUrl
 from goFetch import goFetch
 import dropSearch
 from relicSearch import relicSearch
@@ -21,29 +22,74 @@ def main():
         #use url generator to create the url to search
         # type returns and integer. 1 means weapon, 2 means warframe
         #   add more later
-        url, type = urlCreator(line.capitalize())
+        url, typeCode = urlCreator(line.capitalize())
+
         #get the html of that url and store it ih htmlTemp.txt
         goFetch(url)
+
         #parse out the drop tables from the html
-        dropTables = dropSearch.dropSearch(type)
+        dropTables = dropSearch.dropSearch(typeCode)
 
         #insert the drop tables into database.txt
         # FORMAT - most important lines as this txt has to play well with the website
         database.write("Item: " + line.capitalize())
 
-        #bug fixing
-        #print(dropTables)
-
         for x in dropTables:
             database.write("Component: " + '\n'.join(x))
+
         #make sure there's an extra line between items
         database.write('\n' + '\n')
 
-
-
-    #cleanup
+    #cleanup for database construction
     primes.close()
     database.close()
 
-#for testing
+    #start constructing the relic databse
+    database = open("database.txt", 'r')
+    relicBase = open('relicTables.txt', 'w')
+
+    #create the set of relics we need to look up
+    relics = set()
+    for line in database:
+        #if the line describes a relic, add it to the set, do not want multiples
+        if "Lith" in line or "Meso" in line or "Neo" in line or "Axi" in line:
+            relics.add(line)
+
+    #create the relicBase.txt database of relics
+    for line in relics:
+        url = relicUrl(line)
+
+        #put relic info in htmlTemp.txt
+        goFetch(url)
+
+        #parse html data
+        relicTable = relicSearch()
+
+        #write the relic name
+        words = line.split()
+        relicBase.write(words[0] + ' ' + words[1] + '\n' + "Drop Table:" + '\n')
+
+        #write the drop table
+        for x in relicTable[0]:
+            relicBase.write('  ' + x + '\n')
+        relicBase.write("Drops From: " + '\n')
+
+        #write the drops from table
+        for x in relicTable[1]:
+            if type(x) == list:
+                relicBase.write('  ' + x[0] + ' ' + x[1] + ':')
+                for i in x[2]:
+                    relicBase.write('\n' + '     ' + i[0] + ' ' + i[1])
+                relicBase.write('\n')
+            else:
+                relicBase.write('This relic does not drop anywhere because it is vaulted.' + '\n')
+        relicBase.write('\n')
+
+    #final cleanup
+    database.close()
+    relicBase.close()
+
+    #no return value, check database.txt and relicBase.txt for returned values
+
+#might not need this line when finally implemented
 main()
