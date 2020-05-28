@@ -79,7 +79,7 @@ def main():
         #write the drops from table
         for x in relicTable[1]:
             if type(x) == list:
-                relicBase.write('  ' + x[0] + ' ' + x[1] + ':')
+                relicBase.write('# ' + x[0] + ' ' + x[1] + ':')
                 for i in x[2]:
                     relicBase.write('\n' + '     ' + i[0] + ' ' + i[1])
                 relicBase.write('\n')
