@@ -36,3 +36,7 @@
             - For each group of mission types above that share a sorting style, we will need a typecode and a helper function. 
                 Probably just called mission1(line), mission2(line), etc. with a comment telling which mission types it handles. 
 
+
+- for the final databaseMain.py, instead of starting each item line with item:, start it with a special symbol, like *. Do the same 
+with components, but with another symbol. 
+
