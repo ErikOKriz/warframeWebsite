@@ -67,13 +67,15 @@ def main():
 
         #write the relic name
         words = line.split()
-        relicBase.write(words[0] + ' ' + words[1] + '\n' + "Drop Table:" + '\n')
+        relicBase.write('* ' + words[0] + ' ' + words[1] + '\n')
 
         #write the drop table
         for x in relicTable[0]:
-            relicBase.write('  ' + x + '\n')
+            relicBase.write('   ' + x + '\n')
         relicBase.write("Drops From: " + '\n')
 
+        if type(relicTable[1][0]) == list:
+            relicBase.write("-+ Unvaulted" + '\n')
         #write the drops from table
         for x in relicTable[1]:
             if type(x) == list:
@@ -82,7 +84,7 @@ def main():
                     relicBase.write('\n' + '     ' + i[0] + ' ' + i[1])
                 relicBase.write('\n')
             else:
-                relicBase.write('This relic does not drop anywhere because it is vaulted.' + '\n')
+                relicBase.write('-- Vaulted' + '\n')
         relicBase.write('\n')
 
     #final cleanup
