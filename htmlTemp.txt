@@ -1,5 +1,5 @@
-                   
-Capture | WARFRAME Wiki | Fandom                                 
+                     
+Neo A4 | WARFRAME Wiki | Fandom                                 
 FANDOM     
    
 	Games 
@@ -22,7 +22,7 @@ Don't have an account?
 					Register				      
 	Start a Wiki                                 
 WARFRAME Wiki  
-5,791
+5,793
 Pages   
  Add new page         
 Gameplay 
@@ -196,226 +196,73 @@ Forum
  Discuss  
           
 in: 
-Missions  
-Capture  
+Vaulted, Neo, Relic, Update 26  
+Neo A4  
    
 English    
-Deutsch  
-Español        
- View source   
+Español  
+Français        
+ Edit   
      
+							VisualEditor						   
 							History						      
-Comments (174)  
- Share          
-For the photo-booth feature, see Captura.  
-Capture        
-The location of an enemy VIP has been discovered. Track them down and then capture them. Watch out, as these enemies would rather run from combat than fight. If they see you, they will run towards the nearest extraction pint. Defeat them before they can escape. Once a target is downed, press X  to capture these targets and teleport them to a waiting holding facility. 
-—In-Game Description
-Contents[show] 
-Capture is a Mission type requiring the player to find a person of interest, incapacitate them before they escape, and capture said target before heading to extraction. 
-Mechanics
-Players must first locate the Capture Target, who typically spawns in a room used exclusively for the Capture mission type (though the Capture Target may spawn in a "generic" room that is used regardless of mission type). Once the Capture Target spots the player, the Target will immediately start running away to avoid capture, ultimately making his way to a ship or a safehouse. If the Target reaches that location, players will no longer be able to capture him, failing the mission. In order to actually capture the Target, players must attack him until he falls to the ground, helplessly squirming until the player interacts with the downed target, transferring him to a safe location. Players can head to extraction once the Target is successfully captured.
-The Capture Target runs faster than most Warframes, is immune to most Warframe abilities, and will have an ability to evade his pursuers (such as Radial Blast or  Smoke Screen). Coupled with incoming enemy fire (who will ignore the target regardless of faction allegiance) and having much more health than the enemies present, players must get close in on the target quickly before they leave the map, where the mission will fail.
-Once the target has fallen for 30 seconds, he will enter a bleedout state for the next minute. If players do not complete the capture before then, the target will die and fail the mission.
-Capture missions may turn into Exterminate missions after the target has been captured. This is accompanied by Lotus saying "Change of plans, ignore your original objective, leave nothing alive". This seems to occur if the target has been captured very early on (needs testing). The mission will still count as a capture mission on completion and reward relics as normal, additionally, Exterminate missions of this type appear to have a much lower amount of kills needed to complete than normal.  
-Locations  
-Planet
-Mission Name
-Faction
-Level
-Tier  
-EarthMantleGrineer2 - 41  
-VenusVeneraCorpus5 - 71  
-MercuryElionGrineer7 - 91  
-VoidHepitCorrupted10 - 152  
-MarsAraGrineer10 - 122  
-PhobosSkyreshCorpus12 - 142  
-CeresLexGrineer14 - 162  
-JupiterAnankeCorpus16 - 182  
-EuropaAbaddonCorpus21 - 233  
-SaturnCassiniGrineer21 - 233  
-UranusArielGrineer25 - 273  
-Orokin DerelictCaptureInfested25 - 353  
-LuaCopernicusCorpus25 - 303  
-NeptuneGalateaCorpus27 - 293  
-VoidUkkoCorrupted30 - 353  
-PlutoHydraCorpus30 - 343  
-ErisIsosInfested32 - 363
-There are a total of 17 Capture Missions  
-Enemy Types
-Since Update 19.0 Capture enemy types are split into 3 tiers: Easy (1-10), Medium (10-20), Hard (20+). Unlike other missions types the tier does not affect the reward given from capturing a target.
-Corpus Nullifiers and white-suited Corpus Targets (capable of creating a Snow Globe-esqe barrier) do not appear on lower level Capture missions.
-These white-suited Targets often wield the  Glaxion, which seems to do far more damage to players than normal. 
-Notes
- The Capture Targets drop Credits as they're attacked.
- Capture Targets cannot be  Banished by  Limbo, but can still enter the Rift Plane by walking into a  Cataclysm.
- Capture Targets cannot be  Mind Controlled by  Nyx.
- Capture Targets will flee the moment the Lotus tells you that you have found them, regardless of if the capture target itself has actually seen you or you have seen it.
-Due to this, it is impossible to score stealth damage bonuses against the target. 
- Once the target is alerted, all enemies will become automatically alerted, making stealth kills impossible after this point. Enemies will also move to your position if you decloak from stealth, and there is no way to "reset" this alert status.
-Capture targets may appear as Nullifier Crewmen. When capturing them, be aware that their nullifier shield will regenerate. If you are invisible or have a defensive ability on such as  Iron Skin, it will be removed upon entering the shield, allowing enemies around to attack.
-Due to some targets releasing non-allied units like Shield Ospreys due to a bug, enemies may focus their attack on that enemy instead of you while you capture the target. 
-Some Grineer Targets possess shields as well as armor, being the only non-boss Grineer enemies to do so.
-Similarly, all Corpus Targets have armor, being among the few Corpus units to have such a commodity.
-Targets cannot be knocked down, but can be ragdolled by slam attacks from the  Jat Kittag and other weapons.
-All capture targets have significantly more health, armor, and shield than their level implies. In fact, some have double the stats of that level making higher level capture targets resist several shots from weapons like the  Tigris Prime.
-You can trap the capture target in  Gara's  Mass Vitrify to trap the target and keep it from running away, making the objective easier. 
-Rewards
-Unlike other mission types, all capture missions outside of the Void pull from the same pool of rewards regardless of level. 
-View Rewards List▾▾     
- Rewards  
-  Ammo Drum  11.06%  
-  Rush  11.06%  
-  Health Restore  10.84%  
-  Fast Deflection  10.84%  
-  Fast Hands  10.84%  
-  Magazine Warp  10.84%  
-  Quickdraw  10.84%  
-  Trick Mag  10.84%  
-  Vitality  10.84%  
-  Omni Ammo Box  0.34%  
-  Molten Impact  0.34%  
-  North Wind  0.34%  
-  Pressure Point  0.34%  
-  Shocking Touch  0.34%  
-  Stretch  0.34%  
-Locations: 
- Abaddon, Europa
- Ananke, Jupiter
- Ara, Mars
- Ariel, Uranus
- Cassini, Saturn
- Copernicus, Lua
- Capture, Orokin Derelict
- Elion, Mercury
- Galatea, Neptune
- Hydra, Pluto
- Isos, Eris
- Lex, Ceres
- Mantle, Earth
- Skyresh, Phobos
- Venera, Venus  
-Up to date as of Hotfix 27.5.6       
- Rewards  
-  Lith C4 Relic  12.5%  
-  Lith C6 Relic  12.5%  
-  Lith D1 Relic  12.5%  
-  Lith K4 Relic  12.5%  
-  Lith M5 Relic  12.5%  
-  Lith N4 Relic  12.5%  
-  Lith S8 Relic  12.5%  
-  Lith W2 Relic  12.5%  
-Locations: 
- Hepit, Void  
-Up to date as of Hotfix 27.5.6       
- Rewards  
-  Meso B4 Relic  6.25%  
-  Meso C4 Relic  6.25%  
-  Meso C5 Relic  6.25%  
-  Meso D4 Relic  6.25%  
-  Meso D5 Relic  6.25%  
-  Meso E4 Relic  6.25%  
-  Meso N9 Relic  6.25%  
-  Meso R3 Relic  6.25%  
-  Neo A3 Relic  6.25%  
-  Neo I2 Relic  6.25%  
-  Neo M3 Relic  6.25%  
-  Neo N12 Relic  6.25%  
-  Neo P1 Relic  6.25%  
-  Neo R4 Relic  6.25%  
-  Neo T2 Relic  6.25%  
-  Neo Z5 Relic  6.25%  
-Locations: 
- Ukko, Void  
-Up to date as of Hotfix 27.5.6        
-Bugs
-There is a rare bug where when the Corpus capture target cloaks itself it will be cloaked permanently. This could possibly occur because of host or client lag.
- Sometimes, when an assassin/death squad appears, the capture target may glitch if the person capturing him dies and the death squad leaves. Usually it will make the target appear outside the map.
- Void capture targets will sometimes deploy units like Shield Ospreys to protect them, although these units are occasionally not allied with the caster or with the Corrupted faction, and therefore do not provide any benefit to the target.
- Targets may fall out of the map after being ragdolled if flying out of bounds, in similar locations where the player is teleported to the previous location after falling out. This can result in the mission failure, more commonly the target will teleport back to the location before being ragdolled.
- There is an uncommon bug where the player can actually kill the capture target. Although the target is "dead", an invisible body will still remain in its place and let the player capture it anyway, thus making it purely a visual glitch that does not affect gameplay.
- After the target has been captured, it is possible to still perform stealth kills on Hydra, Pluto. 
-Media
- Capture as seen in the lobby (U9) "You are ours now. Welcome to the Fold." 1 of 3Add photo
-Patch History
-Hotfix 27.3.15
-Fixed a script error that would occur for Clients if you loaded into a Capture mission after the Target-capturing animation had started.
-Fixed a harmless script error that could occur when joining a Capture mission in progress right as the Target was downed. 
-Hotfix 25.4.2 
-Fixes towards ability to kill flying Capture Targets (Gas City), resulting in a mission failure. As reported here. 
-Hotfix 25.3.2 
-Fixed Grineer Capture Targets have a Shield that does not regenerate instead of Armor. 
-Hotfix 25.1.2 
-Airborne Capture Targets in the Gas City tileset will now keep flying when critically injured, with his jetpack set on fire. Upon landing he will continue his escape, but the powerful explosion of his own jetpack will knock him down. He is yours now to capture, Tenno! 
-Hotfix 23.4.2 
-Capture Mission Changes 
-Capture Targets now have a 1 minute Bleedout timer after being downed for 30 seconds, upon which Lotus will now alert you that you’re running out of time to capture the Target. Capture missions had become an unofficial Endless mission with the tactic of leaving the Target squirming on the ground for hours while players dealt with the never-ending horde of enemies. The Bleedout timer has been added as a countermeasure to fix the unintended Endless Capture missions.
-Hotfix 19.6.3 
-Fixed Capture Targets not scaling with difficulty for real-time missions (Alerts, Invasions, Sorties, etc).
-Fixed no Capture Target spawning in Kuva Siphon missions. 
-Update 17.0 
-Capture levels now have a single target following a longer escape route.
-Capture targets now have increased health and special abilities.
-Capture targets can now initiate lockdowns if they reach a room without any players.
-New capture targets have been added to this game mode. 
-Update 11.0 
-Capture targets are now more dynamic and mobile: there are a range of tougher Corpus and Grineer targets with varying abilities and weapons will flee at the first sign of danger. Stop them from boarding a shuttle and escaping!     
- Missions  
- PvE
- Standard
- Assassination • Capture • Exterminate • Hijack • Mobile Defense • Rescue • Sabotage (Deception, Hive, Orokin, Reactor, Sealab) • Spy  
- Endless
-Defection • Defense • Excavation • Interception • Survival  
- Archwing
- Exterminate • Interception • Mobile Defense • Pursuit • Rush  
- Empyrean
- Skirmish  
- Arena
- The Index • Rathuum  
- Free Roam
- Bounty • Heist  
- Special
- Assault • Infested Salvage • Junction • Recovery • Sanctuary Onslaught  
- PvP
- Clan
- Duel  
- Conclave
- Cephalon Capture • Annihilation • Team Annihilation • Lunaro  
- Arbitrations • Crossfire • Dark Sectors • Environmental Hazards • Invasions • Nightmare Mode • Nightwave • Sorties • Void Fissures     
-Start a Discussion
-		Discussions about Capture	      
-							Capture one target?						 
-9 messages    
-Wrgower2508  
-		I know this thread's last post date b4 yours was march '14.  why necro, why?		2016-10-04T05:51:52Z     
-Sterma albatros  
-		Because it's an interesting point for discussion and relevant now that players are chiming up about capture missions being dull ...		2016-10-04T11:03:42Z        
-							Targets going through walls???						     
-A Lone Tenno  
-		I was running this capture mission and i used a redeemer to kill(incapacitate) the target near some pipes near a wall and the target slid thro...		2015-07-18T04:27:29Z      
-See more discussions >    
-Retrieved from "https://warframe.fandom.com/wiki/Capture?oldid=2086264"   
+Comments (2)  
+ Share             
+“Market forces dictate that you need to evolve or die.”The Neo A4 Void Relic is no longer obtainable from the drop tables.   
+Neo A4      
+General 
+Release date
+Hotfix 26.0.8  
+Vault date
+Hotfix 27.1.1  
+ Vaulted   
+The Neo A4 Relic contains the following Prime components and blueprints:   
+ Component  Ducat Value  Rarity (Chance)  
+  Carrier Prime Carapace
+ 15‍15
+ Common(25.33%)       
+  Forma Blueprint
+ –‍–  
+  Vauban Prime Chassis
+ 25‍25  
+  Ash Prime Neuroptics
+ 45‍45
+ Uncommon(11%)       
+  Vectis Prime Blueprint
+ 45‍45  
+  Akstiletto Prime Blueprint
+ 100‍100
+ Rare (2%)         
+Intact Exceptional Flawless Radiant    
+Retrieved from "https://warframe.fandom.com/wiki/Neo_A4?oldid=2059750"   
 Categories:  
-Missions         
+Vaulted      
+Neo      
+Relic      
+Update 26      
+Add category
+    
+Cancel
+Save   
 Languages:  
-Deutsch 
-Español    
+Español 
+Français    
 	Community content is available under CC-BY-SA
  unless otherwise noted.  
                         
 Fan Feed		    
 More WARFRAME Wiki    
 1
-Exploiter Orb    
+Warframes    
 2
-Tusk Thumper    
+Mastery Rank    
 3
-Warframes                   
+Sands of Inaros                   
 		Explore Wikis
 	     
-Rurouni Kenshin Wiki       
-Let's Go Luna! Wiki       
-Hilda Wiki                        
+Camila Cabello Wiki       
+Wubbzypedia       
+Adopt Me! Wikia                        
      
 Explore properties   
 	Fandom   
