@@ -1,19 +1,15 @@
 Item: Atlas prime - warframe
 Component: Blueprint
 Lith D1 Common
-Lith M5 Common
-Component: Neuroptics
+Lith M5 CommonComponent: Neuroptics
 Axi A6 Rare
-Axi A9 Rare
-Component: Chassis
+Axi A9 RareComponent: Chassis
 Neo M3 Uncommon
 Axi B3 Uncommon
-Meso E3 Uncommon (V)
-Component: Systems
+Meso E3 Uncommon (V)Component: Systems
 Lith N4 Uncommon
 Meso C4 Uncommon
 Neo A3 Uncommon
-
 
 Item: Tekko prime - weapon
 Component: Blueprint
@@ -35,36 +31,29 @@ Axi T5 Common
 Meso P1 Common (V)
 Meso Z3 Common (V)
 Neo K2 Common (V)
-Axi D1 Common (V)
-Component: Neuroptics
+Axi D1 Common (V)Component: Neuroptics
 Lith C4 Rare
-Lith C3 Rare (V)
-Component: Chassis
+Lith C3 Rare (V)Component: Chassis
 Meso C5 Uncommon
 Meso D4 Uncommon
 Meso K2 Uncommon (V)
 Meso L1 Uncommon (V)
 Meso T3 Uncommon (V)
-Axi R2 Uncommon (V)
-Component: Systems
+Axi R2 Uncommon (V)Component: Systems
 Meso C4 Rare
 Neo C1 Rare (V)
 Axi C3 Rare (V)
 Axi C4 Rare (V)
 
-
 Item: Nekros prime - warframe
 Component: Blueprint
-Lith T3 Uncommon
 Lith N3 Rare (V)
+Lith T3 Uncommon (V)
 Meso N3 Rare (V)
-Axi N3 Rare (V)
-Component: Neuroptics
-Meso O4 Uncommon
+Axi N3 Rare (V)Component: Neuroptics
 Meso F1 Uncommon (V)
-Axi N5 Uncommon (V)
-Component: Chassis
-Axi S6 Common
+Meso O4 Uncommon (V)
+Axi N5 Uncommon (V)Component: Chassis
 Lith N1 Common (V)
 Lith V4 Common (V)
 Meso K1 Common (V)
@@ -72,57 +61,48 @@ Meso S3 Common (V)
 Neo Z1 Common (V)
 Axi G1 Common (V)
 Axi N4 Common (V)
-Component: Systems
-Neo N11 Rare
+Axi S6 Common (V)Component: Systems
 Lith N2 Rare (V)
 Meso N5 Rare (V)
 Neo N3 Rare (V)
 Neo N7 Rare (V)
-
+Neo N11 Rare (V)
 
 Item: Vauban prime - warframe
 Component: Blueprint
 Lith F2 Rare (V)
 Meso V6 Uncommon (V)
-Neo V2 Rare (V)
-Component: Neuroptics
+Neo V2 Rare (V)Component: Neuroptics
 Lith V7 Rare (V)
 Meso N2 Rare (V)
 Neo V3 Rare (V)
-Neo V5 Rare (V)
-Component: Chassis
+Neo V5 Rare (V)Component: Chassis
 Lith V4 Rare (V)
 Meso V4 Rare (V)
 Neo A4 Common (V)
 Neo V6 Rare (V)
-Axi V1 Rare (V)
-Component: Systems
+Axi V1 Rare (V)Component: Systems
 Lith V2 Rare (V)
 Lith V8 Rare (V)
 Neo N2 Rare (V)
-
 
 Item: Wukong prime - warframe
 Component: Blueprint
 Lith W2 Rare
 Lith W1 Rare (V)
-Meso W1 Rare (V)
-Component: Neuroptics
+Meso W1 Rare (V)Component: Neuroptics
 Neo T2 Common
 Axi T4 Common
 Neo I1 Common (V)
-Axi G2 Common (V)
-Component: Chassis
+Axi G2 Common (V)Component: Chassis
 Meso B4 Uncommon
 Axi A10 Uncommon
 Lith K3 Uncommon (V)
-Neo S12 Uncommon (V)
-Component: Systems
+Neo S12 Uncommon (V)Component: Systems
 Neo I2 Uncommon
 Meso K2 Uncommon (V)
 Axi P3 Uncommon (V)
 Axi R3 Uncommon (V)
-
 
 Item: Baza prime -weapon
 Component: Blueprint
@@ -225,5 +205,16 @@ Neo R4 Rare
 Neo R3 Rare (V)
 Axi R2 Rare (V)
 Axi R3 Rare (V)
+
+
+Item: Corinth prime - weapon
+Component: Blueprint
+Axi T4 Common
+Component: Barrel
+Meso C5 Rare
+Component: Receiver
+Neo R4 Uncommon
+Component: Stock
+Lith C6 Rare
 
 

@@ -9,3 +9,4 @@ rubico prime - weapon
 tiberon prime - weapon
 ninkondi prime - weapon
 redeemer prime - weapon
+corinth prime - weapon
