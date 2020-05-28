@@ -1,5 +1,5 @@
                      
-Neo A4 | WARFRAME Wiki | Fandom                                 
+Neo T2 | WARFRAME Wiki | Fandom                                 
 FANDOM     
    
 	Games 
@@ -196,8 +196,8 @@ Forum
  Discuss  
           
 in: 
-Vaulted, Neo, Relic, Update 26  
-Neo A4  
+Neo, Relic, Update 25  
+Neo T2  
    
 English    
 Español  
@@ -206,40 +206,174 @@ Français
      
 							VisualEditor						   
 							History						      
-Comments (2)  
- Share             
-“Market forces dictate that you need to evolve or die.”The Neo A4 Void Relic is no longer obtainable from the drop tables.   
-Neo A4      
+Comments (5)  
+ Share            
+Neo T2      
 General 
 Release date
-Hotfix 26.0.8  
+Update 25.8  
 Vault date
-Hotfix 27.1.1  
- Vaulted   
-The Neo A4 Relic contains the following Prime components and blueprints:   
+–  
+ Available   
+The Neo T2 Relic contains the following Prime components and blueprints:   
  Component  Ducat Value  Rarity (Chance)  
-  Carrier Prime Carapace
+  Akbronco Prime Blueprint
  15‍15
  Common(25.33%)       
-  Forma Blueprint
- –‍–  
-  Vauban Prime Chassis
- 25‍25  
-  Ash Prime Neuroptics
+  Fang Prime Blueprint
+ 15‍15  
+  Wukong Prime Neuroptics
+ 15‍15  
+  Dethcube Prime Carapace
  45‍45
  Uncommon(11%)       
-  Vectis Prime Blueprint
- 45‍45  
-  Akstiletto Prime Blueprint
+  Forma Blueprint
+ –‍–  
+  Tekko Prime Blade
  100‍100
  Rare (2%)         
-Intact Exceptional Flawless Radiant    
-Retrieved from "https://warframe.fandom.com/wiki/Neo_A4?oldid=2059750"   
+ Intact Exceptional Flawless Radiant   
+Mission 
+Tier 
+Rotations 
+ Chances   
+Capture
+Void T3
+A
+6.25%  
+Defection
+Tier 2
+C
+11.06%  
+Defection
+Tier 3
+B
+10.84%  
+Defense
+Dark Sector
+C
+1.84%  
+Defense
+Tier 2
+B, C
+6.25%, 11.06%  
+Defense
+Tier 3
+A
+10%  
+Defense
+Void T3
+A, B, C
+6.25%, 12.5%, 9.68%  
+Disruption
+Jupiter
+B
+5.56%  
+Disruption
+Lua
+A
+14.29%  
+Disruption
+Sedna
+B
+14.29%  
+Disruption
+Uranus
+B, C
+14.29%, 13.56%  
+Empyrean
+Veil
+A
+2%  
+Excavation
+Tier 2
+C
+11.06%  
+Excavation
+Tier 3
+B
+6.67%  
+Exterminate
+Void T3
+A
+6.25%  
+Interception
+Tier 2
+B, C
+7.14%, 14.29%  
+Interception
+Tier 3
+A
+10%  
+Interception
+Void T4
+A, B
+12.5%, 12.5%  
+Mobile Defense
+Void T4
+A
+6.25%  
+Onslaught
+Onslaught
+C
+9.68%  
+Onslaught
+Elite Onslaught
+C
+15.18%  
+Sabotage
+Void Tier 4
+A
+6.25%  
+Salvage
+All
+A
+10%  
+Spy
+Kuva
+B
+3.22%  
+Spy
+Tier 3
+B
+3.22%  
+Survival
+Dark Sector 2
+C
+11.06%  
+Survival
+Dark Sector 3
+B
+6.67%  
+Survival
+Dark Sector 4
+B
+14.29%  
+Survival
+Derelict
+B
+12.5%  
+Survival
+Tier 2
+C
+11.06%  
+Survival
+Tier 3
+B
+6.67%  
+Survival
+Void T2
+B, C
+2.82%, 6.25%  
+Survival
+Void T4
+A, B
+12.5%, 12.5%      
+Retrieved from "https://warframe.fandom.com/wiki/Neo_T2?oldid=2010702"   
 Categories:  
-Vaulted      
 Neo      
 Relic      
-Update 26      
+Update 25      
 Add category
     
 Cancel
@@ -260,8 +394,8 @@ Mastery Rank
 Sands of Inaros                   
 		Explore Wikis
 	     
-Camila Cabello Wiki       
 Wubbzypedia       
+Hilda Wiki       
 Adopt Me! Wikia                        
      
 Explore properties   
