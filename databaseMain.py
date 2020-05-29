@@ -11,7 +11,7 @@ from relicSearch import relicSearch
 #       using the info from parse(), write an entry for our file onto our database in the correct format.
 # once it does that for every line in primes wanted, it closes the files and our database should be ready
 
-def main():
+def databaseMain():
     #primes is the list of items we want
     primes = open('primes.txt', 'r')
     #this deletes database for a new one, keep old copies ;)
@@ -39,7 +39,7 @@ def main():
         database.write("* " + words[0].capitalize() + ' ' + "Prime" + '\n' + types[typeCode] + '\n')
 
         for x in dropTables:
-            database.write('# ' + '\n    '.join(x))
+            database.write('# ' + '\n    '.join(x) + '\n')
 
         #make sure there's an extra line between items
         database.write('\n')
@@ -48,6 +48,10 @@ def main():
     primes.close()
     database.close()
 
+
+
+
+def relicbaseMain():
     #start constructing the relic databse
     database = open("database.txt", 'r')
     relicBase = open('relicTables.txt', 'w')
@@ -58,6 +62,8 @@ def main():
         #if the line describes a relic, add it to the set, do not want multiples
         if "Lith" in line or "Meso" in line or "Neo" in line or "Axi" in line:
             relics.add(line)
+    relics = list(relics)
+    relics.sort()
 
     #create the relicBase.txt database of relics
     for line in relics:
@@ -96,6 +102,11 @@ def main():
     relicBase.close()
 
     #no return value, check database.txt and relicBase.txt for returned values
+
+def main():
+    databaseMain()
+    relicbaseMain()
+
 
 #might not need this line when finally implemented
 main()

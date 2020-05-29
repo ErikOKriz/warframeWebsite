@@ -19,29 +19,35 @@
     Meso P1 Common (V)
     Meso Z3 Common (V)
     Neo K2 Common (V)
-    Axi D1 Common (V)# Neuroptics
+    Axi D1 Common (V)
+# Neuroptics
     Lith C4 Rare
-    Lith C3 Rare (V)# Chassis
+    Lith C3 Rare (V)
+# Chassis
     Meso C5 Uncommon
     Meso D4 Uncommon
     Meso K2 Uncommon (V)
     Meso L1 Uncommon (V)
     Meso T3 Uncommon (V)
-    Axi R2 Uncommon (V)# Systems
+    Axi R2 Uncommon (V)
+# Systems
     Meso C4 Rare
     Neo C1 Rare (V)
     Axi C3 Rare (V)
     Axi C4 Rare (V)
+
 * Nekros Prime
   Warframe
 # Blueprint
     Lith N3 Rare (V)
     Lith T3 Uncommon (V)
     Meso N3 Rare (V)
-    Axi N3 Rare (V)# Neuroptics
+    Axi N3 Rare (V)
+# Neuroptics
     Meso F1 Uncommon (V)
     Meso O4 Uncommon (V)
-    Axi N5 Uncommon (V)# Chassis
+    Axi N5 Uncommon (V)
+# Chassis
     Lith N1 Common (V)
     Lith V4 Common (V)
     Meso K1 Common (V)
@@ -49,48 +55,58 @@
     Neo Z1 Common (V)
     Axi G1 Common (V)
     Axi N4 Common (V)
-    Axi S6 Common (V)# Systems
+    Axi S6 Common (V)
+# Systems
     Lith N2 Rare (V)
     Meso N5 Rare (V)
     Neo N3 Rare (V)
     Neo N7 Rare (V)
     Neo N11 Rare (V)
+
 * Vauban Prime
   Warframe
 # Blueprint
     Lith F2 Rare (V)
     Meso V6 Uncommon (V)
-    Neo V2 Rare (V)# Neuroptics
+    Neo V2 Rare (V)
+# Neuroptics
     Lith V7 Rare (V)
     Meso N2 Rare (V)
     Neo V3 Rare (V)
-    Neo V5 Rare (V)# Chassis
+    Neo V5 Rare (V)
+# Chassis
     Lith V4 Rare (V)
     Meso V4 Rare (V)
     Neo A4 Common (V)
     Neo V6 Rare (V)
-    Axi V1 Rare (V)# Systems
+    Axi V1 Rare (V)
+# Systems
     Lith V2 Rare (V)
     Lith V8 Rare (V)
     Neo N2 Rare (V)
+
 * Wukong Prime
   Warframe
 # Blueprint
     Lith W2 Rare
     Lith W1 Rare (V)
-    Meso W1 Rare (V)# Neuroptics
+    Meso W1 Rare (V)
+# Neuroptics
     Neo T2 Common
     Axi T4 Common
     Neo I1 Common (V)
-    Axi G2 Common (V)# Chassis
+    Axi G2 Common (V)
+# Chassis
     Meso B4 Uncommon
     Axi A10 Uncommon
     Lith K3 Uncommon (V)
-    Neo S12 Uncommon (V)# Systems
+    Neo S12 Uncommon (V)
+# Systems
     Neo I2 Uncommon
     Meso K2 Uncommon (V)
     Axi P3 Uncommon (V)
     Axi R3 Uncommon (V)
+
 * Baza Prime
   Weapon
 # Blueprint

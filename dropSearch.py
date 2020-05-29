@@ -148,7 +148,7 @@ def weapon():
     # build dropTable
     for x in range(len(partRelics)):
         dropTable.append(partRelics[x])
-        dropTable[x][-1] = dropTable[x][-1] + '\n'
+        dropTable[x][-1] = dropTable[x][-1]
 
     #testing
     #print(dropTable)
@@ -164,7 +164,7 @@ def dropSearch(typeCode):
 
 
 #for testing
-#dropSearch(0)
+#dropSearch(1)
 
 
 

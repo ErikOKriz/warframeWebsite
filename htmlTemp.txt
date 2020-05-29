@@ -1,5 +1,5 @@
                      
-Axi G2 | WARFRAME Wiki | Fandom                                 
+Neo Z4 | WARFRAME Wiki | Fandom                                 
 FANDOM     
    
 	Games 
@@ -196,8 +196,8 @@ Forum
  Discuss  
           
 in: 
-Vaulted, Axi, Relic, Update 25  
-Axi G2  
+Vaulted, Neo, Relic, Update 25  
+Neo Z4  
    
 English    
 Español  
@@ -206,38 +206,38 @@ Français
      
 							VisualEditor						   
 							History						      
-Comments (21)  
+Comments (2)  
  Share             
-“Market forces dictate that you need to evolve or die.”The Axi G2 Void Relic is no longer obtainable from the drop tables.   
-Axi G2      
+“Market forces dictate that you need to evolve or die.”The Neo Z4 Void Relic is no longer obtainable from the drop tables.   
+Neo Z4      
 General 
 Release date
-Update 25.3  
-Vault date
 Update 25.8  
+Vault date
+Hotfix 27.0.4  
  Vaulted   
-The Axi G2 Relic contains the following Prime components and blueprints:   
+The Neo Z4 Relic contains the following Prime components and blueprints:   
  Component  Ducat Value  Rarity (Chance)  
-  Akbolto Prime Blueprint
+  Burston Prime Stock
  15‍15
  Common(25.33%)       
-  Burston Prime Receiver
+  Kronen Prime Blueprint
  15‍15  
-  Wukong Prime Neuroptics
+  Paris Prime String
  15‍15  
-  Redeemer Prime Blueprint
- 45‍45
+  Forma Blueprint
+ –‍–
  Uncommon(11%)       
-  Tipedo Prime Ornament
+  Redeemer Prime Blueprint
  45‍45  
-  Gram Prime Handle
+  Zephyr Prime Blueprint
  100‍100
  Rare (2%)         
 Intact Exceptional Flawless Radiant    
-Retrieved from "https://warframe.fandom.com/wiki/Axi_G2?oldid=2010790"   
+Retrieved from "https://warframe.fandom.com/wiki/Neo_Z4?oldid=2040948"   
 Categories:  
 Vaulted      
-Axi      
+Neo      
 Relic      
 Update 25      
 Add category
@@ -260,9 +260,9 @@ Mastery Rank
 Sands of Inaros                   
 		Explore Wikis
 	     
-Dynasty Wiki       
-Xavier Riddle and the Secret Museum Wiki       
-Rurouni Kenshin Wiki                        
+Club 57 Wiki       
+Camila Cabello Wiki       
+Hilda Wiki                        
      
 Explore properties   
 	Fandom   
