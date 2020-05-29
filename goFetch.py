@@ -33,6 +33,7 @@ def goFetch(url):
 
     #change string to list for in-place character replacement
     text = list(strText)
+
     #for loop to remove empty lines
     cur = 0
     for x in range(len(text)):
@@ -47,9 +48,6 @@ def goFetch(url):
 
     #change list of chars back to string
     strText = ''.join(text)
-
-    #only print for debugging, just check htmpTemp.txt for the print
-    #print(strText)
 
     #next is to write text to htmlTemp.txt
     file = open('htmlTemp.txt', 'w')
