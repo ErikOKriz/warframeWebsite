@@ -32,13 +32,17 @@ def main():
 
         #insert the drop tables into database.txt
         # FORMAT - most important lines as this txt has to play well with the website
-        database.write("Item: " + line.capitalize())
+        words = line.split()
+
+        types = ["  Warframe", "  Weapon"]
+
+        database.write("* " + words[0].capitalize() + ' ' + "Prime" + '\n' + types[typeCode] + '\n')
 
         for x in dropTables:
-            database.write("Component: " + '\n'.join(x))
+            database.write('# ' + '\n    '.join(x))
 
         #make sure there's an extra line between items
-        database.write('\n' + '\n')
+        database.write('\n')
 
     #cleanup for database construction
     primes.close()
