@@ -1,5 +1,5 @@
                      
-Axi N3 | WARFRAME Wiki | Fandom                                 
+Axi G2 | WARFRAME Wiki | Fandom                                 
 FANDOM     
    
 	Games 
@@ -196,8 +196,8 @@ Forum
  Discuss  
           
 in: 
-Vaulted, Axi, Relic, Update 19  
-Axi N3  
+Vaulted, Axi, Relic, Update 25  
+Axi G2  
    
 English    
 Español  
@@ -206,40 +206,40 @@ Français
      
 							VisualEditor						   
 							History						      
-Comments  
+Comments (21)  
  Share             
-“Market forces dictate that you need to evolve or die.”The Axi N3 Void Relic is no longer obtainable from the drop tables.   
-Axi N3      
+“Market forces dictate that you need to evolve or die.”The Axi G2 Void Relic is no longer obtainable from the drop tables.   
+Axi G2      
 General 
 Release date
-Hotfix: The Silver Grove 3  
+Update 25.3  
 Vault date
-Hotfix 19.11.5  
+Update 25.8  
  Vaulted   
-The Axi N3 Relic contains the following Prime components and blueprints:   
+The Axi G2 Relic contains the following Prime components and blueprints:   
  Component  Ducat Value  Rarity (Chance)  
-  Paris Prime Upper Limb
- 25‍25
+  Akbolto Prime Blueprint
+ 15‍15
  Common(25.33%)       
-  Dual Kamas Prime Blueprint
+  Burston Prime Receiver
  15‍15  
-  Forma Blueprint
- –‍–  
-  Volt Prime Blueprint
- 25‍25
+  Wukong Prime Neuroptics
+ 15‍15  
+  Redeemer Prime Blueprint
+ 45‍45
  Uncommon(11%)       
-  Bronco Prime Barrel
+  Tipedo Prime Ornament
  45‍45  
-  Nekros Prime Blueprint
- 65‍65
+  Gram Prime Handle
+ 100‍100
  Rare (2%)         
 Intact Exceptional Flawless Radiant    
-Retrieved from "https://warframe.fandom.com/wiki/Axi_N3?oldid=1961014"   
+Retrieved from "https://warframe.fandom.com/wiki/Axi_G2?oldid=2010790"   
 Categories:  
 Vaulted      
 Axi      
 Relic      
-Update 19      
+Update 25      
 Add category
     
 Cancel
@@ -260,9 +260,9 @@ Mastery Rank
 Sands of Inaros                   
 		Explore Wikis
 	     
+Dynasty Wiki       
 Xavier Riddle and the Secret Museum Wiki       
-Gossip Girl Wiki       
-Hilda Wiki                        
+Rurouni Kenshin Wiki                        
      
 Explore properties   
 	Fandom   
