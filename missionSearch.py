@@ -11,6 +11,7 @@
 #The Defense function works for Defense missions
 #The Exterminate function works for the exterminate,
 # defection, excavation, Survival, Spy, Sabotage, rescue, and Interception pages
+#the mobile defense function also works for infested salvage
 
 
 #Note, if oyu modify the tier system in Capture, it could be repurposed
@@ -223,7 +224,7 @@ def Defense():
 #test
 #Defense()
 
-#also works for Defection, Excavation, Survival, Spy, sabotage, rescue
+#also works for Defection, Excavation, Spy, sabotage, rescue
 # and Interception
 def Exterminate():
     #initialize the file and the lines
@@ -322,6 +323,7 @@ def Exterminate():
 def Assassinaion():
     return
 
+#also works for infested salvage
 def mobileDefense():
 
     #initialize the file and the lines
@@ -333,13 +335,6 @@ def mobileDefense():
     #filePoint just helps to know where in the file we are
     filePoint = 0
 
-    #missionList will be our final return value. It will be
-    # a list of tuples, where each tuple, x, will have 4 items
-    # in it, x[0] will be the planet, x[1] will be the mission
-    # name, x[2] will be the faction at the mission,  x[3]
-    # will be the level range of the mission, and x[4] will be
-    # the tier of the mission. This format should be consistent
-    # across all mission types
     missionList = []
 
     for line in lines:
@@ -395,3 +390,83 @@ def mobileDefense():
 #print(mobileDefense())
 
 
+#this function is almost equivalent to the exterminate function, it
+# just also pulls the dark sector missions
+def Survival():
+
+    #initialize the file and the lines
+    file = open('htmlTemp.txt', 'r')
+    lines = file.readlines()
+    lines = [x.strip() for x in lines]
+    file.close()
+
+    #filePoint just helps to know where in the file we are
+    filePoint = 0
+
+    Ds = 0
+
+    missionList = []
+
+    for line in lines:
+        if filePoint == 0:
+            if "Tier" in line and ':' not in line:
+                filePoint = 1
+        elif filePoint == 1:
+
+            if "total" in line:
+                filePoint = 0
+                if Ds == 1:
+                    break
+                else:
+                    Ds += 1
+                continue
+
+            #This is here because when the tier of a dark sector mission
+            # is dar sector # with \ax0 instead of a space
+            if Ds == 1:
+                line = line.replace(u'\xa0', u' ')
+
+
+            #setting up place holder variables and iterable list
+            tempList = []
+
+            prev = 0
+
+            listLine = list(line)
+
+            #only the first digit found is important, that signifies the start of
+            # the level range
+            digFound = 0
+
+            for y in range(len(listLine)):
+
+                if listLine[y] == ' ':
+                    listLine[y+1] = 'd'
+
+                #So we don't append empty strings
+                if prev != y:
+                    if listLine[y].isupper():
+                        tempList.append(line[prev:y].strip())
+                        prev = y
+                    elif listLine[y].isdigit() and digFound == 0:
+                        tempList.append(line[prev:y].strip())
+                        prev = y
+                        digFound = 1
+
+            #append what's left in the line, which is the mission level range
+            tempList.append(line[prev:])
+
+            if tempList[-1][-1] == '-':
+                tempList[-1] = tempList[-1][:-1]
+                tempList.append('-')
+
+            #possible that elif is a problem here
+            elif "Tier" in tempList[-1]:
+                tempList[-1] = tempList[-1][-1]
+
+            #append a fourple to missionList of all pertinant info.
+            missionList.append(tuple(tempList))
+
+    return missionList
+
+#print(Survival())
