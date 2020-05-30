@@ -1,13 +1,13 @@
 #this file does the same thing as dropSearch and relicSearch, but it parses
 # mission type html info
 
-# the list of missions that this funciton needs to catch are as follows
+# the list of missions that these functions needs to catch are as follows
 # set(capture, defection, defense, disruption, Empyrean, excavation,
 #       extermination, interception, mobile defence, onslaught, rush
 #       sabotage, spy, survival, profit-taker Bounty, salvage, pursuit,
 #
 
-def missionSearch():
+def Capture():
 
     #initialize the file and the lines
     file = open('htmlTemp.txt', 'r')
@@ -19,14 +19,13 @@ def missionSearch():
     filePoint = 0
 
     #missionList will be our final return value. It will be
-    # a list of lists, where each list, x, will have 4 items
+    # a list of tuples, where each tuple, x, will have 4 items
     # in it, x[0] will be the planet, x[1] will be the mission
-    # name, x[2] will be the faction at the mission, and x[3]
-    # will be the tier of the mission.
+    # name, x[2] will be the faction at the mission,  x[3]
+    # will be the level range of the mission, and x[4] will be
+    # the tier of the mission. This format should be consistent
+    # across all mission types
     missionList = []
-    #try to make each element a fourple instead of a list, you're
-    # not looking for them to change. can have 4 lists and make
-    # tuples out of them in the end
 
     for line in lines:
         if filePoint == 0:
@@ -36,14 +35,26 @@ def missionSearch():
 
             #exit clause, doesn't matter if there are multiples of
             # total in the file as this will only trigger on the
-            # 'total we want'.
+            # 'total' we want.
             if "total" in line:
                 break
 
             #setting up place holder variables and iterable list
             tempList = []
+
             prev = 0
+            #the last character in the line is the tier. As long as the tiers
+            # never go into double digits this should be fine
+            tier = line[-1]
+
+            #we don't want the tier interfering with the level range, which
+            # is right before the tier with no space
+            line = line[:-1]
+
             listLine = list(line)
+
+            #max word count is 4, since we already have the tier
+            wordCount = 0
 
             for y in range(len(listLine)):
                 #each word in the line is capitalized, we are
@@ -53,32 +64,38 @@ def missionSearch():
                 # planet), and the third word is the faction
                 # (faction is less important but it's good
                 # to have the info). Next is the level range,
-                # which doesn't matter. And the final character
+                # which is not as important. And the final character
                 # this is not ' ' or '\n' is the tier of the
                 # mission, very important
 
-                #this will work for the first three words, need
-                # a way to extract the tier
-
-                if listLine[y] == ' ':
+                if listLine[y] == ' ' and wordCount <= 3:
+                    #this means when we run into "Orokin Derelict in the
+                    # html, we won't think of it as two words.
                     listLine[y+1] = 'd'
 
-                if line[prev:y] is not '':
-                    if listLine[y].isupper() or listLine[y].isdigit():
+                #So we don't append empty strings
+                if prev != y:
+                    if listLine[y].isupper() or listLine[y].isdigit() and wordCount < 3:
                         #this if statement could be more efficient
                         tempList.append(line[prev:y].strip())
                         prev = y
+                        wordCount += 1
+            #append what's left in the line, which is the mission level range
+            tempList.append(line[prev:])
+
+            #append the tier
+            tempList.append(tier)
 
             #append a fourple to missionList of all pertinant info.
             missionList.append(tuple(tempList))
 
 
     #for testing
-    print(missionList)
+    #print(missionList)
 
     return missionList
 
-
-missionSearch()
+#for testing
+#Capture()
 
 
