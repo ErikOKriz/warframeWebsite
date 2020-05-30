@@ -7,6 +7,9 @@
 #       sabotage, spy, survival, profit-taker Bounty, salvage, pursuit,
 #
 
+#Note, if oyu modify the tier system in Capture, it could be repurposed
+# to work for capture and exterminate
+
 def Capture():
 
     #initialize the file and the lines
@@ -215,6 +218,92 @@ def Defense():
 #Defense()
 
 
+def Exterminate():
+    #initialize the file and the lines
+    file = open('htmlTemp.txt', 'r')
+    lines = file.readlines()
+    lines = [x.strip() for x in lines]
+    file.close()
+
+    #filePoint just helps to know where in the file we are
+    filePoint = 0
+
+    #missionList will be our final return value. It will be
+    # a list of tuples, where each tuple, x, will have 4 items
+    # in it, x[0] will be the planet, x[1] will be the mission
+    # name, x[2] will be the faction at the mission,  x[3]
+    # will be the level range of the mission, and x[4] will be
+    # the tier of the mission. This format should be consistent
+    # across all mission types
+    missionList = []
+
+    for line in lines:
+        if filePoint == 0:
+            if "Tier" in line:
+                filePoint = 1
+        elif filePoint == 1:
+
+            #exit clause, doesn't matter if there are multiples of
+            # total in the file as this will only trigger on the
+            # 'total' we want.
+            if "total" in line:
+                break
+
+            #setting up place holder variables and iterable list
+            tempList = []
+
+            prev = 0
+
+            listLine = list(line)
+
+            #only the first digit found is important, that signifies the start of
+            # the level range
+            digFound = 0
+
+            for y in range(len(listLine)):
+                #each word in the line is capitalized, we are
+                # interested in the first three words. The
+                # first word is the planet, the second word is
+                # the  name of the mission(the place on the
+                # planet), and the third word is the faction
+                # (faction is less important but it's good
+                # to have the info). Next is the level range,
+                # which is not as important. And the final character
+                # this is not ' ' or '\n' is the tier of the
+                # mission, very important
+
+                if listLine[y] == ' ':
+                    #all spaces in this section are two or more word parts of one item
+                    # we wantbut since each word is capital, we change each letter after
+                    # a space to a lower case d in order to show that it is part of the
+                    # same section. since we change the letter in listLine, and not line
+                    # this does not change our final output.
+                    listLine[y+1] = 'd'
 
 
+                #So we don't append empty strings
+                if prev != y:
+                    if listLine[y].isupper():
+                        #this if statement could be more efficient
+                        tempList.append(line[prev:y].strip())
+                        prev = y
+                    elif listLine[y].isdigit() and digFound == 0:
+                        tempList.append(line[prev:y].strip())
+                        prev = y
+                        digFound = 1
 
+
+            #append what's left in the line, which is the mission level range
+            tempList.append(line[prev:])
+
+            if tempList[-1][-1] == '-':
+                tempList[-1] = tempList[-1][:-1]
+                tempList.append('-')
+
+            #append a fourple to missionList of all pertinant info.
+            missionList.append(tuple(tempList))
+
+    return missionList
+
+#testing
+#print(Exterminate())
