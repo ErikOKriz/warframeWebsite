@@ -391,7 +391,7 @@ def mobileDefense():
 
 
 #this function is almost equivalent to the exterminate function, it
-# just also pulls the dark sector missions
+# just also pulls the dark sector missions. also works for excavation
 def Survival():
 
     #initialize the file and the lines
@@ -473,3 +473,68 @@ def Survival():
     return missionList
 
 #print(Survival())
+
+def Disruption():
+    # initialize the file and the lines
+    file = open('htmlTemp.txt', 'r')
+    lines = file.readlines()
+    lines = [x.strip() for x in lines]
+    file.close()
+
+    # filePoint just helps to know where in the file we are
+    filePoint = 0
+
+    Ds = 0
+
+    missionList = []
+
+    for line in lines:
+        if filePoint == 0:
+            if "Level" in line:
+                filePoint = 1
+        elif filePoint == 1:
+            if "total" in line:
+                if Ds == 1:
+                    break
+                Ds += 1
+                filePoint = 0
+                continue
+
+            tempList = []
+
+            prev = 0
+
+            listLine = list(line)
+
+            digFound = 0
+
+            for y in range(len(listLine)):
+
+                if listLine[y] == ' ':
+                    listLine[y + 1] = 'd'
+
+                # So we don't append empty strings
+                if prev != y:
+                    if listLine[y].isupper():
+                        # this if statement could be more efficient
+                        tempList.append(line[prev:y].strip())
+                        prev = y
+                    elif listLine[y].isdigit() and digFound == 0:
+                        tempList.append(line[prev:y].strip())
+                        prev = y
+                        digFound = 1
+
+            # append what's left in the line, which is the mission level range
+            tempList.append(line[prev:])
+
+            # since none of these missions have tiers
+            tempList.append('-')
+
+            # append a fourple to missionList of all pertinant info.
+            missionList.append(tuple(tempList))
+
+    return missionList
+
+#print(Disruption())
+
+
