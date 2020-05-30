@@ -37,16 +37,18 @@ h1{
 .sidenav{
     grid-area: sidenav;
     background-color: rgba(20,20,20,.7);
+    overflow-y: auto;
 }
 
 .sidenav h2{
     text-align: center;
 }
 
-.sidenav a{
+.primeTab{
     display: block;
     font-size: 25px;    
     padding: 10px 16px 10px 16px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 a,

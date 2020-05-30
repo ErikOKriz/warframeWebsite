@@ -1,229 +1,223 @@
-Item: Atlas prime - warframe
-Component: Blueprint
-Lith D1 Common
-Lith M5 Common
-Component: Neuroptics
-Axi A6 Rare
-Axi A9 Rare
-Component: Chassis
-Neo M3 Uncommon
-Axi B3 Uncommon
-Meso E3 Uncommon (V)
-Component: Systems
-Lith N4 Uncommon
-Meso C4 Uncommon
-Neo A3 Uncommon
+* Tekko Prime
+  Weapon
+# Blueprint
+    Meso E4 Uncommon
+    Lith L2 Uncommon (V)
+# Blade
+    Neo T2 Rare
+# Gauntlet
+    Meso N9 Common
+    Axi G4 Common
+    Meso W1 Common (V)
 
+* Chroma Prime
+  Warframe
+# Blueprint
+    Meso B4 Common
+    Axi A6 Common
+    Axi T5 Common
+    Meso P1 Common (V)
+    Meso Z3 Common (V)
+    Neo K2 Common (V)
+    Axi D1 Common (V)
+# Neuroptics
+    Lith C4 Rare
+    Lith C3 Rare (V)
+# Chassis
+    Meso C5 Uncommon
+    Meso D4 Uncommon
+    Meso K2 Uncommon (V)
+    Meso L1 Uncommon (V)
+    Meso T3 Uncommon (V)
+    Axi R2 Uncommon (V)
+# Systems
+    Meso C4 Rare
+    Neo C1 Rare (V)
+    Axi C3 Rare (V)
+    Axi C4 Rare (V)
 
-Item: Tekko prime - weapon
-Component: Blueprint
-Meso E4 Uncommon
-Lith L2 Uncommon (V)
-Component: Blade
-Neo T2 Rare
-Component: Gauntlet
-Meso N9 Common
-Axi G4 Common
-Meso W1 Common (V)
+* Nekros Prime
+  Warframe
+# Blueprint
+    Lith N3 Rare (V)
+    Lith T3 Uncommon (V)
+    Meso N3 Rare (V)
+    Axi N3 Rare (V)
+# Neuroptics
+    Meso F1 Uncommon (V)
+    Meso O4 Uncommon (V)
+    Axi N5 Uncommon (V)
+# Chassis
+    Lith N1 Common (V)
+    Lith V4 Common (V)
+    Meso K1 Common (V)
+    Meso S3 Common (V)
+    Neo Z1 Common (V)
+    Axi G1 Common (V)
+    Axi N4 Common (V)
+    Axi S6 Common (V)
+# Systems
+    Lith N2 Rare (V)
+    Meso N5 Rare (V)
+    Neo N3 Rare (V)
+    Neo N7 Rare (V)
+    Neo N11 Rare (V)
 
+* Vauban Prime
+  Warframe
+# Blueprint
+    Lith F2 Rare (V)
+    Meso V6 Uncommon (V)
+    Neo V2 Rare (V)
+# Neuroptics
+    Lith V7 Rare (V)
+    Meso N2 Rare (V)
+    Neo V3 Rare (V)
+    Neo V5 Rare (V)
+# Chassis
+    Lith V4 Rare (V)
+    Meso V4 Rare (V)
+    Neo A4 Common (V)
+    Neo V6 Rare (V)
+    Axi V1 Rare (V)
+# Systems
+    Lith V2 Rare (V)
+    Lith V8 Rare (V)
+    Neo N2 Rare (V)
 
-Item: Chroma prime - warframe
-Component: Blueprint
-Meso B4 Common
-Axi A6 Common
-Axi T5 Common
-Meso P1 Common (V)
-Meso Z3 Common (V)
-Neo K2 Common (V)
-Axi D1 Common (V)
-Component: Neuroptics
-Lith C4 Rare
-Lith C3 Rare (V)
-Component: Chassis
-Meso C5 Uncommon
-Meso D4 Uncommon
-Meso K2 Uncommon (V)
-Meso L1 Uncommon (V)
-Meso T3 Uncommon (V)
-Axi R2 Uncommon (V)
-Component: Systems
-Meso C4 Rare
-Neo C1 Rare (V)
-Axi C3 Rare (V)
-Axi C4 Rare (V)
+* Wukong Prime
+  Warframe
+# Blueprint
+    Lith W2 Rare
+    Lith W1 Rare (V)
+    Meso W1 Rare (V)
+# Neuroptics
+    Neo T2 Common
+    Axi T4 Common
+    Neo I1 Common (V)
+    Axi G2 Common (V)
+# Chassis
+    Meso B4 Uncommon
+    Axi A10 Uncommon
+    Lith K3 Uncommon (V)
+    Neo S12 Uncommon (V)
+# Systems
+    Neo I2 Uncommon
+    Meso K2 Uncommon (V)
+    Axi P3 Uncommon (V)
+    Axi R3 Uncommon (V)
 
+* Baza Prime
+  Weapon
+# Blueprint
+    Meso B4 Rare
+# Barrel
+    Lith W2 Uncommon
+# Receiver
+    Meso E4 Common
+    Neo R3 Common (V)
+# Stock
+    Axi B3 Rare
 
-Item: Nekros prime - warframe
-Component: Blueprint
-Lith T3 Uncommon
-Lith N3 Rare (V)
-Meso N3 Rare (V)
-Axi N3 Rare (V)
-Component: Neuroptics
-Meso O4 Uncommon
-Meso F1 Uncommon (V)
-Axi N5 Uncommon (V)
-Component: Chassis
-Axi S6 Common
-Lith N1 Common (V)
-Lith V4 Common (V)
-Meso K1 Common (V)
-Meso S3 Common (V)
-Neo Z1 Common (V)
-Axi G1 Common (V)
-Axi N4 Common (V)
-Component: Systems
-Neo N11 Rare
-Lith N2 Rare (V)
-Meso N5 Rare (V)
-Neo N3 Rare (V)
-Neo N7 Rare (V)
+* Rubico Prime
+  Weapon
+# Blueprint
+    Meso R3 Rare
+    Meso R1 Rare (V)
+    Meso R2 Rare (V)
+    Neo R2 Rare (V)
+# Barrel
+    Lith S8 Uncommon
+    Meso Z2 Uncommon (V)
+    Meso Z3 Uncommon (V)
+    Neo H2 Uncommon (V)
+    Axi M1 Uncommon (V)
+# Receiver
+    Lith W2 Common
+    Axi T5 Common
+    Lith A3 Common (V)
+    Lith K2 Common (V)
+    Lith K3 Common (V)
+    Lith O1 Common (V)
+# Stock
+    Neo P1 Uncommon
+    Axi A9 Common
+    Lith B5 Uncommon (V)
+    Lith M3 Uncommon (V)
+    Meso E2 Uncommon (V)
+    Axi D2 Uncommon (V)
+    Axi L5 Common (V)
+    Axi P2 Uncommon (V)
 
+* Tiberon Prime
+  Weapon
+# Blueprint
+    Lith A3 Uncommon (V)
+    Lith K3 Uncommon (V)
+    Neo R2 Uncommon (V)
+    Axi L2 Uncommon (V)
+    Axi O2 Uncommon (V)
+    Axi O4 Uncommon (V)
+# Barrel
+    Meso T1 Rare (V)
+# Receiver
+    Meso O2 Common (V)
+    Meso R1 Common (V)
+    Axi D1 Common (V)
+    Axi K3 Common (V)
+    Axi P2 Common (V)
+# Stock
+    Lith T2 Rare (V)
+    Meso T2 Rare (V)
+    Meso T3 Rare (V)
 
-Item: Vauban prime - warframe
-Component: Blueprint
-Lith F2 Rare (V)
-Meso V6 Uncommon (V)
-Neo V2 Rare (V)
-Component: Neuroptics
-Lith V7 Rare (V)
-Meso N2 Rare (V)
-Neo V3 Rare (V)
-Neo V5 Rare (V)
-Component: Chassis
-Lith V4 Rare (V)
-Meso V4 Rare (V)
-Neo A4 Common (V)
-Neo V6 Rare (V)
-Axi V1 Rare (V)
-Component: Systems
-Lith V2 Rare (V)
-Lith V8 Rare (V)
-Neo N2 Rare (V)
+* Ninkondi Prime
+  Weapon
+# Blueprint
+    Neo P1 Common
+    Meso L1 Common (V)
+    Neo R2 Common (V)
+    Axi G3 Common (V)
+# Chain
+    Lith D1 Uncommon
+    Neo R4 Uncommon
+    Neo R3 Uncommon (V)
+    Axi P1 Uncommon (V)
+# Handle
+    Lith N4 Rare
+    Meso N9 Rare
+    Meso N7 Rare (V)
 
+* Redeemer Prime
+  Weapon
+# Blueprint
+    Meso B4 Uncommon
+    Lith B6 Uncommon (V)
+    Neo C1 Uncommon (V)
+    Neo Z4 Uncommon (V)
+    Axi G2 Uncommon (V)
+# Blade
+    Lith M5 Common
+    Neo P1 Common
+    Lith L2 Common (V)
+    Meso Z2 Common (V)
+    Neo G2 Common (V)
+    Neo N10 Common (V)
+    Neo S12 Common (V)
+# Handle
+    Neo R4 Rare
+    Neo R3 Rare (V)
+    Axi R2 Rare (V)
+    Axi R3 Rare (V)
 
-Item: Wukong prime - warframe
-Component: Blueprint
-Lith W2 Rare
-Lith W1 Rare (V)
-Meso W1 Rare (V)
-Component: Neuroptics
-Neo T2 Common
-Axi T4 Common
-Neo I1 Common (V)
-Axi G2 Common (V)
-Component: Chassis
-Meso B4 Uncommon
-Axi A10 Uncommon
-Lith K3 Uncommon (V)
-Neo S12 Uncommon (V)
-Component: Systems
-Neo I2 Uncommon
-Meso K2 Uncommon (V)
-Axi P3 Uncommon (V)
-Axi R3 Uncommon (V)
-
-
-Item: Baza prime -weapon
-Component: Blueprint
-Meso B4 Rare
-Component: Barrel
-Lith W2 Uncommon
-Component: Receiver
-Meso E4 Common
-Neo R3 Common (V)
-Component: Stock
-Axi B3 Rare
-
-
-Item: Rubico prime - weapon
-Component: Blueprint
-Meso R3 Rare
-Meso R1 Rare (V)
-Meso R2 Rare (V)
-Neo R2 Rare (V)
-Component: Barrel
-Lith S8 Uncommon
-Meso Z2 Uncommon (V)
-Meso Z3 Uncommon (V)
-Neo H2 Uncommon (V)
-Axi M1 Uncommon (V)
-Component: Receiver
-Lith W2 Common
-Axi T5 Common
-Lith A3 Common (V)
-Lith K2 Common (V)
-Lith K3 Common (V)
-Lith O1 Common (V)
-Component: Stock
-Neo P1 Uncommon
-Axi A9 Common
-Lith B5 Uncommon (V)
-Lith M3 Uncommon (V)
-Meso E2 Uncommon (V)
-Axi D2 Uncommon (V)
-Axi L5 Common (V)
-Axi P2 Uncommon (V)
-
-
-Item: Tiberon prime - weapon
-Component: Blueprint
-Lith A3 Uncommon (V)
-Lith K3 Uncommon (V)
-Neo R2 Uncommon (V)
-Axi L2 Uncommon (V)
-Axi O2 Uncommon (V)
-Axi O4 Uncommon (V)
-Component: Barrel
-Meso T1 Rare (V)
-Component: Receiver
-Meso O2 Common (V)
-Meso R1 Common (V)
-Axi D1 Common (V)
-Axi K3 Common (V)
-Axi P2 Common (V)
-Component: Stock
-Lith T2 Rare (V)
-Meso T2 Rare (V)
-Meso T3 Rare (V)
-
-
-Item: Ninkondi prime - weapon
-Component: Blueprint
-Neo P1 Common
-Meso L1 Common (V)
-Neo R2 Common (V)
-Axi G3 Common (V)
-Component: Chain
-Lith D1 Uncommon
-Neo R4 Uncommon
-Neo R3 Uncommon (V)
-Axi P1 Uncommon (V)
-Component: Handle
-Lith N4 Rare
-Meso N9 Rare
-Meso N7 Rare (V)
-
-
-Item: Redeemer prime - weapon
-Component: Blueprint
-Meso B4 Uncommon
-Lith B6 Uncommon (V)
-Neo C1 Uncommon (V)
-Neo Z4 Uncommon (V)
-Axi G2 Uncommon (V)
-Component: Blade
-Lith M5 Common
-Neo P1 Common
-Lith L2 Common (V)
-Meso Z2 Common (V)
-Neo G2 Common (V)
-Neo N10 Common (V)
-Neo S12 Common (V)
-Component: Handle
-Neo R4 Rare
-Neo R3 Rare (V)
-Axi R2 Rare (V)
-Axi R3 Rare (V)
-
+* Corinth Prime
+  Weapon
+# Blueprint
+    Axi T4 Common
+# Barrel
+    Meso C5 Rare
+# Receiver
+    Neo R4 Uncommon
+# Stock
+    Lith C6 Rare
 
