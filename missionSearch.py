@@ -409,7 +409,7 @@ def Survival():
 
     for line in lines:
         if filePoint == 0:
-            if "Tier" in line and ':' not in line:
+            if line == "Tier":
                 filePoint = 1
         elif filePoint == 1:
 
@@ -455,6 +455,9 @@ def Survival():
 
             #append what's left in the line, which is the mission level range
             tempList.append(line[prev:])
+
+            #testing
+            print(tempList)
 
             if tempList[-1][-1] == '-':
                 tempList[-1] = tempList[-1][:-1]
