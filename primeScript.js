@@ -4,8 +4,24 @@ var primes;
 var primeCt;
 
 //Funcs
+function setFeaturedPrime(name){
+    var tmp;
+    for(var i = 0; i < primeCt; i++){
+        if(primes[i].name == name)
+            tmp = primes[i];
+    }
+    document.getElementById('itemName').innerHTML = tmp.name;
+    document.getElementById('itemType').innerHTML = tmp.type;
+}
 function addPrime(tmp){
-    primeList.insertAdjacentHTML('beforeend', `<p>` + tmp.name + `</p>\n`);
+    //var string = `<a href="#" onclick="javascript:document.getElementById('itemName').innerHTML = '` + tmp.name + `'"> ` + tmp.name + `</a>\n`;
+    var string = `<a href="#" onclick="javascript:setFeaturedPrime('` + tmp.name + `')">` + tmp.name + `</a>\n`;
+    
+    primeList.insertAdjacentHTML('beforeend', string);
+}
+
+function addTitleBar(title){
+    primeList.insertAdjacentHTML('beforeend', `<h3>` + title + `</h3><hr>\n`);
 }
 
 //Fetch database.json
@@ -16,9 +32,19 @@ request.onload = function(){
     primeCt = primes.length;
     console.log(primeCt);                           //Debug Print
 
+
     //Populate primelist with each prime
+    addTitleBar("Frames");
     for(var i = 0; i < primeCt; i++){
         addPrime(primes[i]);
+        addPrime(primes[i]);
+        addPrime(primes[i]);
+        addPrime(primes[i]);
+        addPrime(primes[i]);
+        addPrime(primes[i]);
+        addPrime(primes[i]);
+
+
     }
 
 };

@@ -45,9 +45,21 @@ h1{
 .sidenav h2{
     grid-area: sideTitle;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin: 0;
+    padding-top: 15px;
     font-size: 30px;
+    background-color: rgba(20,20,20,.8);
+}
+
+.sidenav h3{
+    margin: 0;
+    padding: 10px;
+}
+
+.sidenav hr{
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .sidenav div{
@@ -56,17 +68,21 @@ h1{
     overflow-y: auto;
 }
 
-.sidenav iframe{
-    height: 900px;
-    width: 250px;
-    border: none;
+.primeList{
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 25px;
 }
 
-.primeTab{
-    display: block;
-    font-size: 25px;    
-    padding: 10px 16px 10px 16px;
-    grid-template-columns: repeat(4, 1fr);
+.primeList a{
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.primeList a:nth-child(even){
+    background-color:  rgba(20,20,20,.5);
 }
 
 a,
