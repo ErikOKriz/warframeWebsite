@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Tekko Prime",
+        "type": "Weapon",
+        "Parts": {
+            "Blueprint": [ "Meso E4 Uncommon", "Lith L2 Uncommon (V)" ],
+            "Blade": [ "Neo T2 Rare"],
+            "Gauntlet": ["Meso N9 Common", "Axi G4 Common", "Meso W1 Common (V)"]
+        } 
+    }
+]
