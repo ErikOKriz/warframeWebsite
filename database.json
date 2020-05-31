@@ -2,10 +2,35 @@
     {
         "name": "Tekko Prime",
         "type": "Weapon",
-        "Parts": {
-            "Blueprint": [ "Meso E4 Uncommon", "Lith L2 Uncommon (V)" ],
-            "Blade": [ "Neo T2 Rare"],
-            "Gauntlet": ["Meso N9 Common", "Axi G4 Common", "Meso W1 Common (V)"]
+        "partNames": ["Blueprint","Blade","Gauntlet"],
+        "partDrops": {
+            "part0": ["Meso E4 Uncommon", "Lith L2 Uncommon (V)"],
+            "part1": ["Neo T2 Rare"],
+            "part2": ["Meso N9 Common", "Axi G4 Common", "Meso W1 Common (V)"]
         } 
+    },{
+        "name": "Chroma Prime",
+        "type": "Warframe",
+        "partNames": ["Blueprint","Neuroptics","Chassis","System"],
+        "Parts": {
+            "part0": ["Meso B4 Common", "Axi A6 Common", "Axi T5 Common", "Meso P1 Common (V)", "Meso Z3 Common (V)", "Neo K2 Common (V)", "Axi D1 Common (V)"],
+            "part1": ["Lith C4 Rare", "Lith C3 Rare (V)"],
+            "part2": ["Meso C5 Uncommon", "Meso D4 Uncommon", "Meso K2 Uncommon (V)", "Meso L1 Uncommon (V)", "Meso T3 Uncommon (V)", "Axi R2 Uncommon (V)"],
+            "part3": ["Meso C4 Rare", "Neo C1 Rare (V)", "Axi C3 Rare (V)", "Axi C4 Rare (V)"]
+        }
+    },{
+        "name": "Nekros Prime",
+        "type": "Warframe",
+        "partNames": ["Blueprint","Neuroptics","Chassis","System"],
+        "Parts": {
+            "part0": ["Lith N3 Rare (V)", "Lith T3 Uncommon (V)", "Meso N3 Rare (V)", "Axi N3 Rare (V)"],
+            "part1": ["Meso F1 Uncommon (V)", "Meso O4 Uncommon (V)", "Axi N5 Uncommon (V)"],
+            "part2": ["Lith N1 Common (V)", "Lith V4 Common (V)", "Meso K1 Common (V)", "Meso S3 Common (V)", "Neo Z1 Common (V)", "Axi G1 Common (V)", "Axi N4 Common (V)", "Axi S6 Common (V)"],
+            "part3": ["Lith N2 Rare (V)", "Meso N5 Rare (V)", "Neo N3 Rare (V)", "Neo N7 Rare (V)", "Neo N11 Rare (V)"] 
+        }
     }
 ]
+
+    
+    
+    
