@@ -12,6 +12,11 @@ function setFeaturedPrime(name){
     }
     document.getElementById('itemName').innerHTML = tmp.name;
     document.getElementById('itemType').innerHTML = tmp.type;
+    document.getElementById('itemTable').innerHTML = null;
+    for(var i = 0; i < 4; i++){
+        document.getElementById('itemTable').insertAdjacentHTML('beforeend','<tr><th>' + tmp.partNames[i] + '</th>');
+        document.getElementById('itemTable').insertAdjacentHTML('beforeend','<td>' + tmp.partDrops.part0[0] + '</td></tr>');
+    }
 }
 function addPrime(tmp){
     //var string = `<a href="#" onclick="javascript:document.getElementById('itemName').innerHTML = '` + tmp.name + `'"> ` + tmp.name + `</a>\n`;
