@@ -10,6 +10,9 @@ def urlCreator(line):
 
     # item name is everything before the hyphen and type is everything after the hyphen
     itemName = line[:sep].strip()
+
+    #this line is for any muli-word primes
+    itemName = itemName.replace(' ', '_')
     type = line[sep + 1:].strip().lower()
 
     # on the warframe wiki, a prime warframe is a sub-page of the warframe ie. wiki.com/atlas/prime
