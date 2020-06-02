@@ -122,6 +122,11 @@ a:hover{
     display: block;
 }
 
+.wishDiv{
+    float: right;
+    top: 0;
+}
+
 /* JScripted top-3 missions to farm for relics */
 .top3{
     grid-area: top3;

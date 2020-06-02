@@ -1,6 +1,7 @@
 [
     {
         "name": "Tekko Prime",
+        "id": 0,
         "type": "Weapon",
         "partNames": ["Blueprint","Blade","Gauntlet"],
         "parts": {

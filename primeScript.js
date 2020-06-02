@@ -3,39 +3,131 @@ var primeList = document.getElementById("primeList");
 var primes;
 var primeCt;
 
-//Funcs
-function setFeaturedPrime(name){
-    var tmp;
-    for(var i = 0; i < primeCt; i++){
-        if(primes[i].name == name)
-            tmp = primes[i];
+
+/********* 
+ * FUNCS *
+ *********/
+
+//Cookie G/S
+/*
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
     }
-    document.getElementById('itemName').innerHTML = tmp.name;
-    document.getElementById('itemType').innerHTML = tmp.type;
-    document.getElementById('itemTable').innerHTML = null;
-    for(var i = 0; i < 4; i++){
-        document.getElementById('itemTable').insertAdjacentHTML('beforeend','<tr><th>' + tmp.partNames[i] + '</th>');
-        document.getElementById('itemTable').insertAdjacentHTML('beforeend','<td>' + tmp.partDrops.part0[0] + '</td></tr>');
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name+'=; Max-Age=-99999999;';  
+}
+function displayCookie(cname) {
+    alert(Cookies(cname));
+}*/
+function displayCookies() {
+    var fname=getCookie("firstname");
+    if (fname==null) {fname="";}
+    if (fname!="") {fname="firstname="+fname;}
+    var lname=getCookie("lastname");
+    if (lname==null) {lname="";}
+    if (lname!="") {lname="lastname="+lname;}
+    alert (fname + " " + lname);
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    //alert(document.cookie);
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+    var c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1);
+    if (c.indexOf(nameEQ) != -1) return c.substring(nameEQ.length,c.length);
     }
 }
-function addPrime(tmp){
-    //var string = `<a href="#" onclick="javascript:document.getElementById('itemName').innerHTML = '` + tmp.name + `'"> ` + tmp.name + `</a>\n`;
-    var string = `<a href="#" onclick="javascript:setFeaturedPrime('` + tmp.name + `')">` + tmp.name + `</a>\n`;
-    
-    primeList.insertAdjacentHTML('beforeend', string);
-}
+
+//Sidenav
 
 function addTitleBar(title){
     primeList.insertAdjacentHTML('beforeend', `<h3>` + title + `</h3><hr>\n`);
 }
 
-//Fetch database.json
+//Main
+
+function setFeaturedPrime(name){
+    //Find the prime in the primes list
+    var tmp;
+    for(var i = 0; i < primeCt; i++){
+        if(primes[i].name == name)
+            tmp = primes[i];
+    }
+    //Take the name and cut it to one word
+    //var tag = name.replace(' ')[0];
+    var tag = name.replace(' ', '_');
+    
+    //Set Title and Type
+    document.getElementById('itemName').innerHTML = tmp.name;
+    document.getElementById('itemType').innerHTML = tmp.type;
+
+    //Set Droptable
+    document.getElementById('itemTable').innerHTML = null;
+    for(var i = 0; i < 4; i++){
+        var relicList = [tmp.parts.part0, tmp.parts.part1, tmp.parts.part2, tmp.parts.part3];
+        if(i == 3 && relicList[3] == undefined) break;
+        document.getElementById('itemTable').insertAdjacentHTML('beforeend','<tr>\n<th>' + tmp.partNames[i] + '</th>\n');
+        var j = 0;
+        while(relicList[i][j] != undefined)
+            document.getElementById('itemTable').insertAdjacentHTML('beforeend','<td>' + relicList[i][j++] + '</td>\n');
+    }
+    document.getElementById('itemTable').insertAdjacentHTML('beforeend','</tr>\n');
+    
+    //Set wishlist tickbox. If cookied, display checked. Otherwise, display empty.
+    if(Cookies(name) != ""){
+        document.getElementById('wishDiv').innerHTML = 
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
+    }
+    else{
+        document.getElementById('wishDiv').innerHTML = 
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tag + `');"></p>`;
+
+    }
+}
+function addPrime(tmp){
+    //var string = `<a href="#" onclick="javascript:document.getElementById('itemName').innerHTML = '` + tmp.name + `'"> ` + tmp.name + `</a>\n`;
+    var string = `<a href="#" onclick="javascript:setFeaturedPrime('` + tmp.name + `')">` + tmp.name + `</a>\n`;
+    primeList.insertAdjacentHTML('beforeend', string);
+}
+function addWishlist(name){
+    //Cookies(name, name, 365);
+    Cookies("Chroma","Yes", 365);
+    displayCookie("Chroma");
+    
+}
+function delWishlist(name){
+    Cookies(name, "", 0);
+    displayCookie(name);
+}
+
+/**********
+ * SCRIPT *
+ **********/
+
+//Fetch database.json and build primelist
 var request = new XMLHttpRequest();
 request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/database.json');
 request.onload = function(){
     primes = JSON.parse(request.responseText);
     primeCt = primes.length;
-    console.log(primeCt);                           //Debug Print
+    console.log(document.cookie);                           //Debug Print
 
 
     //Populate primelist with each prime
