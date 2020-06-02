@@ -1,4 +1,5 @@
 from goFetch import goFetch
+import json
 
 
 #this program's function is to fetch all primes from the warframe wiki and sort them into a text file
@@ -59,12 +60,29 @@ def creationMain():
     #just to differentiate it from primes.txt
     primes = open('primes2.txt', 'w')
 
-    for y in primeList[0]:
-        primes.write(y + " Prime - warframe\n")
-    for y in primeList[1]:
-        primes.write(y + " Prime - weapon\n")
+    data = {}
+    data['primes'] = []
 
-    primes.close()
+    iDCount = 0
+
+    for y in range(len(primeList[0])):
+        data['primes'].append({
+            'name': primeList[0][y],
+            'type':'warframe',
+            'ID': str(iDCount)
+        })
+        iDCount += 1
+    for y in range(len(primeList[1])):
+        data['primes'].append({
+            'name':primeList[1][y],
+            'type':'weapon',
+            'ID':str(iDCount)
+        })
+        iDCount += 1
+
+    with open('primes2.txt', 'w') as file:
+        json.dump(data,file)
+
 
 
 
