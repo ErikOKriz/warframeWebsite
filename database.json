@@ -1,7 +1,7 @@
 [
     {
         "name": "Tekko",
-        "id": 0,
+        "ID": 83,
         "type": "Weapon",
         "partNames": ["Blueprint","Blade","Gauntlet"],
         "parts": {
@@ -11,6 +11,7 @@
         } 
     },{
         "name": "Chroma",
+        "ID": 3,
         "type": "Warframe",
         "partNames": ["Blueprint","Neuroptics","Chassis","System"],
         "parts": {
@@ -21,6 +22,7 @@
         }
     },{
         "name": "Nekros",
+        "ID": 15,
         "type": "Warframe",
         "partNames": ["Blueprint","Neuroptics","Chassis","System"],
         "parts": {

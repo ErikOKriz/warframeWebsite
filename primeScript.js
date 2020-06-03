@@ -67,14 +67,14 @@ function addTitleBar(title){
 
 //Main
 
-function setFeaturedPrime(name){
+function setFeaturedPrime(ID){
     //Find the prime in the primes list (NOT NECESSARY WHEN IDS ARE PROPERLY DONE)
     var tmp;
     for(var i = 0; i < pTableCt; i++){
-        if(pTables[i].name.split(' ')[0] == name)
+        if(pTables[i].name == name)
             tmp = pTables[i];
     }
-    //Take the name insert _ for spaces
+    //Take the name insert _ for spaces if necessary
     var tag = name.replace(' ', '_');
     
     //Set Title and Type
@@ -105,8 +105,7 @@ function setFeaturedPrime(name){
     }
 }
 function addPrime(tmp){
-    //var string = `<a href="#" onclick="javascript:document.getElementById('itemName').innerHTML = '` + tmp.name + `'"> ` + tmp.name + `</a>\n`;
-    var string = `<a href="#" id="` + tmp.ID +`"onclick="javascript:setFeaturedPrime('` + tmp.name + `')">` + tmp.name + `</a>\n`;
+    var string = `<a href="#" id="` + tmp.ID + `"onclick="javascript:setFeaturedPrime('` + tmp.ID + `')">` + tmp.name + `</a>\n`;
     primeList.insertAdjacentHTML('beforeend', string);
 }
 function addWishlist(name){
@@ -153,10 +152,10 @@ request.send();
 var request2 = new XMLHttpRequest();
 request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/database.json');
 request2.onload = function(){
-    pTables = JSON.parse(request.responseText).primes;
+    pTables = JSON.parse(request2.responseText).primes;
     pTableCt = primes.length;
 }
-
+request2.send();
 
 
 
