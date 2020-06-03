@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tekko Prime",
+        "name": "Tekko",
         "id": 0,
         "type": "Weapon",
         "partNames": ["Blueprint","Blade","Gauntlet"],
@@ -10,7 +10,7 @@
             "part2": ["Meso N9 Common", "Axi G4 Common", "Meso W1 Common (V)"]
         } 
     },{
-        "name": "Chroma Prime",
+        "name": "Chroma",
         "type": "Warframe",
         "partNames": ["Blueprint","Neuroptics","Chassis","System"],
         "parts": {
@@ -20,7 +20,7 @@
             "part3": ["Meso C4 Rare", "Neo C1 Rare (V)", "Axi C3 Rare (V)", "Axi C4 Rare (V)"]
         }
     },{
-        "name": "Nekros Prime",
+        "name": "Nekros",
         "type": "Warframe",
         "partNames": ["Blueprint","Neuroptics","Chassis","System"],
         "parts": {

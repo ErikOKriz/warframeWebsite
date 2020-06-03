@@ -1,7 +1,11 @@
 //Define containers for use later
 var primeList = document.getElementById("primeList");
-var primes;
+    //Primes.json and its quantity
+var primes;     
 var primeCt;
+    //Database.json and its quantity
+var pTables;
+var pTableCt;
 
 
 /********* 
@@ -64,14 +68,13 @@ function addTitleBar(title){
 //Main
 
 function setFeaturedPrime(name){
-    //Find the prime in the primes list
+    //Find the prime in the primes list (NOT NECESSARY WHEN IDS ARE PROPERLY DONE)
     var tmp;
-    for(var i = 0; i < primeCt; i++){
-        if(primes[i].name == name)
-            tmp = primes[i];
+    for(var i = 0; i < pTableCt; i++){
+        if(pTables[i].name.split(' ')[0] == name)
+            tmp = pTables[i];
     }
-    //Take the name and cut it to one word
-    //var tag = name.replace(' ')[0];
+    //Take the name insert _ for spaces
     var tag = name.replace(' ', '_');
     
     //Set Title and Type
@@ -91,7 +94,7 @@ function setFeaturedPrime(name){
     document.getElementById('itemTable').insertAdjacentHTML('beforeend','</tr>\n');
     
     //Set wishlist tickbox. If cookied, display checked. Otherwise, display empty.
-    if(Cookies(name) != ""){
+    if(getCookie(tag) != ""){
         document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
     }
@@ -103,7 +106,7 @@ function setFeaturedPrime(name){
 }
 function addPrime(tmp){
     //var string = `<a href="#" onclick="javascript:document.getElementById('itemName').innerHTML = '` + tmp.name + `'"> ` + tmp.name + `</a>\n`;
-    var string = `<a href="#" onclick="javascript:setFeaturedPrime('` + tmp.name + `')">` + tmp.name + `</a>\n`;
+    var string = `<a href="#" id="` + tmp.ID +`"onclick="javascript:setFeaturedPrime('` + tmp.name + `')">` + tmp.name + `</a>\n`;
     primeList.insertAdjacentHTML('beforeend', string);
 }
 function addWishlist(name){
@@ -121,11 +124,11 @@ function delWishlist(name){
  * SCRIPT *
  **********/
 
-//Fetch database.json and build primelist
+//Fetch primes.json and build primelist
 var request = new XMLHttpRequest();
-request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/database.json');
+request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Erik/primes2.txt');
 request.onload = function(){
-    primes = JSON.parse(request.responseText);
+    primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
     console.log(document.cookie);                           //Debug Print
 
@@ -133,19 +136,27 @@ request.onload = function(){
     //Populate primelist with each prime
     addTitleBar("Frames");
     for(var i = 0; i < primeCt; i++){
-        addPrime(primes[i]);
-        addPrime(primes[i]);
-        addPrime(primes[i]);
-        addPrime(primes[i]);
-        addPrime(primes[i]);
-        addPrime(primes[i]);
-        addPrime(primes[i]);
-
-
+        if(primes[i].type == "warframe")
+            addPrime(primes[i]);
+    }
+    addTitleBar("Weapons");
+    for(var i = 0; i < primeCt; i++){
+        if(primes[i].type == "weapon")
+            addPrime(primes[i]);
     }
 
 };
 request.send();
+
+//Fetch database.json
+//Fetch primes.json and build primelist
+var request2 = new XMLHttpRequest();
+request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/database.json');
+request2.onload = function(){
+    pTables = JSON.parse(request.responseText).primes;
+    pTableCt = primes.length;
+}
+
 
 
 
