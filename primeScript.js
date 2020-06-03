@@ -131,7 +131,7 @@ function delWishlist(name){
 
 //Fetch primes.json and build primelist
 var request = new XMLHttpRequest();
-request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/primes2.txt');
+request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/erikScripts/primes2.txt');
 request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
@@ -153,10 +153,9 @@ request.onload = function(){
 };
 request.send();
 
-//Fetch database.json
-//Fetch primes.json and build primelist
+//Fetch database.json and build pTables
 var request2 = new XMLHttpRequest();
-request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/database.json');
+request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/erikScripts/database.json');
 request2.onload = function(){
     pTables = JSON.parse(request2.responseText);
     pTableCt = pTables.length;
