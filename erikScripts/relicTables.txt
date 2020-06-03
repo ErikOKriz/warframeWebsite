@@ -1,0 +1,3437 @@
+* Axi A10
+   Akbronco Prime Blueprint
+   Forma Blueprint
+   Stradavar Prime Receiver
+   Paris Prime Grip
+   Wukong Prime Chassis
+   Aksomati Prime Link
+Drops From: 
+-+ Unvaulted
+# Defection Tier 3:
+     C 11.06%
+# Defense Tier 3:
+     B 6.67%
+     C 11.06%
+# Defense Void T3:
+     C 2.82%
+# Disruption Jupiter:
+     C 5%
+# Disruption Lua:
+     B 14.29%
+     C 12.42%
+# Disruption Sedna:
+     C 10.2%
+# Excavation Tier 3:
+     C 11.06%
+# Interception Archwing:
+     C 9.68%
+# Interception Tier 3:
+     B 14.29%
+     C 14.29%
+# Interception Void T4:
+     C 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Elite Onslaught:
+     C 2.01%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     B 6.67%
+# Survival Dark Sector 3:
+     C 11.06%
+# Survival Dark Sector 4:
+     C 12.5%
+# Survival Derelict:
+     C 11.06%
+# Survival Tier 3:
+     C 11.06%
+# Survival Void T4:
+     C 12.5%
+
+* Axi A6
+   Braton Prime Stock
+   Chroma Prime Blueprint
+   Orthos Prime Handle
+   Tipedo Prime Ornament
+   Zhuge Prime Blueprint
+   Atlas Prime Neuroptics
+Drops From: 
+-+ Unvaulted
+# Defection Tier 3:
+     C 11.06%
+# Defense Tier 3:
+     B 6.67%
+     C 11.06%
+# Defense Void T3:
+     C 2.82%
+# Disruption Jupiter:
+     C 5%
+# Disruption Lua:
+     B 14.29%
+     C 12.42%
+# Disruption Sedna:
+     C 10.2%
+# Excavation Tier 3:
+     C 11.06%
+# Interception Archwing:
+     C 9.68%
+# Interception Tier 3:
+     B 14.29%
+     C 14.29%
+# Interception Void T4:
+     C 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Elite Onslaught:
+     C 2.01%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     B 6.67%
+# Survival Dark Sector 3:
+     C 11.06%
+# Survival Dark Sector 4:
+     C 12.5%
+# Survival Derelict:
+     C 11.06%
+# Survival Tier 3:
+     C 11.06%
+# Survival Void T4:
+     C 12.5%
+
+* Axi A9
+   Gram Prime Blade
+   Lex Prime Blueprint
+   Rubico Prime Stock
+   Akbronco Prime Link
+   Ivara Prime Systems
+   Atlas Prime Neuroptics
+Drops From: 
+-+ Unvaulted
+# Defection Tier 3:
+     C 11.06%
+# Defense Tier 3:
+     B 6.67%
+     C 11.06%
+# Defense Void T3:
+     C 2.82%
+# Disruption Jupiter:
+     C 5%
+# Disruption Lua:
+     B 14.29%
+     C 12.42%
+# Disruption Sedna:
+     C 10.2%
+# Excavation Tier 3:
+     C 11.06%
+# Interception Archwing:
+     C 9.68%
+# Interception Tier 3:
+     B 14.29%
+     C 14.29%
+# Interception Void T4:
+     C 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Elite Onslaught:
+     C 2.01%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     B 6.67%
+# Survival Dark Sector 3:
+     C 11.06%
+# Survival Dark Sector 4:
+     C 12.5%
+# Survival Tier 3:
+     C 11.06%
+# Survival Void T4:
+     C 12.5%
+
+* Axi B3
+   Forma Blueprint
+   Paris Prime Lower Limb
+   Stradavar Prime Stock
+   Atlas Prime Chassis
+   Zhuge Prime Receiver
+   Baza Prime Stock
+Drops From: 
+-+ Unvaulted
+# Defection Tier 3:
+     C 11.06%
+# Defense Tier 3:
+     B 6.67%
+     C 11.06%
+# Defense Void T3:
+     C 2.82%
+# Disruption Jupiter:
+     C 5%
+# Disruption Lua:
+     B 14.29%
+     C 12.42%
+# Disruption Sedna:
+     C 10.2%
+# Excavation Tier 3:
+     C 11.06%
+# Interception Archwing:
+     C 9.68%
+# Interception Tier 3:
+     B 14.29%
+     C 14.29%
+# Interception Void T4:
+     C 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Elite Onslaught:
+     C 2.01%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     B 6.67%
+# Survival Dark Sector 3:
+     C 11.06%
+# Survival Dark Sector 4:
+     C 12.5%
+# Survival Derelict:
+     C 11.06%
+# Survival Tier 3:
+     C 11.06%
+# Survival Void T4:
+     C 12.5%
+
+* Axi C3
+   Hydroid Prime Chassis
+   Forma Blueprint
+   Helios Prime Carapace
+   Pyrana Prime Receiver
+   Banshee Prime Blueprint
+   Chroma Prime Systems
+Drops From: 
+-- Vaulted
+
+* Axi C4
+   Braton Prime Blueprint
+   Hydroid Prime Chassis
+   Pyrana Prime Barrel
+   Kogake Prime Blueprint
+   Sybaris Prime Receiver
+   Chroma Prime Systems
+Drops From: 
+-- Vaulted
+
+* Axi D1
+   Braton Prime Blueprint
+   Chroma Prime Blueprint
+   Tiberon Prime Receiver
+   Forma Blueprint
+   Zhuge Prime Receiver
+   Destreza Prime Blade
+Drops From: 
+-- Vaulted
+
+* Axi D2
+   Aksomati Prime Receiver
+   Braton Prime Blueprint
+   Destreza Prime Handle
+   Forma Blueprint
+   Rubico Prime Stock
+   Destreza Prime Blade
+Drops From: 
+-- Vaulted
+
+* Axi G1
+   Nekros Prime Chassis
+   Saryn Prime Systems
+   Paris Prime Blueprint
+   Kavasa Prime Collar
+   Forma Blueprint
+   Galatine Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Axi G2
+   Akbolto Prime Blueprint
+   Burston Prime Receiver
+   Wukong Prime Neuroptics
+   Redeemer Prime Blueprint
+   Tipedo Prime Ornament
+   Gram Prime Handle
+Drops From: 
+-- Vaulted
+
+* Axi G2
+   Akbolto Prime Blueprint
+   Burston Prime Receiver
+   Wukong Prime Neuroptics
+   Redeemer Prime Blueprint
+   Tipedo Prime Ornament
+   Gram Prime Handle
+Drops From: 
+-- Vaulted
+
+* Axi G3
+   Forma Blueprint
+   Lex Prime Blueprint
+   Ninkondi Prime Blueprint
+   Burston Prime Barrel
+   Kronen Prime Handle
+   Gram Prime Handle
+Drops From: 
+-- Vaulted
+
+* Axi G4
+   Aksomati Prime Receiver
+   Fang Prime Blueprint
+   Tekko Prime Gauntlet
+   Burston Prime Barrel
+   Pangolin Prime Blade
+   Gram Prime Handle
+Drops From: 
+-+ Unvaulted
+# Defection Tier 3:
+     C 11.06%
+# Defense Tier 3:
+     B 6.67%
+     C 11.06%
+# Defense Void T3:
+     C 2.82%
+# Disruption Jupiter:
+     C 5%
+# Disruption Lua:
+     B 14.29%
+     C 12.42%
+# Disruption Sedna:
+     C 10.2%
+# Excavation Tier 3:
+     C 11.06%
+# Interception Archwing:
+     C 9.68%
+# Interception Tier 3:
+     B 14.29%
+     C 14.29%
+# Interception Void T4:
+     C 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Elite Onslaught:
+     C 2.01%
+# Profit-Taker Bounty Phase 4:
+     A 14.29%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     B 6.67%
+# Survival Dark Sector 3:
+     C 11.06%
+# Survival Dark Sector 4:
+     C 12.5%
+# Survival Derelict:
+     C 11.06%
+     C 11.06%
+# Survival Tier 3:
+     C 11.06%
+# Survival Void T4:
+     C 12.5%
+
+* Axi K3
+   Cernos Prime Grip
+   Paris Prime Blueprint
+   Tiberon Prime Receiver
+   Banshee Prime Blueprint
+   Pyrana Prime Receiver
+   Kronen Prime Blade
+Drops From: 
+-- Vaulted
+
+* Axi L2
+   Braton Prime Blueprint
+   Nami Skyla Prime Blueprint
+   Orthos Prime Handle
+   Forma Blueprint
+   Tiberon Prime Blueprint
+   Limbo Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Axi L5
+   Burston Prime Blueprint
+   Fang Prime Blueprint
+   Rubico Prime Stock
+   Akbronco Prime Link
+   Kronen Prime Handle
+   Limbo Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Axi M1
+   Lex Prime Barrel
+   Mesa Prime Chassis
+   Zhuge Prime String
+   Orthos Prime Blueprint
+   Rubico Prime Barrel
+   Mirage Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Axi N3
+   Paris Prime Upper Limb
+   Dual Kamas Prime Blueprint
+   Forma Blueprint
+   Volt Prime Blueprint
+   Bronco Prime Barrel
+   Nekros Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Axi N4
+   Cernos Prime Upper Limb
+   Galatine Prime Blade
+   Nekros Prime Chassis
+   Fragor Prime Handle
+   Hydroid Prime Neuroptics
+   Nikana Prime Hilt
+Drops From: 
+-- Vaulted
+
+* Axi N5
+   Euphona Prime Blueprint
+   Lex Prime Barrel
+   Oberon Prime Chassis
+   Helios Prime Systems
+   Nekros Prime Neuroptics
+   Nami Skyla Prime Blade
+Drops From: 
+-- Vaulted
+
+* Axi O2
+   Galatine Prime Blade
+   Paris Prime String
+   Fang Prime Blade
+   Tiberon Prime Blueprint
+   Helios Prime Systems
+   Oberon Prime Systems
+Drops From: 
+-- Vaulted
+
+* Axi O4
+   Lex Prime Blueprint
+   Zephyr Prime Neuroptics
+   Destreza Prime Handle
+   Tiberon Prime Blueprint
+   Gram Prime Blueprint
+   Oberon Prime Systems
+Drops From: 
+-- Vaulted
+
+* Axi P1
+   Akjagara Prime Blueprint
+   Equinox Prime Chassis
+   Forma Blueprint
+   Kogake Prime Blueprint
+   Ninkondi Prime Chain
+   Pyrana Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Axi P2
+   Bronco Prime Blueprint
+   Dethcube Prime Systems
+   Tiberon Prime Receiver
+   Destreza Prime Blueprint
+   Rubico Prime Stock
+   Pyrana Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Axi P2
+   Bronco Prime Blueprint
+   Dethcube Prime Systems
+   Tiberon Prime Receiver
+   Destreza Prime Blueprint
+   Rubico Prime Stock
+   Pyrana Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Axi P3
+   Bronco Prime Blueprint
+   Forma Blueprint
+   Zhuge Prime Grip
+   Burston Prime Barrel
+   Wukong Prime Systems
+   Pyrana Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Axi R2
+   Destreza Prime Handle
+   Forma Blueprint
+   Lex Prime Receiver
+   Chroma Prime Chassis
+   Mirage Prime Systems
+   Redeemer Prime Handle
+Drops From: 
+-- Vaulted
+
+* Axi R2
+   Destreza Prime Handle
+   Forma Blueprint
+   Lex Prime Receiver
+   Chroma Prime Chassis
+   Mirage Prime Systems
+   Redeemer Prime Handle
+Drops From: 
+-- Vaulted
+
+* Axi R3
+   Fang Prime Blade
+   Stradavar Prime Stock
+   Zephyr Prime Neuroptics
+   Akjagara Prime Link
+   Wukong Prime Systems
+   Redeemer Prime Handle
+Drops From: 
+-- Vaulted
+
+* Axi R3
+   Fang Prime Blade
+   Stradavar Prime Stock
+   Zephyr Prime Neuroptics
+   Akjagara Prime Link
+   Wukong Prime Systems
+   Redeemer Prime Handle
+Drops From: 
+-- Vaulted
+
+* Axi S6
+   Burston Prime Blueprint
+   Forma Blueprint
+   Nekros Prime Chassis
+   Silva & Aegis Prime Blade
+   Tigris Prime Barrel
+   Sybaris Prime Barrel
+Drops From: 
+-- Vaulted
+
+* Axi T4
+   Braton Prime Blueprint
+   Corinth Prime Blueprint
+   Wukong Prime Neuroptics
+   Equinox Prime Blueprint
+   Zhuge Prime Blueprint
+   Tipedo Prime Handle
+Drops From: 
+-+ Unvaulted
+# Defection Tier 3:
+     C 11.06%
+# Defense Tier 3:
+     B 6.67%
+     C 11.06%
+# Defense Void T3:
+     C 2.82%
+# Disruption Jupiter:
+     C 5%
+# Disruption Lua:
+     B 14.29%
+     C 12.42%
+# Disruption Sedna:
+     C 10.2%
+# Excavation Tier 3:
+     C 11.06%
+# Interception Archwing:
+     C 9.68%
+# Interception Tier 3:
+     B 14.29%
+     C 14.29%
+# Interception Void T4:
+     C 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Elite Onslaught:
+     C 2.01%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     B 6.67%
+# Survival Dark Sector 3:
+     C 11.06%
+# Survival Dark Sector 4:
+     C 12.5%
+# Survival Derelict:
+     C 11.06%
+# Survival Tier 3:
+     C 11.06%
+# Survival Void T4:
+     C 12.5%
+
+* Axi T5
+   Chroma Prime Blueprint
+   Rubico Prime Receiver
+   Zhuge Prime String
+   Forma Blueprint
+   Gram Prime Blueprint
+   Titania Prime Systems
+Drops From: 
+-+ Unvaulted
+# Defection Tier 3:
+     C 11.06%
+# Defense Tier 3:
+     B 6.67%
+     C 11.06%
+# Defense Void T3:
+     C 2.82%
+# Disruption Jupiter:
+     C 5%
+# Disruption Lua:
+     B 14.29%
+     C 12.42%
+# Disruption Sedna:
+     C 10.2%
+# Excavation Tier 3:
+     C 11.06%
+# Interception Archwing:
+     C 9.68%
+# Interception Tier 3:
+     B 14.29%
+     C 14.29%
+# Interception Void T4:
+     C 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Elite Onslaught:
+     C 2.01%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     B 6.67%
+# Survival Dark Sector 3:
+     C 11.06%
+# Survival Dark Sector 4:
+     C 12.5%
+# Survival Derelict:
+     C 11.06%
+# Survival Tier 3:
+     C 11.06%
+# Survival Void T4:
+     C 12.5%
+
+* Axi V1
+   Odonata Prime Systems
+   Carrier Prime Systems
+   Dual Kamas Prime Blueprint
+   Volt Prime Neuroptics
+   Forma Blueprint
+   Vauban Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Lith A3
+   Lex Prime Blueprint
+   Orthos Prime Handle
+   Rubico Prime Receiver
+   Akbolto Prime Barrel
+   Tiberon Prime Blueprint
+   Akjagara Prime Barrel
+Drops From: 
+-- Vaulted
+
+* Lith A3
+   Lex Prime Blueprint
+   Orthos Prime Handle
+   Rubico Prime Receiver
+   Akbolto Prime Barrel
+   Tiberon Prime Blueprint
+   Akjagara Prime Barrel
+Drops From: 
+-- Vaulted
+
+* Lith B5
+   Oberon Prime Chassis
+   Lex Prime Receiver
+   Banshee Prime Neuroptics
+   Rubico Prime Stock
+   Orthos Prime Blade
+   Ballistica Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Lith B6
+   Fang Prime Blueprint
+   Lex Prime Barrel
+   Limbo Prime Systems
+   Orthos Prime Blueprint
+   Redeemer Prime Blueprint
+   Ballistica Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Lith C3
+   Sybaris Prime Blueprint
+   Silva & Aegis Prime Hilt
+   Lex Prime Blueprint
+   Helios Prime Blueprint
+   Braton Prime Blueprint
+   Chroma Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Lith C4
+   Burston Prime Receiver
+   Forma Blueprint
+   Paris Prime Lower Limb
+   Braton Prime Stock
+   Orthos Prime Blade
+   Chroma Prime Neuroptics
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith C6
+   Equinox Prime Chassis
+   Fang Prime Blade
+   Forma Blueprint
+   Braton Prime Receiver
+   Mesa Prime Blueprint
+   Corinth Prime Stock
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Profit-Taker Bounty Phase 1:
+     A 15%
+# Profit-Taker Bounty Phase 2:
+     A 15%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith D1
+   Atlas Prime Blueprint
+   Burston Prime Receiver
+   Lex Prime Receiver
+   Mesa Prime Blueprint
+   Ninkondi Prime Chain
+   Dethcube Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith F2
+   Odonata Prime Systems
+   Hikou Prime Stars
+   Paris Prime Upper Limb
+   Burston Prime Barrel
+   Fang Prime Handle
+   Vauban Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Lith K2
+   Braton Prime Barrel
+   Rubico Prime Receiver
+   Zephyr Prime Neuroptics
+   Braton Prime Receiver
+   Forma Blueprint
+   Kogake Prime Gauntlet
+Drops From: 
+-- Vaulted
+
+* Lith K3
+   Forma Blueprint
+   Paris Prime Upper Limb
+   Rubico Prime Receiver
+   Tiberon Prime Blueprint
+   Wukong Prime Chassis
+   Kronen Prime Blade
+Drops From: 
+-- Vaulted
+
+* Lith K3
+   Forma Blueprint
+   Paris Prime Upper Limb
+   Rubico Prime Receiver
+   Tiberon Prime Blueprint
+   Wukong Prime Chassis
+   Kronen Prime Blade
+Drops From: 
+-- Vaulted
+
+* Lith L2
+   Equinox Prime Chassis
+   Pyrana Prime Barrel
+   Redeemer Prime Blade
+   Braton Prime Receiver
+   Tekko Prime Blueprint
+   Limbo Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Lith L2
+   Equinox Prime Chassis
+   Pyrana Prime Barrel
+   Redeemer Prime Blade
+   Braton Prime Receiver
+   Tekko Prime Blueprint
+   Limbo Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Lith M3
+   Forma Blueprint
+   Paris Prime Blueprint
+   Silva & Aegis Prime Hilt
+   Oberon Prime Blueprint
+   Rubico Prime Stock
+   Mesa Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Lith M5
+   Atlas Prime Blueprint
+   Burston Prime Stock
+   Redeemer Prime Blade
+   Stradavar Prime Barrel
+   Titania Prime Blueprint
+   Mesa Prime Neuroptics
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Profit-Taker Bounty Phase 1:
+     A 12.5%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith N1
+   Nekros Prime Chassis
+   Bronco Prime Blueprint
+   Fang Prime Blade
+   Akbronco Prime Link
+   Forma Blueprint
+   Nova Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Lith N2
+   Paris Prime Upper Limb
+   Spira Prime Blueprint
+   Carrier Prime Systems
+   Helios Prime Blueprint
+   Kavasa Prime Band
+   Nekros Prime Systems
+Drops From: 
+-- Vaulted
+
+* Lith N3
+   Sybaris Prime Stock
+   Burston Prime Receiver
+   Valkyr Prime Blueprint
+   Braton Prime Blueprint
+   Forma Blueprint
+   Nekros Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Lith N4
+   Bronco Prime Blueprint
+   Forma Blueprint
+   Gram Prime Blade
+   Atlas Prime Systems
+   Ivara Prime Blueprint
+   Ninkondi Prime Handle
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith O1
+   Ballistica Prime Lower Limb
+   Burston Prime Blueprint
+   Rubico Prime Receiver
+   Forma Blueprint
+   Akbolto Prime Barrel
+   Oberon Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Lith S8
+   Braton Prime Barrel
+   Forma Blueprint
+   Gram Prime Blade
+   Orthos Prime Blueprint
+   Rubico Prime Barrel
+   Stradavar Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith T2
+   Forma Blueprint
+   Valkyr Prime Blueprint
+   Lex Prime Barrel
+   Braton Prime Blueprint
+   Silva & Aegis Prime Blueprint
+   Tiberon Prime Stock
+Drops From: 
+-- Vaulted
+
+* Lith T3
+   Braton Prime Stock
+   Galatine Prime Blade
+   Oberon Prime Chassis
+   Forma Blueprint
+   Nekros Prime Blueprint
+   Tigris Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Lith V2
+   Fang Prime Blueprint
+   Lex Prime Barrel
+   Paris Prime Lower Limb
+   Forma Blueprint
+   Paris Prime Upper Limb
+   Vauban Prime Systems
+Drops From: 
+-- Vaulted
+
+* Lith V4
+   Spira Prime Blueprint
+   Nekros Prime Chassis
+   Venka Prime Blades
+   Tigris Prime Barrel
+   Helios Prime Blueprint
+   Vauban Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Lith V4
+   Spira Prime Blueprint
+   Nekros Prime Chassis
+   Venka Prime Blades
+   Tigris Prime Barrel
+   Helios Prime Blueprint
+   Vauban Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Lith V7
+   Carrier Prime Blueprint
+   Fragor Prime Head
+   Vectis Prime Barrel
+   Akstiletto Prime Link
+   Ash Prime Blueprint
+   Vauban Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Lith V8
+   Ash Prime Chassis
+   Bronco Prime Blueprint
+   Forma Blueprint
+   Fragor Prime Handle
+   Vectis Prime Stock
+   Vauban Prime Systems
+Drops From: 
+-- Vaulted
+
+* Lith W1
+   Forma Blueprint
+   Gram Prime Blade
+   Mirage Prime Neuroptics
+   Akbolto Prime Link
+   Fang Prime Handle
+   Wukong Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Lith W2
+   Forma Blueprint
+   Rubico Prime Receiver
+   Stradavar Prime Receiver
+   Baza Prime Barrel
+   Fang Prime Handle
+   Wukong Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith W2
+   Forma Blueprint
+   Rubico Prime Receiver
+   Stradavar Prime Receiver
+   Baza Prime Barrel
+   Fang Prime Handle
+   Wukong Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Lith W2
+   Forma Blueprint
+   Rubico Prime Receiver
+   Stradavar Prime Receiver
+   Baza Prime Barrel
+   Fang Prime Handle
+   Wukong Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T1:
+     A 12.5%
+# Defection Tier 1:
+     B 10.84%
+     C 11.06%
+# Defense Dark Sector:
+     A 6.9%
+# Defense Derelict:
+     A 11.11%
+# Defense Tier 1:
+     A 9.09%
+# Defense Void T1:
+     A 12.5%
+     B 9.68%
+     C 6.25%
+# Disruption Mars:
+     A 14.29%
+     B 14.29%
+# Empyrean Earth:
+     A 3%
+# Excavation Tier 1:
+     B 7.69%
+     C 11.06%
+# Exterminate Void T1:
+     A 12.5%
+# Interception Tier 1:
+     A 7.69%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     A 9.17%
+# Onslaught Elite Onslaught:
+     A 9.48%
+# Rush Archwing:
+     C 9.68%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Tier 1:
+     B 14.29%
+# Survival Dark Sector 1:
+     B 7.69%
+     C 11.06%
+# Survival Derelict:
+     A 11.11%
+# Survival Tier 1:
+     B 7.69%
+     C 11.06%
+# Survival Void T2:
+     A 9.68%
+
+* Meso B4
+   Bronco Prime Receiver
+   Chroma Prime Blueprint
+   Paris Prime Upper Limb
+   Redeemer Prime Blueprint
+   Wukong Prime Chassis
+   Baza Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     A 7.69%
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso B4
+   Bronco Prime Receiver
+   Chroma Prime Blueprint
+   Paris Prime Upper Limb
+   Redeemer Prime Blueprint
+   Wukong Prime Chassis
+   Baza Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     A 7.69%
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso B4
+   Bronco Prime Receiver
+   Chroma Prime Blueprint
+   Paris Prime Upper Limb
+   Redeemer Prime Blueprint
+   Wukong Prime Chassis
+   Baza Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     A 7.69%
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso C4
+   Braton Prime Stock
+   Ivara Prime Neuroptics
+   Mesa Prime Chassis
+   Atlas Prime Systems
+   Forma Blueprint
+   Chroma Prime Systems
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     A 5.53%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso C5
+   Burston Prime Blueprint
+   Stradavar Prime Stock
+   Tipedo Prime Blueprint
+   Chroma Prime Chassis
+   Forma Blueprint
+   Corinth Prime Barrel
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso C5
+   Burston Prime Blueprint
+   Stradavar Prime Stock
+   Tipedo Prime Blueprint
+   Chroma Prime Chassis
+   Forma Blueprint
+   Corinth Prime Barrel
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso D4
+   Akjagara Prime Blueprint
+   Forma Blueprint
+   Orthos Prime Handle
+   Chroma Prime Chassis
+   Lex Prime Blueprint
+   Dethcube Prime Cerebrum
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     A 7.69%
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     A 5.53%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso E2
+   Bronco Prime Blueprint
+   Destreza Prime Handle
+   Pyrana Prime Barrel
+   Akbolto Prime Link
+   Rubico Prime Stock
+   Equinox Prime Systems
+Drops From: 
+-- Vaulted
+
+* Meso E4
+   Baza Prime Receiver
+   Forma Blueprint
+   Paris Prime Blueprint
+   Tekko Prime Blueprint
+   Titania Prime Neuroptics
+   Equinox Prime Systems
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Profit-Taker Bounty Phase 2:
+     A 12.5%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso E4
+   Baza Prime Receiver
+   Forma Blueprint
+   Paris Prime Blueprint
+   Tekko Prime Blueprint
+   Titania Prime Neuroptics
+   Equinox Prime Systems
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Profit-Taker Bounty Phase 2:
+     A 12.5%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso F1
+   Bronco Prime Receiver
+   Paris Prime Lower Limb
+   Saryn Prime Systems
+   Nekros Prime Neuroptics
+   Dual Kamas Prime Handle
+   Fragor Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso K1
+   Cernos Prime Upper Limb
+   Nekros Prime Chassis
+   Orthos Prime Handle
+   Akstiletto Prime Barrel
+   Tigris Prime Receiver
+   Kogake Prime Gauntlet
+Drops From: 
+-- Vaulted
+
+* Meso K2
+   Mirage Prime Chassis
+   Orthos Prime Handle
+   Paris Prime String
+   Chroma Prime Chassis
+   Wukong Prime Systems
+   Kronen Prime Blade
+Drops From: 
+-- Vaulted
+
+* Meso L1
+   Burston Prime Receiver
+   Ninkondi Prime Blueprint
+   Tipedo Prime Blueprint
+   Chroma Prime Chassis
+   Dethcube Prime Carapace
+   Limbo Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Meso L1
+   Burston Prime Receiver
+   Ninkondi Prime Blueprint
+   Tipedo Prime Blueprint
+   Chroma Prime Chassis
+   Dethcube Prime Carapace
+   Limbo Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Meso N2
+   Hikou Prime Blueprint
+   Bronco Prime Blueprint
+   Fang Prime Handle
+   Ash Prime Neuroptics
+   Forma Blueprint
+   Vauban Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Meso N3
+   Burston Prime Stock
+   Bronco Prime Blueprint
+   Braton Prime Barrel
+   Euphona Prime Barrel
+   Carrier Prime Cerebrum
+   Nekros Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso N5
+   Braton Prime Stock
+   Forma Blueprint
+   Lex Prime Receiver
+   Hydroid Prime Blueprint
+   Tigris Prime Receiver
+   Nekros Prime Systems
+Drops From: 
+-- Vaulted
+
+* Meso N7
+   Kronen Prime Blueprint
+   Limbo Prime Systems
+   Pyrana Prime Barrel
+   Forma Blueprint
+   Gram Prime Blueprint
+   Ninkondi Prime Handle
+Drops From: 
+-- Vaulted
+
+* Meso N9
+   Forma Blueprint
+   Paris Prime String
+   Tekko Prime Gauntlet
+   Akjagara Prime Link
+   Ivara Prime Blueprint
+   Ninkondi Prime Handle
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     A 7.69%
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso N9
+   Forma Blueprint
+   Paris Prime String
+   Tekko Prime Gauntlet
+   Akjagara Prime Link
+   Ivara Prime Blueprint
+   Ninkondi Prime Handle
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     A 7.69%
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso O2
+   Tiberon Prime Receiver
+   Paris Prime Lower Limb
+   Cernos Prime Upper Limb
+   Mirage Prime Systems
+   Akbronco Prime Link
+   Oberon Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Meso O4
+   Fang Prime Blueprint
+   Forma Blueprint
+   Silva & Aegis Prime Hilt
+   Galatine Prime Handle
+   Nekros Prime Neuroptics
+   Oberon Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Meso P1
+   Bronco Prime Receiver
+   Chroma Prime Blueprint
+   Oberon Prime Chassis
+   Ballistica Prime Receiver
+   Silva & Aegis Prime Blueprint
+   Pyrana Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso R1
+   Braton Prime Blueprint
+   Paris Prime Upper Limb
+   Tiberon Prime Receiver
+   Ballistica Prime String
+   Akbronco Prime Link
+   Rubico Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso R1
+   Braton Prime Blueprint
+   Paris Prime Upper Limb
+   Tiberon Prime Receiver
+   Ballistica Prime String
+   Akbronco Prime Link
+   Rubico Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso R2
+   Aksomati Prime Blueprint
+   Fang Prime Blueprint
+   Forma Blueprint
+   Destreza Prime Blueprint
+   Mesa Prime Blueprint
+   Rubico Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso R3
+   Akjagara Prime Blueprint
+   Pangolin Prime Handle
+   Zhuge Prime Grip
+   Bronco Prime Barrel
+   Dethcube Prime Carapace
+   Rubico Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     B 10.84%
+# Defense Dark Sector:
+     B 1.58%
+     C 7.59%
+# Defense Derelict:
+     C 11.06%
+# Defense Tier 1:
+     B 8.33%
+     C 8.33%
+# Defense Tier 2:
+     A 14.29%
+# Defense Void T1:
+     B 2.82%
+     C 6.25%
+# Defense Void T3:
+     A 6.25%
+# Disruption Jupiter:
+     A 5.56%
+# Disruption Mars:
+     C 14.29%
+# Disruption Sedna:
+     A 14.29%
+# Disruption Uranus:
+     A 14.29%
+# Empyrean Saturn:
+     A 2%
+# Excavation Tier 2:
+     B 7.14%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 1:
+     B 5.88%
+     C 13.92%
+# Interception Tier 2:
+     A 10%
+# Mobile Defense Void T2:
+     A 6.25%
+# Onslaught Onslaught:
+     B 9.09%
+# Onslaught Elite Onslaught:
+     B 10.84%
+# Profit-Taker Bounty Phase 3:
+     A 15%
+# Pursuit Archwing:
+     A 5.06%
+# Sabotage Void Tier 2:
+     A 6.25%
+# Spy Kuva:
+     B 11.06%
+# Spy Tier 2:
+     C 11.06%
+# Spy Tier 3:
+     B 11.06%
+# Survival Dark Sector 2:
+     B 7.14%
+# Survival Tier 2:
+     B 7.14%
+# Survival Void T2:
+     A 2.82%
+     B 9.68%
+     C 6.25%
+
+* Meso S3
+   Valkyr Prime Blueprint
+   Nekros Prime Chassis
+   Akbronco Prime Blueprint
+   Ash Prime Blueprint
+   Forma Blueprint
+   Spira Prime Pouch
+Drops From: 
+-- Vaulted
+
+* Meso T1
+   Fang Prime Blueprint
+   Braton Prime Stock
+   Burston Prime Receiver
+   Paris Prime Upper Limb
+   Forma Blueprint
+   Tiberon Prime Barrel
+Drops From: 
+-- Vaulted
+
+* Meso T2
+   Lex Prime Barrel
+   Paris Prime Lower Limb
+   Forma Blueprint
+   Tigris Prime Receiver
+   Banshee Prime Blueprint
+   Tiberon Prime Stock
+Drops From: 
+-- Vaulted
+
+* Meso T3
+   Paris Prime Lower Limb
+   Forma Blueprint
+   Lex Prime Barrel
+   Limbo Prime Blueprint
+   Chroma Prime Chassis
+   Tiberon Prime Stock
+Drops From: 
+-- Vaulted
+
+* Meso T3
+   Paris Prime Lower Limb
+   Forma Blueprint
+   Lex Prime Barrel
+   Limbo Prime Blueprint
+   Chroma Prime Chassis
+   Tiberon Prime Stock
+Drops From: 
+-- Vaulted
+
+* Meso V4
+   Carrier Prime Blueprint
+   Lex Prime Barrel
+   Forma Blueprint
+   Valkyr Prime Neuroptics
+   Ash Prime Neuroptics
+   Vauban Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Meso V6
+   Akstiletto Prime Barrel
+   Braton Prime Barrel
+   Forma Blueprint
+   Carrier Prime Cerebrum
+   Vauban Prime Blueprint
+   Vectis Prime Receiver
+Drops From: 
+-- Vaulted
+
+* Meso W1
+   Tekko Prime Gauntlet
+   Tipedo Prime Blueprint
+   Zhuge Prime String
+   Fang Prime Handle
+   Zephyr Prime Chassis
+   Wukong Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso W1
+   Tekko Prime Gauntlet
+   Tipedo Prime Blueprint
+   Zhuge Prime String
+   Fang Prime Handle
+   Zephyr Prime Chassis
+   Wukong Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Meso Z2
+   Braton Prime Blueprint
+   Redeemer Prime Blade
+   Sybaris Prime Blueprint
+   Hydroid Prime Blueprint
+   Rubico Prime Barrel
+   Zephyr Prime Systems
+Drops From: 
+-- Vaulted
+
+* Meso Z2
+   Braton Prime Blueprint
+   Redeemer Prime Blade
+   Sybaris Prime Blueprint
+   Hydroid Prime Blueprint
+   Rubico Prime Barrel
+   Zephyr Prime Systems
+Drops From: 
+-- Vaulted
+
+* Meso Z3
+   Chroma Prime Blueprint
+   Forma Blueprint
+   Stradavar Prime Receiver
+   Akjagara Prime Link
+   Rubico Prime Barrel
+   Zephyr Prime Systems
+Drops From: 
+-- Vaulted
+
+* Meso Z3
+   Chroma Prime Blueprint
+   Forma Blueprint
+   Stradavar Prime Receiver
+   Akjagara Prime Link
+   Rubico Prime Barrel
+   Zephyr Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo A4
+   Carrier Prime Carapace
+   Forma Blueprint
+   Vauban Prime Chassis
+   Ash Prime Neuroptics
+   Vectis Prime Blueprint
+   Akstiletto Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo C1
+   Kronen Prime Blueprint
+   Limbo Prime Systems
+   Mesa Prime Chassis
+   Pyrana Prime Receiver
+   Redeemer Prime Blueprint
+   Chroma Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo C1
+   Kronen Prime Blueprint
+   Limbo Prime Systems
+   Mesa Prime Chassis
+   Pyrana Prime Receiver
+   Redeemer Prime Blueprint
+   Chroma Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo G2
+   Dethcube Prime Systems
+   Forma Blueprint
+   Redeemer Prime Blade
+   Pyrana Prime Receiver
+   Zhuge Prime Blueprint
+   Gram Prime Handle
+Drops From: 
+-- Vaulted
+
+* Neo H2
+   Fang Prime Blueprint
+   Burston Prime Stock
+   Euphona Prime Blueprint
+   Ballistica Prime Receiver
+   Rubico Prime Barrel
+   Hydroid Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo I1
+   Fang Prime Blade
+   Wukong Prime Neuroptics
+   Zhuge Prime String
+   Akjagara Prime Receiver
+   Limbo Prime Blueprint
+   Ivara Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Neo I2
+   Burston Prime Receiver
+   Dethcube Prime Systems
+   Forma Blueprint
+   Stradavar Prime Barrel
+   Wukong Prime Systems
+   Ivara Prime Chassis
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     C 11.06%
+# Defection Tier 3:
+     B 10.84%
+# Defense Dark Sector:
+     C 1.84%
+# Defense Tier 2:
+     B 6.25%
+     C 11.06%
+# Defense Tier 3:
+     A 10%
+# Defense Void T3:
+     A 6.25%
+     B 12.5%
+     C 9.68%
+# Disruption Jupiter:
+     B 5.56%
+# Disruption Lua:
+     A 14.29%
+# Disruption Sedna:
+     B 14.29%
+# Disruption Uranus:
+     B 14.29%
+     C 13.56%
+# Empyrean Veil:
+     A 2%
+# Excavation Tier 2:
+     C 11.06%
+# Excavation Tier 3:
+     B 6.67%
+# Exterminate Void T3:
+     A 6.25%
+# Ghoul Bounty Lvl 15-25 Final Stage:
+     A 22.62%
+# Ghoul Bounty Lvl 15-25 Stages 2 & 3:
+     A 17.84%
+# Interception Tier 2:
+     B 7.14%
+     C 14.29%
+# Interception Tier 3:
+     A 10%
+# Interception Void T4:
+     A 12.5%
+     B 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Onslaught:
+     C 9.68%
+# Onslaught Elite Onslaught:
+     B 4.42%
+# Profit-Taker Bounty Phase 3:
+     A 12.5%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     A 10%
+# Spy Kuva:
+     B 3.22%
+# Spy Tier 3:
+     B 3.22%
+# Survival Dark Sector 2:
+     C 11.06%
+# Survival Dark Sector 3:
+     B 6.67%
+# Survival Dark Sector 4:
+     B 14.29%
+# Survival Derelict:
+     B 12.5%
+# Survival Tier 2:
+     C 11.06%
+# Survival Tier 3:
+     B 6.67%
+# Survival Void T2:
+     B 2.82%
+     C 6.25%
+# Survival Void T4:
+     A 12.5%
+     B 12.5%
+
+* Neo K2
+   Banshee Prime Neuroptics
+   Braton Prime Barrel
+   Chroma Prime Blueprint
+   Akbolto Prime Link
+   Mirage Prime Systems
+   Kogake Prime Gauntlet
+Drops From: 
+-- Vaulted
+
+* Neo N10
+   Forma Blueprint
+   Redeemer Prime Blade
+   Zephyr Prime Neuroptics
+   Ballistica Prime Upper Limb
+   Tipedo Prime Ornament
+   Nami Skyla Prime Blade
+Drops From: 
+-- Vaulted
+
+* Neo N11
+   Braton Prime Barrel
+   Sybaris Prime Blueprint
+   Tigris Prime Stock
+   Forma Blueprint
+   Oberon Prime Systems
+   Nekros Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo N2
+   Lex Prime Blueprint
+   Fang Prime Blueprint
+   Vasto Prime Barrel
+   Forma Blueprint
+   Nova Prime Blueprint
+   Vauban Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo N3
+   Lex Prime Barrel
+   Odonata Prime Systems
+   Paris Prime String
+   Fang Prime Handle
+   Ash Prime Neuroptics
+   Nekros Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo N7
+   Trinity Prime Neuroptics
+   Euphona Prime Blueprint
+   Venka Prime Blades
+   Banshee Prime Blueprint
+   Valkyr Prime Neuroptics
+   Nekros Prime Systems
+Drops From: 
+-- Vaulted
+
+* Neo P1
+   Ninkondi Prime Blueprint
+   Paris Prime Lower Limb
+   Redeemer Prime Blade
+   Akjagara Prime Receiver
+   Rubico Prime Stock
+   Pangolin Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     C 11.06%
+# Defection Tier 3:
+     B 10.84%
+# Defense Dark Sector:
+     C 1.84%
+# Defense Tier 2:
+     B 6.25%
+     C 11.06%
+# Defense Tier 3:
+     A 10%
+# Defense Void T3:
+     A 6.25%
+     B 12.5%
+     C 9.68%
+# Disruption Jupiter:
+     B 5.56%
+# Disruption Lua:
+     A 14.29%
+# Disruption Sedna:
+     B 14.29%
+# Disruption Uranus:
+     B 14.29%
+     C 13.56%
+# Empyrean Veil:
+     A 2%
+# Excavation Tier 2:
+     C 11.06%
+# Excavation Tier 3:
+     B 6.67%
+# Exterminate Void T3:
+     A 6.25%
+# Ghoul Bounty Lvl 40-50 Final Stage:
+     A 22.62%
+# Ghoul Bounty Lvl 40-50 Stage 4:
+     A 15.64%
+# Ghoul Bounty Lvl 40-50 Stages 2 & 3:
+     A 17.84%
+# Interception Tier 2:
+     B 7.14%
+     C 14.29%
+# Interception Tier 3:
+     A 10%
+# Interception Void T4:
+     A 12.5%
+     B 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Onslaught:
+     C 9.68%
+# Onslaught Elite Onslaught:
+     B 4.42%
+# Profit-Taker Bounty Phase 4:
+     A 17.14%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     A 10%
+# Spy Kuva:
+     B 3.22%
+# Spy Tier 3:
+     B 3.22%
+# Survival Dark Sector 2:
+     C 11.06%
+# Survival Dark Sector 3:
+     B 6.67%
+# Survival Dark Sector 4:
+     B 14.29%
+# Survival Derelict:
+     B 12.5%
+# Survival Tier 2:
+     C 11.06%
+# Survival Tier 3:
+     B 6.67%
+# Survival Void T2:
+     B 2.82%
+     C 6.25%
+# Survival Void T4:
+     A 12.5%
+     B 12.5%
+
+* Neo P1
+   Ninkondi Prime Blueprint
+   Paris Prime Lower Limb
+   Redeemer Prime Blade
+   Akjagara Prime Receiver
+   Rubico Prime Stock
+   Pangolin Prime Blueprint
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     C 11.06%
+# Defection Tier 3:
+     B 10.84%
+# Defense Dark Sector:
+     C 1.84%
+# Defense Tier 2:
+     B 6.25%
+     C 11.06%
+# Defense Tier 3:
+     A 10%
+# Defense Void T3:
+     A 6.25%
+     B 12.5%
+     C 9.68%
+# Disruption Jupiter:
+     B 5.56%
+# Disruption Lua:
+     A 14.29%
+# Disruption Sedna:
+     B 14.29%
+# Disruption Uranus:
+     B 14.29%
+     C 13.56%
+# Empyrean Veil:
+     A 2%
+# Excavation Tier 2:
+     C 11.06%
+# Excavation Tier 3:
+     B 6.67%
+# Exterminate Void T3:
+     A 6.25%
+# Ghoul Bounty Lvl 40-50 Final Stage:
+     A 22.62%
+# Ghoul Bounty Lvl 40-50 Stage 4:
+     A 15.64%
+# Ghoul Bounty Lvl 40-50 Stages 2 & 3:
+     A 17.84%
+# Interception Tier 2:
+     B 7.14%
+     C 14.29%
+# Interception Tier 3:
+     A 10%
+# Interception Void T4:
+     A 12.5%
+     B 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Onslaught:
+     C 9.68%
+# Onslaught Elite Onslaught:
+     B 4.42%
+# Profit-Taker Bounty Phase 4:
+     A 17.14%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     A 10%
+# Spy Kuva:
+     B 3.22%
+# Spy Tier 3:
+     B 3.22%
+# Survival Dark Sector 2:
+     C 11.06%
+# Survival Dark Sector 3:
+     B 6.67%
+# Survival Dark Sector 4:
+     B 14.29%
+# Survival Derelict:
+     B 12.5%
+# Survival Tier 2:
+     C 11.06%
+# Survival Tier 3:
+     B 6.67%
+# Survival Void T2:
+     B 2.82%
+     C 6.25%
+# Survival Void T4:
+     A 12.5%
+     B 12.5%
+
+* Neo R2
+   Braton Prime Stock
+   Forma Blueprint
+   Ninkondi Prime Blueprint
+   Paris Prime Grip
+   Tiberon Prime Blueprint
+   Rubico Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo R2
+   Braton Prime Stock
+   Forma Blueprint
+   Ninkondi Prime Blueprint
+   Paris Prime Grip
+   Tiberon Prime Blueprint
+   Rubico Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo R2
+   Braton Prime Stock
+   Forma Blueprint
+   Ninkondi Prime Blueprint
+   Paris Prime Grip
+   Tiberon Prime Blueprint
+   Rubico Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo R3
+   Baza Prime Receiver
+   Burston Prime Blueprint
+   Limbo Prime Systems
+   Ninkondi Prime Chain
+   Paris Prime Grip
+   Redeemer Prime Handle
+Drops From: 
+-- Vaulted
+
+* Neo R3
+   Baza Prime Receiver
+   Burston Prime Blueprint
+   Limbo Prime Systems
+   Ninkondi Prime Chain
+   Paris Prime Grip
+   Redeemer Prime Handle
+Drops From: 
+-- Vaulted
+
+* Neo R3
+   Baza Prime Receiver
+   Burston Prime Blueprint
+   Limbo Prime Systems
+   Ninkondi Prime Chain
+   Paris Prime Grip
+   Redeemer Prime Handle
+Drops From: 
+-- Vaulted
+
+* Neo R4
+   Aksomati Prime Blueprint
+   Braton Prime Stock
+   Mesa Prime Chassis
+   Corinth Prime Receiver
+   Ninkondi Prime Chain
+   Redeemer Prime Handle
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     C 11.06%
+# Defection Tier 3:
+     B 10.84%
+# Defense Dark Sector:
+     C 1.84%
+# Defense Tier 2:
+     B 6.25%
+     C 11.06%
+# Defense Tier 3:
+     A 10%
+# Defense Void T3:
+     A 6.25%
+     B 12.5%
+     C 9.68%
+# Disruption Jupiter:
+     B 5.56%
+# Disruption Lua:
+     A 14.29%
+# Disruption Sedna:
+     B 14.29%
+# Disruption Uranus:
+     B 14.29%
+     C 13.56%
+# Empyrean Veil:
+     A 2%
+# Excavation Tier 2:
+     C 11.06%
+# Excavation Tier 3:
+     B 6.67%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 2:
+     B 7.14%
+     C 14.29%
+# Interception Tier 3:
+     A 10%
+# Interception Void T4:
+     A 12.5%
+     B 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Onslaught:
+     C 9.68%
+# Onslaught Elite Onslaught:
+     C 15.18%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     A 10%
+# Spy Kuva:
+     B 3.22%
+# Spy Tier 3:
+     B 3.22%
+# Survival Dark Sector 2:
+     C 11.06%
+# Survival Dark Sector 3:
+     B 6.67%
+# Survival Dark Sector 4:
+     B 14.29%
+# Survival Derelict:
+     B 12.5%
+# Survival Tier 2:
+     C 11.06%
+# Survival Tier 3:
+     B 6.67%
+# Survival Void T2:
+     B 2.82%
+     C 6.25%
+# Survival Void T4:
+     A 12.5%
+     B 12.5%
+
+* Neo R4
+   Aksomati Prime Blueprint
+   Braton Prime Stock
+   Mesa Prime Chassis
+   Corinth Prime Receiver
+   Ninkondi Prime Chain
+   Redeemer Prime Handle
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     C 11.06%
+# Defection Tier 3:
+     B 10.84%
+# Defense Dark Sector:
+     C 1.84%
+# Defense Tier 2:
+     B 6.25%
+     C 11.06%
+# Defense Tier 3:
+     A 10%
+# Defense Void T3:
+     A 6.25%
+     B 12.5%
+     C 9.68%
+# Disruption Jupiter:
+     B 5.56%
+# Disruption Lua:
+     A 14.29%
+# Disruption Sedna:
+     B 14.29%
+# Disruption Uranus:
+     B 14.29%
+     C 13.56%
+# Empyrean Veil:
+     A 2%
+# Excavation Tier 2:
+     C 11.06%
+# Excavation Tier 3:
+     B 6.67%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 2:
+     B 7.14%
+     C 14.29%
+# Interception Tier 3:
+     A 10%
+# Interception Void T4:
+     A 12.5%
+     B 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Onslaught:
+     C 9.68%
+# Onslaught Elite Onslaught:
+     C 15.18%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     A 10%
+# Spy Kuva:
+     B 3.22%
+# Spy Tier 3:
+     B 3.22%
+# Survival Dark Sector 2:
+     C 11.06%
+# Survival Dark Sector 3:
+     B 6.67%
+# Survival Dark Sector 4:
+     B 14.29%
+# Survival Derelict:
+     B 12.5%
+# Survival Tier 2:
+     C 11.06%
+# Survival Tier 3:
+     B 6.67%
+# Survival Void T2:
+     B 2.82%
+     C 6.25%
+# Survival Void T4:
+     A 12.5%
+     B 12.5%
+
+* Neo S12
+   Fang Prime Blade
+   Paris Prime Upper Limb
+   Redeemer Prime Blade
+   Mirage Prime Systems
+   Wukong Prime Chassis
+   Stradavar Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo S12
+   Fang Prime Blade
+   Paris Prime Upper Limb
+   Redeemer Prime Blade
+   Mirage Prime Systems
+   Wukong Prime Chassis
+   Stradavar Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo T2
+   Akbronco Prime Blueprint
+   Fang Prime Blueprint
+   Wukong Prime Neuroptics
+   Dethcube Prime Carapace
+   Forma Blueprint
+   Tekko Prime Blade
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     C 11.06%
+# Defection Tier 3:
+     B 10.84%
+# Defense Dark Sector:
+     C 1.84%
+# Defense Tier 2:
+     B 6.25%
+     C 11.06%
+# Defense Tier 3:
+     A 10%
+# Defense Void T3:
+     A 6.25%
+     B 12.5%
+     C 9.68%
+# Disruption Jupiter:
+     B 5.56%
+# Disruption Lua:
+     A 14.29%
+# Disruption Sedna:
+     B 14.29%
+# Disruption Uranus:
+     B 14.29%
+     C 13.56%
+# Empyrean Veil:
+     A 2%
+# Excavation Tier 2:
+     C 11.06%
+# Excavation Tier 3:
+     B 6.67%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 2:
+     B 7.14%
+     C 14.29%
+# Interception Tier 3:
+     A 10%
+# Interception Void T4:
+     A 12.5%
+     B 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Onslaught:
+     C 9.68%
+# Onslaught Elite Onslaught:
+     C 15.18%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     A 10%
+# Spy Kuva:
+     B 3.22%
+# Spy Tier 3:
+     B 3.22%
+# Survival Dark Sector 2:
+     C 11.06%
+# Survival Dark Sector 3:
+     B 6.67%
+# Survival Dark Sector 4:
+     B 14.29%
+# Survival Derelict:
+     B 12.5%
+# Survival Tier 2:
+     C 11.06%
+# Survival Tier 3:
+     B 6.67%
+# Survival Void T2:
+     B 2.82%
+     C 6.25%
+# Survival Void T4:
+     A 12.5%
+     B 12.5%
+
+* Neo T2
+   Akbronco Prime Blueprint
+   Fang Prime Blueprint
+   Wukong Prime Neuroptics
+   Dethcube Prime Carapace
+   Forma Blueprint
+   Tekko Prime Blade
+Drops From: 
+-+ Unvaulted
+# Capture Void T3:
+     A 6.25%
+# Defection Tier 2:
+     C 11.06%
+# Defection Tier 3:
+     B 10.84%
+# Defense Dark Sector:
+     C 1.84%
+# Defense Tier 2:
+     B 6.25%
+     C 11.06%
+# Defense Tier 3:
+     A 10%
+# Defense Void T3:
+     A 6.25%
+     B 12.5%
+     C 9.68%
+# Disruption Jupiter:
+     B 5.56%
+# Disruption Lua:
+     A 14.29%
+# Disruption Sedna:
+     B 14.29%
+# Disruption Uranus:
+     B 14.29%
+     C 13.56%
+# Empyrean Veil:
+     A 2%
+# Excavation Tier 2:
+     C 11.06%
+# Excavation Tier 3:
+     B 6.67%
+# Exterminate Void T3:
+     A 6.25%
+# Interception Tier 2:
+     B 7.14%
+     C 14.29%
+# Interception Tier 3:
+     A 10%
+# Interception Void T4:
+     A 12.5%
+     B 12.5%
+# Mobile Defense Void T4:
+     A 6.25%
+# Onslaught Onslaught:
+     C 9.68%
+# Onslaught Elite Onslaught:
+     C 15.18%
+# Sabotage Void Tier 4:
+     A 6.25%
+# Salvage All:
+     A 10%
+# Spy Kuva:
+     B 3.22%
+# Spy Tier 3:
+     B 3.22%
+# Survival Dark Sector 2:
+     C 11.06%
+# Survival Dark Sector 3:
+     B 6.67%
+# Survival Dark Sector 4:
+     B 14.29%
+# Survival Derelict:
+     B 12.5%
+# Survival Tier 2:
+     C 11.06%
+# Survival Tier 3:
+     B 6.67%
+# Survival Void T2:
+     B 2.82%
+     C 6.25%
+# Survival Void T4:
+     A 12.5%
+     B 12.5%
+
+* Neo V2
+   Fang Prime Handle
+   Braton Prime Stock
+   Galatine Prime Blade
+   Galatine Prime Handle
+   Forma Blueprint
+   Vauban Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo V3
+   Galatine Prime Blade
+   Paris Prime String
+   Carrier Prime Systems
+   Tigris Prime Receiver
+   Forma Blueprint
+   Vauban Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Neo V5
+   Helios Prime Carapace
+   Paris Prime String
+   Silva & Aegis Prime Hilt
+   Forma Blueprint
+   Burston Prime Barrel
+   Vauban Prime Neuroptics
+Drops From: 
+-- Vaulted
+
+* Neo V6
+   Burston Prime Stock
+   Cernos Prime Grip
+   Forma Blueprint
+   Fragor Prime Handle
+   Mirage Prime Systems
+   Vauban Prime Chassis
+Drops From: 
+-- Vaulted
+
+* Neo Z1
+   Orthos Prime Handle
+   Nekros Prime Chassis
+   Paris Prime Blueprint
+   Forma Blueprint
+   Galatine Prime Handle
+   Zephyr Prime Blueprint
+Drops From: 
+-- Vaulted
+
+* Neo Z4
+   Burston Prime Stock
+   Kronen Prime Blueprint
+   Paris Prime String
+   Forma Blueprint
+   Redeemer Prime Blueprint
+   Zephyr Prime Blueprint
+Drops From: 
+-- Vaulted
+

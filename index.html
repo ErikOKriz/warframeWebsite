@@ -1,2 +1,68 @@
-<!DOCTYPE html>
 <html>
+    <head>
+        <title>
+            Warfarmer
+        </title>
+        <link href=style.css rel="stylesheet">
+        <meta name="Warfarmer" content="A well-written description should probably go here. No.">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Warfarmer</h1>
+            </header>
+            <!--Side navigation-->
+            <div class="sidenav">
+                <h2>Primes</h2>
+                <!--primeList will be populated with js-->
+                <div class="primeList" id="primeList"></div>
+            </div>
+            <!--Main content-->
+            <div class="main">
+                <div id="wishDiv" class="wishDiv"></div>
+                <h2 id="itemName">Prime Name</h2>
+                <h4 id="itemType">Type</h4>
+                <p id="itemDescription">Description text blah blah blah blah blah blah blah blah blah we might not even want this</p>
+                <table id="itemTable"></table>
+                <p>
+                    <button type="button" onclick="displayCookies()">Display All Cookies</button>&nbsp;
+                    <button type="button" onclick="document.cookie='firstname=John;expires=Wed, 18 Dec 2023 12:00:00 GMT'">Create Cookie 1</button>&nbsp;
+                    <button type="button" onclick="document.cookie='lastname=Smith;expires=Wed, 18 Dec 2023 12:00:00 GMT'">Create Cookie 2</button>
+                    <button type="button" onclick="document.cookie='firstname=;expires=Thu; 01 Jan 1970'">Delete Cookie 1</button>&nbsp;
+                    <button type="button" onclick="document.cookie='lastname=;expires=Thu 01 Jan 1970'">Delete Cookie 2</button>
+                    
+                    </p>
+                
+            </div>
+    
+            <!--Top 3 farm missions-->
+            <div class="top3">
+                <h3>Top 3 Missions:</h3>
+                <ul>
+                    <li>Io - Jupiter</li>
+                    <li>Mot - Void</li>
+                    <li>Piscinas - Saturn</li>
+                </ul>
+            </div>
+
+            <!--Relic Box-->
+            <div class="relics">
+                <h3>Relics:</h3>
+                <a>Lith</a>
+                <a>Meso</a>
+                <a>Neo</a>
+                <a>Axi</a>
+            </div>
+        
+            <!--Footer-->
+            <footer>
+                <p>Created by Luca Letizia and Erik Kriz</p>
+            </footer>
+        </div>
+        <script src='primeScript.js'></script><script>
+        function showPrime(name){
+            document.getElementById("itemName").innerHTML = name;
+        }
+        </script>
+    </body>
+</html>
