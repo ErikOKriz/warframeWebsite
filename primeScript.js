@@ -34,7 +34,7 @@ function getCookie(name) {
     return null;
 }
 function eraseCookie(name) {   
-    document.cookie = name+'=; Max-Age=-99999999;';  
+    document.cookie = name+'=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';  
 }
 function displayCookie(cname) {
     alert(getCookie(cname));
@@ -98,11 +98,14 @@ function addPrime(tmp){
 function addWishlist(name){
     setCookie(name, "asdf", 365);
     alert("Cookie set: " + name);
-    
+    document.getElementById('wishDiv').innerHTML = 
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
 }
 function delWishlist(name){
     eraseCookie(name);
     alert("Cookie set: " + name);
+    document.getElementById('wishDiv').innerHTML = 
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tag + `');"></p>`;
 }
 
 /**********
