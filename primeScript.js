@@ -62,7 +62,7 @@ function setFeaturedPrime(ID){
         return;
     }
     //Take the name insert _ for spaces if necessary
-    var tag = name.replace(' ', '_');
+    var tag = tmp.name.replace(' ', '_');
     
     //Set Title and Type
     document.getElementById('itemName').innerHTML = tmp.name;
