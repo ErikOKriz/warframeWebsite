@@ -97,15 +97,15 @@ function addPrime(tmp){
 }
 function addWishlist(name){
     setCookie(name, "asdf", 365);
-    alert("Cookie set: " + name);
+    //alert("Cookie set: " + name);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + name + `');" checked></p>`;
 }
 function delWishlist(name){
     eraseCookie(name);
-    alert("Cookie set: " + name);
+    //alert("Cookie set: " + name);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tag + `');"></p>`;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + name + `');"></p>`;
 }
 
 /**********
