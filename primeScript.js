@@ -96,11 +96,13 @@ function addPrime(tmp){
     primeList.insertAdjacentHTML('beforeend', string);
 }
 function addWishlist(name){
-    setCookie(name, "1", 365);
+    setCookie(name, "asdf", 365);
+    alert("Cookie set: " + name);
     
 }
 function delWishlist(name){
     eraseCookie(name);
+    alert("Cookie set: " + name);
 }
 
 /**********
