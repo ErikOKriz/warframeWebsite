@@ -13,7 +13,7 @@ var pTableCt;
  *********/
 
 //Cookie G/S
-/*
+
 function setCookie(name,value,days) {
     var expires = "";
     if (days) {
@@ -37,26 +37,7 @@ function eraseCookie(name) {
     document.cookie = name+'=; Max-Age=-99999999;';  
 }
 function displayCookie(cname) {
-    alert(Cookies(cname));
-}*/
-function displayCookies() {
-    var fname=getCookie("firstname");
-    if (fname==null) {fname="";}
-    if (fname!="") {fname="firstname="+fname;}
-    var lname=getCookie("lastname");
-    if (lname==null) {lname="";}
-    if (lname!="") {lname="lastname="+lname;}
-    alert (fname + " " + lname);
-}
-function getCookie(name) {
-    var nameEQ = name + "=";
-    //alert(document.cookie);
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-    var c = ca[i];
-    while (c.charAt(0)==' ') c = c.substring(1);
-    if (c.indexOf(nameEQ) != -1) return c.substring(nameEQ.length,c.length);
-    }
+    alert(getCookie(cname));
 }
 
 //Sidenav
@@ -100,7 +81,7 @@ function setFeaturedPrime(ID){
     document.getElementById('itemTable').insertAdjacentHTML('beforeend','</tr>\n');
     
     //Set wishlist tickbox. If cookied, display checked. Otherwise, display empty.
-    if(getCookie(tag) != ""){
+    if(getCookie(tag) != null){
         document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
     }
@@ -116,13 +97,11 @@ function addPrime(tmp){
 }
 function addWishlist(name){
     //Cookies(name, name, 365);
-    Cookies("Chroma","Yes", 365);
-    displayCookie("Chroma");
+    setCookie("Chroma","Yes", 365);
     
 }
 function delWishlist(name){
-    Cookies(name, "", 0);
-    displayCookie(name);
+    eraseCookie(name, "", 0);
 }
 
 /**********
@@ -131,7 +110,7 @@ function delWishlist(name){
 
 //Fetch primes.json and build primelist
 var request = new XMLHttpRequest();
-request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/erikScripts/primes2.txt');
+request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes2.txt');
 request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
@@ -155,7 +134,7 @@ request.send();
 
 //Fetch database.json and build pTables
 var request2 = new XMLHttpRequest();
-request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/Luca/erikScripts/database.json');
+request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json');
 request2.onload = function(){
     pTables = JSON.parse(request2.responseText);
     pTableCt = pTables.length;
