@@ -96,12 +96,11 @@ function addPrime(tmp){
     primeList.insertAdjacentHTML('beforeend', string);
 }
 function addWishlist(name){
-    //Cookies(name, name, 365);
-    setCookie("Chroma","Yes", 365);
+    setCookie(name, "1", 365);
     
 }
 function delWishlist(name){
-    eraseCookie(name, "", 0);
+    eraseCookie(name);
 }
 
 /**********
