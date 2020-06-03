@@ -71,8 +71,14 @@ function setFeaturedPrime(ID){
     //Find the prime in the primes list (NOT NECESSARY WHEN IDS ARE PROPERLY DONE)
     var tmp;
     for(var i = 0; i < pTableCt; i++){
-        if(pTables[i].ID == ID)
+        if(pTables[i].ID === ID){
             tmp = pTables[i];
+            break;
+        }
+    }
+    if(tmp == undefined){
+        console.log("ERR: A prime was attempted to be set featured and failed (ID: " + ID + ")\n")
+        return;
     }
     //Take the name insert _ for spaces if necessary
     var tag = name.replace(' ', '_');
@@ -105,7 +111,7 @@ function setFeaturedPrime(ID){
     }
 }
 function addPrime(tmp){
-    var string = `<a href="#" id="` + tmp.ID + `"onclick="javascript:setFeaturedPrime(` + tmp.ID + `)">` + tmp.name + `</a>\n`;
+    var string = `<a href="#" id="` + tmp.ID + `"onclick="javascript:setFeaturedPrime('` + tmp.ID + `')">` + tmp.name + `</a>\n`;
     primeList.insertAdjacentHTML('beforeend', string);
 }
 function addWishlist(name){
@@ -154,8 +160,8 @@ request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite
 request2.onload = function(){
     pTables = JSON.parse(request2.responseText);
     pTableCt = pTables.length;
+    console.log(pTables);
 
-    
 }
 request2.send();
 
