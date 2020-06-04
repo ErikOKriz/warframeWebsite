@@ -8,3 +8,6 @@ def main():
     relicParse.relicParseMain()
 
 
+main()
+
+
