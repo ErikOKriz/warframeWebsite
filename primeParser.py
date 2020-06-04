@@ -53,12 +53,12 @@ def primeParse():
 
 
 
-def creationMain():
+def primeBaseMain():
     goFetch("https://warframe.fandom.com/wiki/Prime")
     primeList = primeParse()
 
     #just to differentiate it from primes.txt
-    primes = open('primes2.txt', 'w')
+    primes = open('primes.txt', 'w')
 
     data = {}
     data['primes'] = []
@@ -85,6 +85,3 @@ def creationMain():
 
 
 
-
-#testing
-creationMain()

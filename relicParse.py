@@ -140,6 +140,3 @@ def relicParseMain():
         json.dump(data, file)
 
 
-
-#testing
-relicParseMain()
