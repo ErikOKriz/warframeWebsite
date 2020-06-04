@@ -120,19 +120,19 @@ def relicParseMain():
 
         if RList[y][0] in VList:
             data['relics'].append({
-                'name':RList[0],
+                'name':RList[y][0],
                 'ID':str(iDCount),
-                'drop table':tuple(RList[1]),
+                'drop table':tuple(RList[y][1]),
                 'mission drops': "Vaulted, Nowhere"
             })
             iDCount += 1
 
         else:
             data['relics'].append({
-                'name':RList[0],
+                'name':RList[y][0],
                 'ID':str(iDCount),
-                'drop table':tuple(RList[1]),
-                'mission drops':tuple(RList[2])
+                'drop table':tuple(RList[y][1]),
+                'mission drops':tuple(RList[y][2])
             })
             iDCount += 1
 
