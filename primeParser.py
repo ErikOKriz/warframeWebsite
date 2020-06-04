@@ -57,9 +57,6 @@ def primeBaseMain():
     goFetch("https://warframe.fandom.com/wiki/Prime")
     primeList = primeParse()
 
-    #just to differentiate it from primes.txt
-    primes = open('primes.txt', 'w')
-
     data = {}
     data['primes'] = []
 
@@ -80,7 +77,7 @@ def primeBaseMain():
         })
         iDCount += 1
 
-    with open('primes2.txt', 'w') as file:
+    with open('primes.txt', 'w') as file:
         json.dump(data,file)
 
 
