@@ -56,13 +56,7 @@ def goFetch(url):
 
 
 #test cases
-#url1 = "https://warframe.fandom.com/wiki/Atlas/Prime"
-#url1 = "https://warframe.fandom.com/wiki/Tekko_Prime"
-#url1 = "https://warframe.fandom.com/wiki/Axi_A9"
-#url1 = "https://warframe.fandom.com/wiki/Capture"
-#url1 = "https://warframe.fandom.com/wiki/Meso_B4"
-#url1 = "https://warframe.fandom.com/wiki/Exterminate"
-#url1 = "https://warframe.fandom.com/wiki/Defection"
-#url1 = "https://warframe.fandom.com/wiki/Meso_E3"
+#url1 = "https://warframe.fandom.com/wiki/Prime"
+#url1 = "https://warframe.fandom.com/wiki/Void_Relic"
 
 #goFetch(url1)
