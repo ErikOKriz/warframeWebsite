@@ -1,15 +1,4 @@
--Get Luca up to speed on github, and Python if he wants
-
--Get the website on to github, and clone it to my PC
-
 -learn how merging works with github, merge luca's website files and my .py files into the master branch
-
--Once website has a workable format (now?), start working on how to integrate database.txt as a database for the site
-
--Work through getting relics into their own database, should be able to pull drop tables for each relic and 
-    drop tables which drop the relic
-
--Make sure the main program (and the url generator/goFetch, everything really) is set up to handle relics as well
 
 -Make a function that is able to access mission type pages(capture, exterminate, etc.)
     , and be able to construct a list of all missions of a certain type and tier or planet. In order to oconstruct a 
@@ -35,8 +24,4 @@
                 if they have the same sorting style, companion can also fit into the weapon or warframe typecode. 
             - For each group of mission types above that share a sorting style, we will need a typecode and a helper function. 
                 Probably just called mission1(line), mission2(line), etc. with a comment telling which mission types it handles. 
-
-
-- for the final databaseMain.py, instead of starting each item line with item:, start it with a special symbol, like *. Do the same 
-with components, but with another symbol. 
 
