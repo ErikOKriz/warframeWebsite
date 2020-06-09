@@ -1,10 +1,10 @@
 [
     { "Tier": "Lith", "Name": "A1", 
-        "Drops":{ {"Item": "BRATON", "Part": "BARREL", "Rarity": "Common"}, 
+        "Drops":[ {"Item": "BRATON", "Part": "BARREL", "Rarity": "Common"}, 
                   {"Item": "FORMA", "Part": "BLUEPRINT", "Rarity": "Common"}, 
                   {"Item": "VASTO", "Part": "RECEIVER", "Rarity": "Common"}, 
                   {"Item": "SARYN", "Part": "NEUROPTICS BLUEPRINT", "Rarity": "Uncommon"}, 
                   {"Item": "VECTIS", "Part": "BLUEPRINT", "Rarity": "Uncommon"}, 
-                  {"Item": "AKSTILETTO", "Part": "BLUEPRINT", "Rarity": "Rare"}},
+                  {"Item": "AKSTILETTO", "Part": "BLUEPRINT", "Rarity": "Rare"}],
         "IsVaulted": 1}
 ]
