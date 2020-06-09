@@ -6,7 +6,7 @@
                   {"Item": "SARYN", "Part": "NEUROPTICS BLUEPRINT", "Rarity": "Uncommon"}, 
                   {"Item": "VECTIS", "Part": "BLUEPRINT", "Rarity": "Uncommon"}, 
                   {"Item": "AKSTILETTO", "Part": "BLUEPRINT", "Rarity": "Rare"}],
-        "IsVaulted": 1},
+        "IsVaulted": null},
     { "Tier": "Lith", "Name": "A2", 
         "Drops":[ {"Item": "BRATON", "Part": "BARREL", "Rarity": "Common"}, 
                   {"Item": "FORMA", "Part": "BLUEPRINT", "Rarity": "Common"}, 
@@ -14,7 +14,7 @@
                   {"Item": "SARYN", "Part": "NEUROPTICS BLUEPRINT", "Rarity": "Uncommon"}, 
                   {"Item": "VECTIS", "Part": "BLUEPRINT", "Rarity": "Uncommon"}, 
                   {"Item": "AKSTILETTO", "Part": "BLUEPRINT", "Rarity": "Rare"}],
-        "IsVaulted": 1},
+        "IsVaulted": [["Capture", "Void T1", "A", "12.5%"], ["Defection", "Tier 1", "B", "10.84%"], ["Defection", "Tier 1", "C", "11.06%"], ["Defense", "Dark Sector", "A", "6.9%"], ["Defense", "Derelict", "A", "11.11%"], ["Defense", "Tier 1", "A", "9.09%"], ["Defense", "Void T1", "A", "12.5%"], ["Defense", "Void T1", "B", "9.68%"], ["Defense", "Void T1", "C", "6.25%"], ["Disruption", "Mars", "A", "14.29%"], ["Disruption", "Mars", "B", "14.29%"], ["Empyrean", "Earth", "A", "3%"], ["Excavation", "Tier 1", "B", "7.69%"], ["Excavation", "Tier 1", "C", "11.06%"], ["Exterminate", "Void T1", "A", "12.5%"], ["Interception", "Tier 1", "A", "7.69%"], ["Mobile Defense", "Void T2", "A", "6.25%"], ["Onslaught", "Onslaught", "A", "9.17%"], ["Onslaught", "Elite Onslaught", "A", "9.48%"], ["Rush", "Archwing", "C", "9.68%"], ["Sabotage", "Void Tier 2", "A", "6.25%"], ["Spy", "Tier 1", "B", "14.29%"], ["Survival", "Dark Sector 1", "B", "7.69%"], ["Survival", "Dark Sector 1", "C", "11.06%"], ["Survival", "Derelict", "A", "11.11%"], ["Survival", "Tier 1", "B", "7.69%"], ["Survival", "Tier 1", "C", "11.06%"], ["Survival", "Void T2", "A", "9.68%"]]},
     { "Tier": "Lith", "Name": "A3", 
         "Drops":[ {"Item": "BRATON", "Part": "BARREL", "Rarity": "Common"}, 
                   {"Item": "FORMA", "Part": "BLUEPRINT", "Rarity": "Common"}, 
@@ -22,5 +22,5 @@
                   {"Item": "SARYN", "Part": "NEUROPTICS BLUEPRINT", "Rarity": "Uncommon"}, 
                   {"Item": "VECTIS", "Part": "BLUEPRINT", "Rarity": "Uncommon"}, 
                   {"Item": "AKSTILETTO", "Part": "BLUEPRINT", "Rarity": "Rare"}],
-        "IsVaulted": 1}
+        "IsVaulted": null}
 ]
