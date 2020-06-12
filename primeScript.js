@@ -152,7 +152,7 @@ request2.send();
 
 //Fetch relicMasterTemp.txt and build pTables
 var request3 = new XMLHttpRequest();
-request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/relicMasterTemp.txt');
+request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/relicTables.txt');
 request3.onload = function(){
     rMaster = JSON.parse(request3.responseText);
     rMasterCt = rMaster.length;
