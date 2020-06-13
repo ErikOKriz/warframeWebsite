@@ -184,7 +184,7 @@ def relicParseMain():
 
 
 #for testing
-relicParseMain()
+#relicParseMain()
 #VRelicParse()
 #relicParse()
 
