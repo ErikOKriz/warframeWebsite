@@ -14,6 +14,7 @@ def primeParse():
     #filePoint just helps to know where in the file we are
     filePoint = 0
     frames = []
+
     #I don't think I need to separate between primary/secondary/melee for weapons
     weapons = []
     returnList = [frames, weapons]
@@ -34,23 +35,17 @@ def primeParse():
                 if "Prime" in words[x+1]:
                     frames.append(words[x])
         elif filePoint == 2:
-            if "CompanionsEdit" in line:
+            if "ExtractorsEdit" in line:
                 break
 
             words = line.split()
-
 
             for x in range(len(words) - 1):
                 if "Edit" not in words[x] and "Prime" in words[x+1] and "Aegis" not in words[x]:
                     weapons.append(words[x])
     weapons.append("Silva & Aegis")
 
-
     return returnList
-
-
-
-
 
 
 def primeBaseMain():
@@ -80,6 +75,5 @@ def primeBaseMain():
 
     with open('primes.txt', 'w') as file:
         json.dump(data,file)
-
 
 
