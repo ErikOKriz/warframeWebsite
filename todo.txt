@@ -1,27 +1,8 @@
 -learn how merging works with github, merge luca's website files and my .py files into the master branch
 
--Make a function that is able to access mission type pages(capture, exterminate, etc.)
-    , and be able to construct a list of all missions of a certain type and tier or planet. In order to oconstruct a 
-    full drop table for the relics, where you have every mission listed that drops the relic, and its drop rates for 
-    that relic 
--set of all missions set(capture, defense, excavation, exterminate, mobile defense, survival, disruption, Empyrean,
-    interception, onslaught, rush, sabotage, spy, salvage, profit-taker bounty, pursuit, assassination, arena, assault,
-    hijack, infested salvage, junction, rescue, skirmish)
-        - add more if needed
-    - some of these missions have identical info within their respective html files, but some are different. So we need to 
-        typecode it out by info sorting style, not type by type.
+- Create a function which goes to each planet's web page and pulls all of the info about its mission nodes
+ and add that data to a database. This database will be similar to the relic database except each object is 
+ a mission node instead of a relic. Luca is probably going to have to write a function which correlates them
 
-- Set up main function to handle mission info as well. decide if we are going to add the relic/ mission info into the main 
-    database or if we are going to use multiple databases for different types of data.
 
--Once the mission sort is complete, try combining all the html parsers into one large one. Since they all find the info in 
-    the same way, just with different keywords, you can have one function that finds the keyword lines and then sends each 
-    line to a helper funciton which knows what to do with important lines. This fucntions will need to have typecodes to 
-    determine what the keywords and what helper functions to use in the for loop. below is the list of the types we will use,
-    and we'll need a helper function for each.
-        -list[warframe, weapon, relic, list[missoin types], companion] 
-            - I'm assuming prime companions have a different info sort than weapons or waframe, haven't checked it out though.
-                if they have the same sorting style, companion can also fit into the weapon or warframe typecode. 
-            - For each group of mission types above that share a sorting style, we will need a typecode and a helper function. 
-                Probably just called mission1(line), mission2(line), etc. with a comment telling which mission types it handles. 
 
