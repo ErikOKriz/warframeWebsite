@@ -45,6 +45,8 @@ def goFetch(url):
             if cur != 0:
                 cur = 0
                 text[x-1] = '\n'
+        if text[x] == '\xa0':
+            text[x] = ' '
 
     #change list of chars back to string
     strText = ''.join(text)
@@ -58,5 +60,11 @@ def goFetch(url):
 #test cases
 #url1 = "https://warframe.fandom.com/wiki/Prime"
 #url1 = "https://warframe.fandom.com/wiki/Void_Relic"
+#url1 = "https://warframe.fandom.com/wiki/Module:Void/data?action=edit"
+#url1 = "https://warframe.fandom.com/wiki/Mission"
+#url1 = "https://warframe.fandom.com/wiki/Void_Relic?action=edit"
+#url1 = "https://warframe.fandom.com/wiki/Module:Missions/data?action=edit"
+#url1 = "https://warframe.fandom.com/wiki/Mercury"
+#url1 = "https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html"
 
 #goFetch(url1)
