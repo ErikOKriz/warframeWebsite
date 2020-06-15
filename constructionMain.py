@@ -1,11 +1,12 @@
-import primeParser
-import relicParse
+from primeParser import primeBaseMain
+from relicParse import relicParseMain
+from FullSearch import fullSearchMain
 
-
-#main function which reconstructs database if the need arises
+#main function which reconstructs all databases if the need arises
 def main():
-    primeParser.primeBaseMain()
-    relicParse.relicParseMain()
+    primeBaseMain()
+    relicParseMain()
+    fullSearchMain()
 
 
 main()
