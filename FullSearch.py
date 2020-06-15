@@ -1,5 +1,5 @@
 from goFetch import goFetch
-
+import json
 
 
 def FullSearch():
@@ -40,6 +40,13 @@ def FullSearch():
     # a dict to make it easier to input into a json file
     tempNode = dict()
 
+    # this will describe one item dropping from a node
+    tempDrop = []
+
+    # this will describe all items dropped from a node, but then will
+    # be trimmed to be just the relics the node drops
+    nodeDrops = []
+
     # this should be the main for loop
     for x in range(len(line)):
         # this statement should trigger when we are at the first character of a new word
@@ -69,6 +76,8 @@ def FullSearch():
         # a planet, then it's a new mission node, otherwise it's either
         # mission node info or the end of the node info.
         elif filePoint == 1:
+
+
             if word == "Veil":
                 # or next filepoint, either way, veil is the first thing after
                 # sanctuary onslaught and the first thing we don't care about.
@@ -82,6 +91,8 @@ def FullSearch():
                 # to hold the info as it comes
                 if len(tempNode) > 0:
                     nodes.append(tempNode)
+                    tempNode["RelicDrops"] = nodeDrops
+                    nodeDrops = []
                 tempNode = dict()
                 tempNode["Planet"] = word
 
@@ -95,19 +106,43 @@ def FullSearch():
                     tempNode["Node"] = word
                 elif L == 2:
                     tempNode["MissionType"] = word
-                # else means the doc is describing drops for the node
-                # drops consist of three words, probably don't need this
-                # so don't go through the trouble of figuring it out. We
-                # already know which relics drop from where.
-                # else:
-                # tempNode[""]
+
+                #in this case, it describes a drop
+                elif L > 2:
+                    tempDrop.append(word)
+                    if "%" in word:
+                        if "Relic" in tempDrop[0]:
+                            nodeDrops.append(tempDrop)
+                        tempDrop = []
+
 
     #test
-    print(nodes)
-    print(words)
+    #print(nodes)
+    #print(words)
 
     #this is the return value for now, might need a more expansive list later
     return nodes
 
+#FullSearch()
 
-FullSearch()
+#this function take the output of the last function, and stores it in a text file
+# in json format
+def fullSearchMain():
+    nodes = FullSearch()
+
+    data = {}
+    data["Nodes"] = []
+
+    iDCount = 0
+
+    for y in range(len(nodes)):
+        nodes[y]["ID"] = str(iDCount)
+        data["Nodes"].append(nodes[y])
+        iDCount += 1
+
+    with open("NodeBase.txt", 'w') as file:
+        json.dump(data,file)
+
+
+#testing
+fullSearchMain()
