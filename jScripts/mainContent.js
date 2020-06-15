@@ -177,7 +177,7 @@ function delWishlist(name){
 
 //Fetch primes.json and build primelist
 var request = new XMLHttpRequest();
-request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes2.txt');
+request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes.txt');
 request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
