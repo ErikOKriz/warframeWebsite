@@ -1,8 +1,0 @@
--learn how merging works with github, merge luca's website files and my .py files into the master branch
-
-- Create a function which goes to each planet's web page and pulls all of the info about its mission nodes
- and add that data to a database. This database will be similar to the relic database except each object is 
- a mission node instead of a relic. Luca is probably going to have to write a function which correlates them
-
-
-
