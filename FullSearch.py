@@ -145,4 +145,4 @@ def fullSearchMain():
 
 
 #testing
-fullSearchMain()
+#fullSearchMain()
