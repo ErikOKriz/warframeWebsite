@@ -169,11 +169,10 @@ a:hover{
     overflow-y: auto;
 }
 .relicInfo{
-    display: grid;
     margin: 0;
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr) 20fr;
     row-gap: 0;
-    text-align: center;
 }
 .relics h3{
     background-color: rgba(20,20,20,.5);
