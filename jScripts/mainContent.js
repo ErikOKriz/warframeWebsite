@@ -168,6 +168,14 @@ function delWishlist(name){
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + name + `');"></p>`;
 }
+function verFetch(){
+    $.ajax({
+        url: "erikScripts/versionFetch.py",
+        success: function(response) {
+            console.log("VFetch called.");
+        }
+    });
+}
 
 /**********
  * SCRIPT *
