@@ -9,6 +9,8 @@ def main():
     fullSearchMain()
 
 
-main()
+#this function should only call itself for manuel testing. the goal is for another
+# function to automatically call this when the database is out of date
+#main()
 
 
