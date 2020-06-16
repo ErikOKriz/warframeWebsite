@@ -66,5 +66,6 @@ def goFetch(url):
 #url1 = "https://warframe.fandom.com/wiki/Module:Missions/data?action=edit"
 #url1 = "https://warframe.fandom.com/wiki/Mercury"
 #url1 = "https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html"
+#url1 = "https://forums.warframe.com/forum/3-pc-update-notes"
 
 #goFetch(url1)
