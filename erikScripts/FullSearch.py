@@ -90,8 +90,9 @@ def FullSearch():
                 # then it's a new node, and you need to create a new object
                 # to hold the info as it comes
                 if len(tempNode) > 0:
-                    nodes.append(tempNode)
-                    tempNode["RelicDrops"] = nodeDrops
+                    if nodeDrops != []:
+                        tempNode["RelicDrops"] = nodeDrops
+                        nodes.append(tempNode)
                     nodeDrops = []
                 tempNode = dict()
                 tempNode["Planet"] = word
