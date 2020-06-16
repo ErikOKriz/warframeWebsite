@@ -160,13 +160,11 @@ function addPrime(tmp){
 }
 function addWishlist(name){
     setCookie(name, "asdf", 365);
-    //alert("Cookie set: " + name);
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + name + `');" checked></p>`;
 }
 function delWishlist(name){
     eraseCookie(name);
-    //alert("Cookie set: " + name);
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + name + `');"></p>`;
 }
@@ -175,14 +173,13 @@ function delWishlist(name){
  * SCRIPT *
  **********/
 
-//Fetch primes.json and build primelist
+//Fetch primes.json and build primes
 var request = new XMLHttpRequest();
 request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes.txt');
 request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
     console.log(primes);                           //Debug Print
-
 
     //Populate primelist with each prime
     addTitleBar("Frames");
@@ -195,18 +192,16 @@ request.onload = function(){
         if(primes[i].type == "weapon")
             addPrime(primes[i]);
     }
-
 };
 request.send();
 
 //Fetch database.json and build pTables
-var request2 = new XMLHttpRequest();
+request2 = new XMLHttpRequest();
 request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json');
 request2.onload = function(){
     pTables = JSON.parse(request2.responseText);
     pTableCt = pTables.length;
     console.log(pTables);
-
 }
 request2.send();
 
@@ -219,17 +214,26 @@ request3.onload = function(){
     //Fetch the era indices
     relicEraIndex[0] = 0;
     var i = 0;
+
     //Skip to the first meso, then store
     while(relics[i].Tier != "Meso" || relics[i] == undefined ) i++;
     relicEraIndex[1] = i;
+
     //Repeat for neo and axi
     while(relics[i].Tier != "Neo" || relics[i] == undefined ) i++;
     relicEraIndex[2] = i;
     while(relics[i].Tier != "Axi" || relics[i] == undefined ) i++;
     relicEraIndex[3] = i;
     console.log(relics);
-
 }
 request3.send();
 
-
+//Fetch NodeBase.txt and build nTables
+var request4 = new XMLHttpRequest();
+request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt');
+request4.onload = function(){
+    nTables = JSON.parse(request4.responseText).Nodes;
+    nTableCt = nTables.length;
+    console.log(nTables);
+}
+request4.send();
