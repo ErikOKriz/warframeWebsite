@@ -1,8 +1,8 @@
 from goFetch import goFetch
 import json
 
-
 #this program's function is to fetch all primes from the warframe wiki and sort them into a text file
+
 
 def primeParse():
     #initialize the file and the lines
@@ -15,7 +15,7 @@ def primeParse():
     filePoint = 0
     frames = []
 
-    #I don't think I need to separate between primary/secondary/melee for weapons
+    #No need to separate between primary/secondary/melee for weapons
     weapons = []
     returnList = [frames, weapons]
 
@@ -37,9 +37,8 @@ def primeParse():
         elif filePoint == 2:
             if "ExtractorsEdit" in line:
                 break
-
+            #finds all non-warframe primes
             words = line.split()
-
             for x in range(len(words) - 1):
                 if "Edit" not in words[x] and "Prime" in words[x+1] and "Aegis" not in words[x]:
                     weapons.append(words[x])
@@ -48,6 +47,7 @@ def primeParse():
     return returnList
 
 
+#This function takes the info from the last function and stores it in a text file in json format
 def primeBaseMain():
     goFetch("https://warframe.fandom.com/wiki/Prime")
     primeList = primeParse()

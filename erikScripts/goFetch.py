@@ -1,8 +1,8 @@
-#taken from https://www.datacamp.com/community/tutorials/web-scraping-using-python
+#tutorial:  https://www.datacamp.com/community/tutorials/web-scraping-using-python
 
 #this funciton should take a valid url as in input, and have no output.
 # It should truncate htmlTemp.txt and place the html file of the url in
-# htmlTemp.txt in text form. can easliy be changed to have an output/ go
+# htmlTemp.txt in text form. can easily be changed to have an output/ go
 # to another file
 
 from urllib3 import PoolManager
@@ -34,7 +34,8 @@ def goFetch(url):
     #change string to list for in-place character replacement
     text = list(strText)
 
-    #for loop to remove empty lines
+    #for loop to remove empty lines and replace fake
+    # spaces for real ones
     cur = 0
     for x in range(len(text)):
         if text[x] == '\n':
@@ -45,6 +46,7 @@ def goFetch(url):
             if cur != 0:
                 cur = 0
                 text[x-1] = '\n'
+        #take out fake spaces for real ones.
         if text[x] == '\xa0':
             text[x] = ' '
 

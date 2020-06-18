@@ -4,7 +4,7 @@ import json
 
 def FullSearch():
 
-    #fetch into the text file, it's a very large file
+    #fetch the text file into htmlTemp, it's a very large file
     goFetch("https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html")
 
     file = open('htmlTemp.txt', 'r')
@@ -13,10 +13,6 @@ def FullSearch():
     file.close()
 
     filePoint = 0
-
-    #This is for testing, to see if we're creating words when
-    # we're supposed to.
-    words = []
 
     #this is for checking if the most recent word describes the start of
     # a new nodenode is in here
@@ -55,10 +51,8 @@ def FullSearch():
             x - 1].isdigit() and line[x - 1] != '-' and line[x-1] != '.' and line[x-1] != ',' and "Relic" not in line[x:x+7]:
             word = line[prev:x].replace('/', '').replace(')', '').replace('(', '').strip()
             prev = x
-            # words is for testing
-            words.append(word)
 
-        # we only need to process beyond this when we come across a new word. and since we
+        # we only need to process beyond this when we come across a new word. Since we
         # iterate by character, each new character of a new word would have us process the
         # old word over and over again.
         else:
@@ -69,7 +63,6 @@ def FullSearch():
         if filePoint == 0:
             if word == "Missions:":
                 filePoint = 1
-                words = []
 
         # At this point, the file should be describing each mission node.
         # and we have to figure out what each word means. If the word is
@@ -77,32 +70,31 @@ def FullSearch():
         # mission node info or the end of the node info.
         elif filePoint == 1:
 
-
             if word == "Veil":
-                # or next filepoint, either way, veil is the first thing after
-                # sanctuary onslaught and the first thing we don't care about.
-                # Once we reach veil we've seen all important nodes
-                # this will also have to stay at break in order to test that this works
-                # to list all the nodes
+                #Veil is the first thing after sanctuary onslaught and the
+                # first thing we don't care about. Once we reach veil we've
+                # seen all the nodes we care about
                 break
 
             elif word in planets:
                 # then it's a new node, and you need to create a new object
                 # to hold the info as it comes
+                #This if is here so we don't append an empty dict as we come across
+                # the first planet name in the file
                 if len(tempNode) > 0:
-                    nodes.append(tempNode)
+                    #before creating new node info, need to dump the old info into nodes
                     tempNode["RelicDrops"] = nodeDrops
+                    nodes.append(tempNode)
                     nodeDrops = []
                 tempNode = dict()
                 tempNode["Planet"] = word
 
-            # else append the word to tempNode, use the len of tempNode to
+            #Else append the word to tempNode, use the len of tempNode to
             # determine what aspect of a node this word describes
             else:
                 L = len(tempNode)
-                if L == 0:
-                    tempNode["Planet"] = word
-                elif L == 1:
+                #doesn't start at 0 because we have already added the planet
+                if L == 1:
                     tempNode["Node"] = word
                 elif L == 2:
                     tempNode["MissionType"] = word
@@ -115,15 +107,9 @@ def FullSearch():
                             nodeDrops.append(tempDrop)
                         tempDrop = []
 
-
-    #test
-    #print(nodes)
-    #print(words)
-
-    #this is the return value for now, might need a more expansive list later
+    #could pull more info from this file, but nodes is all we're after for right now
     return nodes
 
-#FullSearch()
 
 #this function take the output of the last function, and stores it in a text file
 # in json format
@@ -133,6 +119,7 @@ def fullSearchMain():
     data = {}
     data["Nodes"] = []
 
+    #This is so each node has an ID value
     iDCount = 0
 
     for y in range(len(nodes)):
