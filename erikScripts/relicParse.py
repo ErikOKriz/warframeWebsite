@@ -31,7 +31,7 @@ def relicParse():
     tempList = []
 
     for line in lines:
-        #just dont want \xa0 in my file
+        #just dont want \xa0 in my file, messes up the final database
         line = line.replace('\xa0', ' ')
         if filePoint == 0:
             if "Red text" in line:
@@ -58,7 +58,7 @@ def relicParse():
                 break
             #implied else
 
-            #The rest of this goes on to construct tempList[2], which is a list of all
+            #The rest of this goes on to construct tempList[1], which is a list of all
             # the missions the relic drops from and the chances of getting that relic
             listLine = list(line)
 
@@ -68,7 +68,9 @@ def relicParse():
             #  mission type, mission tier or planet, rotation drop, and percentage drop rate
             newLine = []
 
-            #This should work for lines of the above format
+            #If the line is not a new relic, and it's after the "Chance" line, then the line
+            # describes a mission, rotation, and percent chance for that relic to drop. This
+            # loop decodes one of those mission lines and adds it to that relic's TempList[1]
             for y in range(len(listLine)):
                 if prev != y and listLine[y].isupper() and listLine[y - 1] != ' ' and listLine[y - 1] != '-':
                     newLine.append(line[prev:y])
@@ -106,7 +108,7 @@ def VRelicParse():
             newLine = newLine + line
 
     #these replace effects are what turns our string into one that is accepted by json.loads(x)
-    #can definately be made more efficient, but this works for now
+    # so that we can create dict objects from strings
     newLine = newLine.replace("Drops = { {", '"Drops" : [ [')
     newLine = newLine.replace('}}', ']]')
     newLine = newLine.replace(' = '," : ")
@@ -118,7 +120,8 @@ def VRelicParse():
     newLine = newLine.replace('Item : ', '')
     newLine = newLine.replace('Part : ', '')
     newLine = newLine.replace('Rarity :', '')
-    #this line gives us a good character to split the relic dicts by "?"
+    #This line gives us a good character, '?', to use str.split() on.
+    # Giving a json dict for each element in str.split()
     newLine = newLine.replace('},{ "Tier"', '}?{"Tier"')
 
     #just to check what is getting output, for testing
@@ -127,7 +130,7 @@ def VRelicParse():
 
     relicDicts = []
 
-    #each x at this point will be a dict in json format and cna be worked on.
+    #each x at this point will be a dict in json format and can be worked on.
     for x in newLine.split('?'):
         x = json.loads(x)
         relicDicts.append(x)
@@ -137,17 +140,23 @@ def VRelicParse():
 
     MissionList = relicParse()
     for Y in relicDicts:
+        #build the relic name from the dict
         Yname = str(Y["Tier"]) + ' ' + str(Y["Name"])
         for M in MissionList:
-            #testing
-            #print(str(Y["Tier"]) + ' ' + str(Y["Name"]))
+            #M[0] is the relic name, M[1] is the list of missions it drops from
             if M[0] == Yname:
                 #if there is a mission which drops the relic, then it is not vaulted
                 Y['DropsFrom'] = M[1]
                 #once per missionList loop
+                #We delete isVaulted because that data is implied by DropsFrom.
+                # if the droptable value is 0, instead of a list, then the relic is
+                # vaulted
                 del Y['IsVaulted']
+                #We remove M because it's tied to a specific relic, and we've already
+                # found that relic. Makes futher iterations over MissionList faster
                 MissionList.remove(M)
-                #hopefully this just breaks the missionList loop
+                #This just breaks the missionList loop because we have found the only
+                # relic we're looking for in this loop
                 break
         if 'DropsFrom' not in Y:
             Y["DropsFrom"] = '0'
@@ -157,13 +166,9 @@ def VRelicParse():
             Y["IsBaro"] = 0
 
     #after this for loop, relicDicts should be modified in place enough for us
-        #to make it the final return value
+    # to make it the final return value
 
     return relicDicts
-
-#test
-#VRelicParse()
-
 
 
 def relicParseMain():
@@ -176,7 +181,6 @@ def relicParseMain():
     iDCount = 0
 
     for y in range(len(dataList)):
-        #test
         dataList[y]["ID"] = iDCount
         data['relics'].append(dataList[y])
         iDCount += 1
