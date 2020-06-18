@@ -110,21 +110,18 @@ def VRelicParse():
     newLine = newLine.replace("Drops = { {", '"Drops" : [ [')
     newLine = newLine.replace('}}', ']]')
     newLine = newLine.replace(' = '," : ")
-    newLine = newLine.replace('Item', '"Item"')
-    newLine = newLine.replace("Part", '"Part"')
-    newLine = newLine.replace("Rarity", '"Rarity"')
     newLine = newLine.replace("Tier", '"Tier"')
     newLine = newLine.replace("Name", '"Name"')
     newLine = newLine.replace("IsVaulted", '"IsVaulted"')
     newLine = newLine.replace('IsBaro', '"IsBaro"')
-    newLine = newLine.replace('},{"Item" : ', '],[')
-    newLine = newLine.replace('"Item" : ', '')
-    newLine = newLine.replace('"Part" : ', '')
-    newLine = newLine.replace('"Rarity" :', '')
+    newLine = newLine.replace('},{Item : ', '],[')
+    newLine = newLine.replace('Item : ', '')
+    newLine = newLine.replace('Part : ', '')
+    newLine = newLine.replace('Rarity :', '')
     #this line gives us a good character to split the relic dicts by "?"
     newLine = newLine.replace('},{ "Tier"', '}?{"Tier"')
 
-    #just to check what is getting outputed, for testing
+    #just to check what is getting output, for testing
     #with open('htmlTemp2.txt', 'w') as file:
         #file.write(newLine)
 
@@ -163,6 +160,11 @@ def VRelicParse():
         #to make it the final return value
 
     return relicDicts
+
+#test
+#VRelicParse()
+
+
 
 def relicParseMain():
     #create dictionary objects for all relics
