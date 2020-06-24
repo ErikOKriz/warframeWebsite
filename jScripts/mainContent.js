@@ -53,14 +53,8 @@ function addTitleBar(title){
 //Main
 
 function setFeaturedPrime(ID){
-    //Find the prime in the primes list (NOT NECESSARY WHEN IDS ARE PROPERLY DONE)
-    var tmp;
-    for(var i = 0; i < pTableCt; i++){
-        if(pTables[i].ID === ID){
-            tmp = pTables[i];
-            break;
-        }
-    }
+    //Find the prime in the primes list
+    var tmp = pTables[ID];
     if(tmp == undefined){
         console.log("ERR: A prime was attempted to be set featured and failed (ID: " + ID + ")\n")
         return;
@@ -76,14 +70,12 @@ function setFeaturedPrime(ID){
     document.getElementById('itemType').innerHTML = tmp.type;
 
     //Set Droptable
+    var relicList = tmp.partDrops;
     document.getElementById('itemTable').innerHTML = null;
-    for(var i = 0; i < 4; i++){
-        var relicList = [tmp.parts.part0, tmp.parts.part1, tmp.parts.part2, tmp.parts.part3];
-        if(i == 3 && relicList[3] == undefined) break;
+    for(var i = 0; relicList[i] != undefined; i++){
         document.getElementById('itemTable').insertAdjacentHTML('beforeend','<tr><th>' + tmp.partNames[i] + '</th>');
-        var j = 0;
-        while(relicList[i][j] != undefined)
-            document.getElementById('itemTable').insertAdjacentHTML('beforeend','<td><a href="#" onclick="javascript:setFeaturedRelic(`' + relicList[i][j] + '`)">' + relicList[i][j++] + '</a></td>');
+        for(var j = 0; relicList[i][j] != undefined; j++)
+            document.getElementById('itemTable').insertAdjacentHTML('beforeend','<td><a href="#" onclick="javascript:setFeaturedRelic(`' + relicList[i][j] + '`)">' + relicList[i][j] + '</a></td>');
     }
     document.getElementById('itemTable').insertAdjacentHTML('beforeend','</tr>');
     
@@ -183,8 +175,8 @@ function verFetch(){
 
 //Fetch primes.json and build primes
 var request = new XMLHttpRequest();
-//request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes.txt');
-request.open('GET', 'erikScripts/primes.txt');
+request.open('GET','erikScripts/primes.txt');
+//request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes.txt');  //For local machine use.
 request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
@@ -206,7 +198,8 @@ request.send();
 
 //Fetch database.json and build pTables
 request2 = new XMLHttpRequest();
-request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json');
+request.open('GET','erikScripts/database.json');
+//request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json');
 request2.onload = function(){
     pTables = JSON.parse(request2.responseText);
     pTableCt = pTables.length;
@@ -216,11 +209,11 @@ request2.send();
 
 //Fetch relicMasterTemp.txt and build pTables
 var request3 = new XMLHttpRequest();
-request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/relicTables.txt');
+request.open('GET','erikScripts/relicTables.txt');
+//request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/relicTables.txt');
 request3.onload = function(){
     relics = JSON.parse(request3.responseText).relics;
     relicCt = relics.length;
-    //Fetch the era indices
     relicEraIndex[0] = 0;
     var i = 0;
 
@@ -239,7 +232,8 @@ request3.send();
 
 //Fetch NodeBase.txt and build nTables
 var request4 = new XMLHttpRequest();
-request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt');
+request.open('GET','erikScripts/NodeBase.txt');
+//request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt');
 request4.onload = function(){
     nTables = JSON.parse(request4.responseText).Nodes;
     nTableCt = nTables.length;

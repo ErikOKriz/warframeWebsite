@@ -1,0 +1,7 @@
+* Move Primes/Relics
+    - Draw up some mockups in mspaint
+* Redesign wishlist system
+    - Clicking a prime in the primes list adds it to wishlist
+    - Add a visual wishlist with X's to remove from wishlist
+* Implement a way to determine top 3 missions for farming things
+* Implement wishlist to keep track of prime parts, not just the whole thing
