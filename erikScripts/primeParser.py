@@ -101,6 +101,7 @@ def primeBaseMain():
     types = ['warframe', 'weapon','sentinal', 'archwing']
 
 
+    #this for loop will create a json ready object which is a list of all primes
     for x in range(len(primeList)):
         for y in range(len(primeList[x])):
             data['primes'].append({
@@ -110,6 +111,10 @@ def primeBaseMain():
             })
             iDCount += 1
 
+    #next we have to add the parts to
+
+
+    #this will dump data in to primes.txt, which will make the text in primes a json ready object
     with open('primes.txt', 'w') as file:
         json.dump(data,file)
 
