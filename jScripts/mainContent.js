@@ -198,7 +198,7 @@ request.send();
 
 //Fetch database.json and build pTables
 request2 = new XMLHttpRequest();
-request.open('GET','erikScripts/database.json');
+request2.open('GET','erikScripts/database.json');
 //request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json');
 request2.onload = function(){
     pTables = JSON.parse(request2.responseText);
@@ -209,7 +209,7 @@ request2.send();
 
 //Fetch relicMasterTemp.txt and build pTables
 var request3 = new XMLHttpRequest();
-request.open('GET','erikScripts/relicTables.txt');
+request3.open('GET','erikScripts/relicTables.txt');
 //request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/relicTables.txt');
 request3.onload = function(){
     relics = JSON.parse(request3.responseText).relics;
@@ -232,7 +232,7 @@ request3.send();
 
 //Fetch NodeBase.txt and build nTables
 var request4 = new XMLHttpRequest();
-request.open('GET','erikScripts/NodeBase.txt');
+request4.open('GET','erikScripts/NodeBase.txt');
 //request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt');
 request4.onload = function(){
     nTables = JSON.parse(request4.responseText).Nodes;
