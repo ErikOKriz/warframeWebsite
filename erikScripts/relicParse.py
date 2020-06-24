@@ -133,6 +133,11 @@ def VRelicParse():
     #each x at this point will be a dict in json format and can be worked on.
     for x in newLine.split('?'):
         x = json.loads(x)
+        for y in x['Drops']:
+            y[0] = y[0].capitalize()
+            y[1] = y[1].capitalize()
+            if "blueprint" in y[1]:
+                y[1] = y[1].replace(' blueprint', '')
         relicDicts.append(x)
 
     #now have to take this relic Dicts, and use the dropsFrom tables from relicParse
