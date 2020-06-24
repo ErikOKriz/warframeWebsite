@@ -1,15 +1,12 @@
 [
     {
-        "name": "Tekko",
-        "ID": "83",
-        "type": "Weapon",
-        "partNames": ["Blueprint","Blade","Gauntlet"],
-        "partDrops": [
-            ["Meso E4 Uncommon", "Lith L2 Uncommon (V)"],
-            ["Neo T2 Rare"],
-            ["Meso N9 Common", "Axi G4 Common", "Meso W1 Common (V)"]
-        ] 
+        "name": "IndexPlaceholder"
     },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },
+    {
         "name": "Chroma",
         "ID": "3",
         "type": "Warframe",
@@ -21,6 +18,28 @@
             ["Meso C4 Rare", "Neo C1 Rare (V)", "Axi C3 Rare (V)", "Axi C4 Rare (V)"]
         ]
     },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
+        "name": "IndexPlaceholder"
+    },{
         "name": "Nekros",
         "ID": "15",
         "type": "Warframe",
@@ -31,6 +50,16 @@
             ["Lith N1 Common (V)", "Lith V4 Common (V)", "Meso K1 Common (V)", "Meso S3 Common (V)", "Neo Z1 Common (V)", "Axi G1 Common (V)", "Axi N4 Common (V)", "Axi S6 Common (V)"],
             ["Lith N2 Rare (V)", "Meso N5 Rare (V)", "Neo N3 Rare (V)", "Neo N7 Rare (V)", "Neo N11 Rare (V)"] 
         ]
+    },{
+        "name": "Tekko",
+        "ID": "83",
+        "type": "Weapon",
+        "partNames": ["Blueprint","Blade","Gauntlet"],
+        "partDrops": [
+            ["Meso E4 Uncommon", "Lith L2 Uncommon (V)"],
+            ["Neo T2 Rare"],
+            ["Meso N9 Common", "Axi G4 Common", "Meso W1 Common (V)"]
+        ] 
     }
 ]
 
