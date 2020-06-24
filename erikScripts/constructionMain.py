@@ -4,8 +4,9 @@ from FullSearch import fullSearchMain
 
 #main function which reconstructs all databases if the need arises
 def main():
-    primeBaseMain()
+    #need to do relic main first as the prime main pulls from the relic data
     relicParseMain()
+    primeBaseMain()
     fullSearchMain()
 
 
