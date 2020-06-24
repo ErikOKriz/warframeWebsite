@@ -183,7 +183,8 @@ function verFetch(){
 
 //Fetch primes.json and build primes
 var request = new XMLHttpRequest();
-request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes.txt');
+//request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes.txt');
+request.open('GET', 'erikScripts/primes.txt');
 request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
