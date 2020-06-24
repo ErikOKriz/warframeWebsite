@@ -1,3 +1,4 @@
+Luca's List
 * Move Primes/Relics
     - Draw up some mockups in mspaint
 * Redesign wishlist system
@@ -5,3 +6,18 @@
     - Add a visual wishlist with X's to remove from wishlist
 * Implement a way to determine top 3 missions for farming things
 * Implement wishlist to keep track of prime parts, not just the whole thing
+
+Morty's List
+1. figure out how to access server side info using js
+2. put a comment in the js file that explains the primes line
+3. console.log() is a debugging line (check on that)
+    - figure out the relationship between console.log, and request.send()
+4. fix pirmes.txt to not include (V) in some prime names
+5. see if you can access server side info using href= 'filename
+6. possible remove ID parameter for href objects in js
+7. fix silva & aegis prime to have '_' instead of ' '
+8. add some whitespace and comments for clarity's sake. and so Erik's brain doesn't melt
+9. figure out a way to construct database.json formatted info from primes.txt and relicBase.txt upon database reconstruction
+10. figure out how tiers work, and if possible add tier info to NodeBase.txt
+    - if we have the tiers for NodeBase, we might not need the relic dorp info for each node
+11. 
