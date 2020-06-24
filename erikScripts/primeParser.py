@@ -107,11 +107,43 @@ def primeBaseMain():
             data['primes'].append({
                 'name' : primeList[x][y],
                 'type' : types[x],
-                'ID':str(iDCount)
+                'ID':str(iDCount),
+                "partNames" : [],
+                "partDrops" : []
             })
             iDCount += 1
 
-    #next we have to add the parts to
+    #next we have to add the parts to partNames and relics to partDrops using relicTables.txt
+    with open('relicTables.txt', 'r') as file:
+        relicDict = json.load(file)
+
+    #y in this case is a dict describing a relic, with properties
+    #   'Tier' : (lith/meso, etc.)
+    #   'name' : 'a1'/'c4'/etc.
+    #   'drops' : (an array of arrays where each sub array, x, has length 3 and x[0] is the prime, x[1] is the part to that prime, and x[2] is the rarity that relic drops that part of that prime.
+    #   'dropsFrom' : (an array of all types of missions which dorp that relic and the chances it drops form those missions, if ['dropsFrom'] == 0, then it is a vaulted relic
+    #   'isBaro' : '1' or '0' based on whether or not it is a baro relic or not
+    #   'ID' : (just an ID number to identify each relic)
+    for z in data['primes']:
+        for y in relicDict['relics']:
+            #if there are no more drops to look at, stop iterating with that object,
+            # remove dict with no more drops
+            if y["Drops"] == []:
+                del y
+                continue
+            for x in y["Drops"]:
+                #if the prime part this relic drops is a part the prime we are looking at in our z for loop
+                if x[0] == z['name']:
+                    #if the part is not already listed in partname, add it to partNames, and make a new partDrops list to hold drop info
+                    if x[1] not in z['partNames']:
+                        z['partNames'].append(x[1])
+                        z['partDrops'].append([])
+                    #need the index of the list we should put this drop info in
+                    dropListIndex = z['partNames'].index(x[1])
+                    #add the drop info to the partDrops section as shown in database.json
+                    z['partDrops'][dropListIndex].append(str(y['Tier'] + ' ' + y['Name'] + ' ' +  x[2]))
+                    #then remove x from the droptable as we've already seen it, this doesn't affect relicTables.txt, so this dict is disposible
+                    y['Drops'].remove(x)
 
 
     #this will dump data in to primes.txt, which will make the text in primes a json ready object
@@ -120,4 +152,4 @@ def primeBaseMain():
 
 
 #test
-primeBaseMain()
+#primeBaseMain()
