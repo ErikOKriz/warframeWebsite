@@ -124,6 +124,7 @@ def primeBaseMain():
     #   'dropsFrom' : (an array of all types of missions which dorp that relic and the chances it drops form those missions, if ['dropsFrom'] == 0, then it is a vaulted relic
     #   'isBaro' : '1' or '0' based on whether or not it is a baro relic or not
     #   'ID' : (just an ID number to identify each relic)
+    #this for loop will fill in partNames and partDrops for all primes
     for z in data['primes']:
         for y in relicDict['relics']:
             #if there are no more drops to look at, stop iterating with that object,
@@ -133,7 +134,10 @@ def primeBaseMain():
                 continue
             for x in y["Drops"]:
                 #if the prime part this relic drops is a part the prime we are looking at in our z for loop
-                if x[0] == z['name']:
+                if x[0] == 'Forma':
+                    #we're never looking for formas
+                    y['Drops'].remove(x)
+                elif x[0] == z['name']:
                     #if the part is not already listed in partname, add it to partNames, and make a new partDrops list to hold drop info
                     if x[1] not in z['partNames']:
                         z['partNames'].append(x[1])
