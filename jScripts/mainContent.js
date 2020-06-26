@@ -54,7 +54,7 @@ function addTitleBar(title){
 
 function setFeaturedPrime(ID){
     //Find the prime in the primes list
-    var tmp = pTables[ID];
+    var tmp = primes[ID];
     if(tmp == undefined){
         console.log("ERR: A prime was attempted to be set featured and failed (ID: " + ID + ")\n")
         return;
@@ -175,8 +175,9 @@ function verFetch(){
 
 //Fetch primes.json and build primes
 var request = new XMLHttpRequest();
-request.open('GET','erikScripts/primes.txt');
+//request.open('GET','erikScripts/primes.txt');
 //request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/primes.txt');  //For local machine use.
+request.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/innovation/erikScripts/primes.txt');  //For local machine use, innovation branch
 request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
@@ -195,22 +196,23 @@ request.onload = function(){
     }
 };
 request.send();
-
+/*
 //Fetch database.json and build pTables
 request2 = new XMLHttpRequest();
-request2.open('GET','erikScripts/database.json');
-//request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json');
+//request2.open('GET','erikScripts/database.json');
+request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json'); //For local machine use.
 request2.onload = function(){
     pTables = JSON.parse(request2.responseText);
     pTableCt = pTables.length;
     console.log(pTables);
 }
 request2.send();
-
+*/
 //Fetch relicMasterTemp.txt and build pTables
 var request3 = new XMLHttpRequest();
-request3.open('GET','erikScripts/relicTables.txt');
-//request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/relicTables.txt');
+//request3.open('GET','erikScripts/relicTables.txt');
+//request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/relicTables.txt'); //For local machine use.
+request3.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/innovation/erikScripts/relicTables.txt'); //Innovation branch
 request3.onload = function(){
     relics = JSON.parse(request3.responseText).relics;
     relicCt = relics.length;
@@ -232,8 +234,8 @@ request3.send();
 
 //Fetch NodeBase.txt and build nTables
 var request4 = new XMLHttpRequest();
-request4.open('GET','erikScripts/NodeBase.txt');
-//request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt');
+//request4.open('GET','erikScripts/NodeBase.txt');
+request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt'); //For local machine use.
 request4.onload = function(){
     nTables = JSON.parse(request4.responseText).Nodes;
     nTableCt = nTables.length;
