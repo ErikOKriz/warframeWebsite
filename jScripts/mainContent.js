@@ -194,6 +194,16 @@ request.onload = function(){
         if(primes[i].type == "weapon")
             addPrime(primes[i]);
     }
+    addTitleBar("Companions");
+    for(var i = 0; i < primeCt; i++){
+        if(primes[i].type == "sentinal")
+            addPrime(primes[i]);
+    }
+    addTitleBar("Archwings");
+    for(var i = 0; i < primeCt; i++){
+        if(primes[i].type == "archwing")
+            addPrime(primes[i]);
+    }
 };
 request.send();
 /*
