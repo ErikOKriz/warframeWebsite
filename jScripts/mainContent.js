@@ -47,7 +47,7 @@ function displayCookie(cname) {
 //Sidenav
 
 function addTitleBar(title){
-    primeList.insertAdjacentHTML('beforeend', `<h3>` + title + `</h3><hr>\n`);
+    primeList.insertAdjacentHTML('beforeend', `<h3>` + title + `</h3><hr><hr>\n`);
 }
 
 //Main
