@@ -48,7 +48,7 @@ def primeParse():
             words = line.split()
             for x in range(len(words) - 1):
                 if words[x - 1] == 'Dual' or words[x - 1] == 'Nami':
-                    weapons.append(str(words[x-1] + ' ' + words[x]))
+                    weapons.append(str(words[x-1] + ' ' + words[x].lower()))
                 elif "Edit" not in words[x] and "Prime" in words[x+1] and "Aegis" not in words[x]:
                     weapons.append(words[x])
 
@@ -101,7 +101,6 @@ def primeBaseMain():
     iDCount = 0
 
     types = ['warframe', 'weapon','sentinal', 'archwing']
-
 
     #this for loop will create a json ready object which is a list of all primes
     for x in range(len(primeList)):
