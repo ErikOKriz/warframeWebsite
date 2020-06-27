@@ -123,9 +123,11 @@ def fullSearchMain():
     iDCount = 0
 
     for y in range(len(nodes)):
-        nodes[y]["ID"] = str(iDCount)
-        data["Nodes"].append(nodes[y])
-        iDCount += 1
+        if nodes[y]["RelicDrops"] != []:
+            nodes[y]["ID"] = str(iDCount)
+            data["Nodes"].append(nodes[y])
+            iDCount += 1
+
 
     with open("NodeBase.txt", 'w') as file:
         json.dump(data,file)
