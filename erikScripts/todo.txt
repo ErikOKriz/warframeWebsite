@@ -1,0 +1,6 @@
+1. figure out tiers of missions so NodeBase can include tier and mesh well with relicTables
+ - if Tiers are totally unsolvable, compare which relics drop from where versus the info in relicTables to figure out the tiers (very time consuming)
+ - you could also jus figure out how dorp tables work for non-endless missions
+
+2. See if you can add an isVaulted characteristic to the items of primes.txt
+
