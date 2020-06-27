@@ -65,7 +65,7 @@ def primeParse():
                         sentinals.append(word.replace('Prime', ''))
             #this line removes prime because kavasa prime has prime in the middle of the word
             # also if it ever gets vaulted, need to get rid of the '(V)'
-            word = line[prev:].replace('(V)', '').replace('Prime', '')
+            word = line[prev:].replace('(V)', '').replace(' Prime Collar', '')
             sentinals.append(word)
 
         #this section could parse the prime sentinal weapons, but since those weapons drop with
@@ -128,6 +128,8 @@ def primeBaseMain():
     #   'ID' : (just an ID number to identify each relic)
     #this for loop will fill in partNames and partDrops for all primes
     for z in data['primes']:
+        #test
+        print(z['name'])
         for y in relicDict['relics']:
             #if there are no more drops to look at, stop iterating with that object,
             # remove dict with no more drops
