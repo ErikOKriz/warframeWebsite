@@ -47,7 +47,9 @@ def primeParse():
             #finds all non-warframe primes
             words = line.split()
             for x in range(len(words) - 1):
-                if "Edit" not in words[x] and "Prime" in words[x+1] and "Aegis" not in words[x]:
+                if words[x - 1] == 'Dual' or words[x - 1] == 'Nami':
+                    weapons.append(str(words[x-1] + ' ' + words[x]))
+                elif "Edit" not in words[x] and "Prime" in words[x+1] and "Aegis" not in words[x]:
                     weapons.append(words[x])
 
         elif filePoint == 3:
@@ -56,7 +58,7 @@ def primeParse():
                 continue
             prev = 0
             for x in range(len(line) - 1):
-                if prev != x and line[x].isupper() and line[x-1] != ' ' and line[x-1] != '(' or line[x+1] == '(':
+                if prev != x and line[x].isupper() and not line[x-1].isupper() and line[x-1] != ' ' and line[x-1] != '(':
                     word = line[prev:x]
                     prev = x
                     if '(V)' not in word:
@@ -82,7 +84,7 @@ def primeParse():
                     archwings.append(x)
 
     #put here because it's too hard to parse out
-    weapons.append("Silva_&_Aegis")
+    weapons.append("Silva & Aegis")
 
     return returnList
 
