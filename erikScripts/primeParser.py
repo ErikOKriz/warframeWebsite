@@ -85,6 +85,7 @@ def primeParse():
 
     #put here because it's too hard to parse out
     weapons.append("Silva & aegis")
+    weapons.sort()
 
     return returnList
 
