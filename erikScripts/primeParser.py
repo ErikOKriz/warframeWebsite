@@ -58,15 +58,15 @@ def primeParse():
                 continue
             prev = 0
             for x in range(len(line) - 1):
-                if prev != x and line[x].isupper() and not line[x-1].isupper() and line[x-1] != ' ' and line[x-1] != '(':
+                if prev != x and line[x] == ' ' or line[x].isupper() and line[x-1] == ')':
                     word = line[prev:x]
                     prev = x
-                    if '(V)' not in word:
-                        sentinals.append(word.replace('Prime', ''))
+                    if 'Prime' not in word and 'Collar' not in word and '(V)' not in word:
+                        sentinals.append(word)
             #this line removes prime because kavasa prime has prime in the middle of the word
             # also if it ever gets vaulted, need to get rid of the '(V)'
-            word = line[prev:].replace('(V)', '').replace(' Prime Collar', '')
-            sentinals.append(word)
+            #word = line[prev:].replace('(V)', '')
+            #sentinals.append(word)
 
         #this section could parse the prime sentinal weapons, but since those weapons drop with
         # their respective sentinals, we don't need this info
@@ -84,7 +84,7 @@ def primeParse():
                     archwings.append(x)
 
     #put here because it's too hard to parse out
-    weapons.append("Silva & Aegis")
+    weapons.append("Silva & aegis")
 
     return returnList
 
@@ -127,6 +127,8 @@ def primeBaseMain():
     #   'ID' : (just an ID number to identify each relic)
     #this for loop will fill in partNames and partDrops for all primes
     for z in data['primes']:
+        #test
+        #print(z['name'])
         for y in relicDict['relics']:
             #if there are no more drops to look at, stop iterating with that object,
             # remove dict with no more drops
@@ -134,6 +136,8 @@ def primeBaseMain():
                 del y
                 continue
             for x in y["Drops"]:
+                #test
+                #print(x[0])
                 #if the prime part this relic drops is a part the prime we are looking at in our z for loop
                 if x[0] == 'Forma':
                     #we're never looking for formas
@@ -157,4 +161,4 @@ def primeBaseMain():
 
 
 #test
-#primeBaseMain()
+primeBaseMain()
