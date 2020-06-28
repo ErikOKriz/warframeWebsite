@@ -101,7 +101,7 @@ def primeBaseMain():
 
     iDCount = 0
 
-    types = ['warframe', 'weapon','sentinal', 'archwing']
+    types = ['warframe', 'weapon','companion', 'archwing']
 
     #this for loop will create a json ready object which is a list of all primes
     for x in range(len(primeList)):
