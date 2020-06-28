@@ -127,8 +127,6 @@ def primeBaseMain():
     #   'ID' : (just an ID number to identify each relic)
     #this for loop will fill in partNames and partDrops for all primes
     for z in data['primes']:
-        #test
-        #print(z['name'])
         for y in relicDict['relics']:
             #if there are no more drops to look at, stop iterating with that object,
             # remove dict with no more drops
@@ -136,8 +134,6 @@ def primeBaseMain():
                 del y
                 continue
             for x in y["Drops"]:
-                #test
-                #print(x[0])
                 #if the prime part this relic drops is a part the prime we are looking at in our z for loop
                 if x[0] == 'Forma':
                     #we're never looking for formas
@@ -161,4 +157,4 @@ def primeBaseMain():
 
 
 #test
-primeBaseMain()
+#primeBaseMain()
