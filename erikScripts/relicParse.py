@@ -81,6 +81,9 @@ def relicParse():
 
     return relicList
 
+#this function takes the html text from a link, and slightly modifies the string to be in a format
+# acceptable by json.loads(). Then it takes the resulting dictionary and adds the information from
+# relicParse() to each relic
 def VRelicParse():
 
     #place what we need in htmlTemp.txt
@@ -176,9 +179,73 @@ def VRelicParse():
     return relicDicts
 
 
+#This function will take each relic dict and add 'NodeDrops' to it. 'NodeDrops is an array of arrays
+# where each array contains a planet, node name, mission type, and a list of each way the relic can drop
+# from that node, ie. at different rarities/percentages at those rarities
+def addNodes():
+
+    #first we set up variables
+    relics = VRelicParse()
+
+    #load the json info from NodeBase into an array
+    with open('NodeBase.txt', 'r') as file:
+        temp = json.load(file)
+        #Nodes is the only object in this json dict and is an array of dicts of each node on the starmap
+        nodes = temp["Nodes"]
+
+    #relics is a list of dicts where each dict describes a relic
+    for relic in relics:
+        #initialize the array we are going to add drops to in each relic
+        relic['NodeDrops'] = []
+        #nodes is also a list of dicts, where each dicts describes a node on the starmap
+        for node in nodes:
+
+            #this chcek is for the next for loop to see if we have already created an input for that relic on that node.
+            # (some nodes drop the same relic at different rarities/rotations)
+            check = 0
+
+            # this is the list of relics that drop from this node that we will delete from this node if we find the relic we are searching for.
+            # one less thing to iterate over.
+            delList = []
+
+            #for each relic that this node drops
+            for x in node["RelicDrops"]:
+                #if the relic that drops from the node is the same as the relic we are looking at
+                if relic['Tier'] in x[0] and relic['Name'] in x[0]:
+                    #if we haven't seen this relic on this node yet
+                    if check == 0:
+                        tempList = [node['Planet'], node['Node'], node['MissionType'], [[x[1], x[2]]]]
+                        relic['NodeDrops'].append(tempList)
+                        check = 1
+
+                    #if this node has already been shown to drop this relic, just append this new info to the last array in relic['NodeDrops']
+                    elif check == 1:
+                        relic['NodeDrops'][-1][3].append([x[1], x[2]])
+
+                    delList.append(x)
+            #ENDFOR
+
+            for y in delList:
+                node['RelicDrops'].remove(y)
+        #ENDFOR
+
+            #we remove the node if we have already used up all the pertinant info. no further need to iterate over it
+            if node["RelicDrops"] == []:
+                nodes.remove(node)
+    #ENDFOR
+
+    #after we have iterated over all the nodes which drop relics, all relics should have within them each node on the
+    # starmap which drops them and at what rarity/percent
+
+    return relics
+
+
+
+#this progrm takes the final list of relic dict objects adds an ID characteristic
+# to each of them and dumps them into a txt file in json form
 def relicParseMain():
     #create dictionary objects for all relics
-    dataList = VRelicParse()
+    dataList = addNodes()
     #now create the file relicBase.txt which holds all the information in json format
     data = {}
     data['relics'] = []
@@ -196,6 +263,4 @@ def relicParseMain():
 
 #for testing
 #relicParseMain()
-#VRelicParse()
-#relicParse()
 
