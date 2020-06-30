@@ -104,6 +104,7 @@ def FullSearch():
                     tempDrop.append(word)
                     if "%" in word:
                         if "Relic" in tempDrop[0]:
+                            tempDrop[0] = tempDrop[0].replace(' Relic','')
                             nodeDrops.append(tempDrop)
                         tempDrop = []
 
