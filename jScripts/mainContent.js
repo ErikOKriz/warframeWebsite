@@ -196,7 +196,7 @@ request.onload = function(){
     }
     addTitleBar("Companions");
     for(var i = 0; i < primeCt; i++){
-        if(primes[i].type == "sentinal")
+        if(primes[i].type == "companion")
             addPrime(primes[i]);
     }
     addTitleBar("Archwings");
