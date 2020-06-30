@@ -131,20 +131,43 @@ function setFeaturedRelic(droplocation){
         relicInfoHTML.insertAdjacentHTML('beforeend',rarityStr +  str + "</p>");
     }
 
-    //Print Drop location
+    //Print Drop locations
     relicInfoHTML.insertAdjacentHTML('beforeend', "<h3>Drop Locations</h3>");
-    if(relics[i].DropsFrom == "0"){
+    if(relics[i].NodeDrops[0] == undefined){
         relicInfoHTML.insertAdjacentHTML('beforeend', "<p>This relic is vaulted. :(</p>");
     }
     else{
+        /* Old method of printing mission type
         var j = 0;
         while(relics[i].DropsFrom[j] != undefined){
-            var curr = relics[i].DropsFrom[j++];
+            var curr = relics[i].DropsFrom[j];
             relicInfoHTML.insertAdjacentHTML('beforeend', "<p>" + curr[1] + " " + curr[0] + "</p>");
+            j++;
+        }*/
+        //For every NodeDrop location:
+        for( var j = 0; relics[i].NodeDrops[j] != undefined; j++){
+            var curr = relics[i].NodeDrops[j];
+           
+            //Print the planet, node, and mission type
+            relicInfoHTML.insertAdjacentHTML('beforeend', "<h4>" + curr[1] + ", " + curr[0] + "<br>" + curr[2] + "</h4>");
+            
+            //Then print each drop within that node
+            for( var k = 0; curr[3][k] != undefined; k++){
+                //Switch for the first letter of the drop's rarity. Save A, B, or C to rotation
+                var rotation;
+                switch(curr[3][k][0][0]){
+                    case 'C': rotation = 'A'; break;
+                    case 'U': rotation = 'B'; break;
+                    case 'R': rotation = 'C'; break;
+                }
+                //Fill the drops in
+                relicInfoHTML.insertAdjacentHTML('beforeend', "<p>" + rotation + " - " + curr[3][k][1] +"</p>");
+            }
+
+            //Horizontal line to separate entries
+            relicInfoHTML.insertAdjacentHTML('beforeend', "<hr>");
         }
     }
-
-
 }
 function addPrime(tmp){
     var string = `<a href="#" id="` + tmp.ID + `"onclick="javascript:setFeaturedPrime('` + tmp.ID + `')">` + tmp.name + `</a>`;
