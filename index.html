@@ -8,25 +8,83 @@
     </head>
     <body>
         <div class="container">
+            <!--Title box and top 3-->
             <header>
                 <h1>Warfarmer</h1>
             </header>
-            <!--Side navigation-->
-            <div class="sidenav">
+
+            <!--Prime Box-->
+            <div class="primeBox">
                 <h2>Primes</h2>
                 <!--primeList will be populated with js-->
                 <div class="primeList" id="primeList"></div>
             </div>
-            <!--Main content-->
-            <div class="main">
-                <div id="wishDiv" class="wishDiv"></div>
-                <h2 id="itemName"></h2>
-                <h4 id="itemType"></h4>
-                <table id="itemTable"></table>
-                <span id="itemPlaceholder"><br><br>Select a prime on the left <br> to see more info...</span>
+
+            <!--Prime Focus Box-->
+            <div class="primeFocus">
+                <div class="primeFocusHead">
+                    <h2 id="itemName">Prime</h2>
+                    <div id="wishDiv" class="wishDiv"></div>
+                </div>
+                <div class="primeFocusContent">
+                    <table id="itemTable"></table>
+                    <span id="itemPlaceholder"><br><br>Select a prime on the left <br> to see more info...</span>
+                </div>
             </div>
 
-            <!--Relic Box-->
+            <!--Wishlist Box-->
+            <div class="wishlistBox">
+                <div class="wishlistTitle">
+                    <h2>Wishlist</h2>
+                </div>
+                <div class="wishlistContent">
+                    <table id="wishTable">
+                        <!--Example Content-->
+                        <tr>
+                            <td><a>x</a></td>
+                            <td class="primeRowExpander"><a>Ash Prime</a></td>
+                            <td><</td>
+                        </tr>
+                        <tr>
+                            <td><a>x</a></td>
+                            <td class="primeRowExpander"><a>Banshee Prime</a></td>
+                            <td><</td>
+                        </tr><tr>
+                            <td><a>x</a></td>
+                            <td class="primeRowExpander"><a>Ivara Prime</a></td>
+                            <td><</td>
+                        </tr>
+                        <!--End of example-->
+                    </table>
+                </div>
+            </div>
+
+            <!--Wishlist Relics Box-->
+            <div class="wishRelicBox">
+                <div class="wishRelicTitle">
+                    <h2>Drop Locations</h2>
+                </div>
+                <div class="wishRelicContent">
+                    <table id="wishRelicTable">
+                        <!--Example Content-->
+                        <tr>
+                            <td class="locationRowExpander"><a>Apollodorus, Mercury (2)</a></td>
+                            <td><</td>
+                        </tr>
+                        <tr>
+                            <td class="locationRowExpander"><a>Piscinas, Saturn (1)</a></td>
+                            <td><</td>
+                        </tr>
+                        <tr>
+                            <td class="locationRowExpander"><a>Xini, Eris (1)</a></td>
+                            <td><</td>
+                        </tr>
+                        <!--End of example-->
+                    </table>
+                </div>
+            </div>
+
+            <!--Relic Focus Box-->
             <div class="relics">
                 <h2 id="relicTitle">Relic Info</h2>
                 <div class="relicInfo" id="relicInfo"><br><br>Select a relic to see more info...</div>

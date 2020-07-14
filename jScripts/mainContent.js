@@ -65,9 +65,8 @@ function setFeaturedPrime(ID){
     //Remove the mid placeholder
     document.getElementById('itemPlaceholder').innerHTML = "";
 
-    //Set Title and Type
+    //Set Title
     document.getElementById('itemName').innerHTML = tmp.name;
-    document.getElementById('itemType').innerHTML = tmp.type;
 
     //Set Droptable
     var relicList = tmp.partDrops;
@@ -134,7 +133,7 @@ function setFeaturedRelic(droplocation){
     //Print Drop locations
     relicInfoHTML.insertAdjacentHTML('beforeend', "<h3>Drop Locations</h3>");
     if(relics[i].NodeDrops[0] == undefined){
-        relicInfoHTML.insertAdjacentHTML('beforeend', "<p>This relic is vaulted. :(</p>");
+        relicInfoHTML.insertAdjacentHTML('beforeend', `<p class="vaultErr">This relic is vaulted. :(</p>`);
     }
     else{
         /* Old method of printing mission type
@@ -161,7 +160,7 @@ function setFeaturedRelic(droplocation){
                     case 'R': rotation = 'C'; break;
                 }
                 //Fill the drops in
-                relicInfoHTML.insertAdjacentHTML('beforeend', "<p>" + rotation + " - " + curr[3][k][1] +"</p>");
+                relicInfoHTML.insertAdjacentHTML('beforeend', `<p class="chance">` + rotation + " - " + curr[3][k][1] +"</p>");
             }
 
             //Horizontal line to separate entries

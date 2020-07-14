@@ -11,15 +11,22 @@ body{
     display: grid;
     margin: 15px;
     height: calc(100% - 30px);
-    grid-template-rows: 100px 2fr 1fr 40px;
-    grid-template-columns: 250px 1fr 200px;
+    grid-template-rows: 100px 1fr 1fr 40px;
+    grid-template-columns: 200px 200px 1fr 250px;
     column-gap: 15px;
     row-gap: 15px;
     grid-template-areas:
-        "header header header"
-        "sidenav main relics"
-        "sidenav main relics"
-        "footer footer footer";
+        "header header header header"
+        "primeBox primeFocus wishlistBox relics"
+        "primeBox primeFocus wishRelicBox relics"
+        "footer footer footer footer";
+}
+div::-webkit-scrollbar{
+    display: none;
+}
+div{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 /* Header and Title */
@@ -31,18 +38,18 @@ header{
 h1{
     font-size: 40px;
 }
-/* Sidebar with primes and relics */
-.sidenav{
-    grid-area: sidenav;
+/* Box with all Primes listed */
+.primeBox{
+    grid-area: primeBox;
     background-color: rgba(20,20,20,.7);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 60px 1fr;
-    grid-template-areas: "sideTitle" "sideContent";
+    grid-template-areas: "primeTitle" "primeContent";
 }
 
-.sidenav h2{
-    grid-area: sideTitle;
+.primeBox h2{
+    grid-area: primeTitle;
     text-align: center;
     margin: 0;
     padding-top: 15px;
@@ -50,19 +57,22 @@ h1{
     background-color: rgba(20,20,20,.8);
 }
 
-.sidenav h3{
+.primeBox h3{
     margin: 0;
     padding: 10px;
 }
+.primeBox h3:nth-child(even){
+    background-color:  rgba(20,20,20,.5);
+}
 
-.sidenav hr{
+.primeBox hr{
     width: 90%;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.sidenav div{
-    grid-area: sideContent;
+.primeBox div{
+    grid-area: primeContent;
     display: grid;
     overflow-y: auto;
 }
@@ -94,54 +104,145 @@ a:hover{
     color: #f1f1f1;
 }
 
-/* Main area with item info */
-.main{
-    grid-area: main;
+/* primeFocus area with item info */
+.primeFocus{
+    grid-area: primeFocus;
     background-color: rgba(20,20,20,.7);
-    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px 1fr;
+    grid-template-areas: "pFocusTitle" "pFocusContent";
 }
-.main span{
+.primeFocusHead{
+    grid-area: pFocusTitle;
+}
+.primeFocusHead h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 30px;
+    background-color: rgba(20,20,20,.8);
+    height: 45px;
+}
+.wishDiv{
+    text-align: center;
+}
+
+.primeFocusContent{
+    grid-Area: pFocusContent;
+    overflow-y: auto;
+}
+.primeFocusContent span{
     display: block;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
 }
-.main img{
+.primeFocus img{
     float: right;
     background-color: rgba(20,20,20,.7);
 }
-.main table{
-    margin-top: 50px;
+.primeFocusContent table{
     border-collapse: separate;
-    border: 1px solid #f1f1f1;
+    border: none;
+    width: 100%;
     padding: 0;
 }
-.main th{
+.primeFocusContent th{
     background-color: rgba(20,20,20,.3);
     border-bottom: 1px solid #f1f1f1;
-    font-size: 16px;
+    font-size: 24px;
     padding: 5px;
 }
-.main a{
+.primeFocusContent a{
     text-decoration: none;
+    font-size: 18px;
 }
-.main a span{
+.primeFocusContent a span{
     position: relative;
     display: none; 
     z-index: 99;
     top: 50%;
 }
-.main a:hover span{
+.primeFocusContent a:hover span{
     display: block;
     float: right;
 }
 
-.main td{
+.primeFocus td{
     padding: 3px;
+    text-align: center;
 }
 
-.wishDiv{
-    float: right;
-    top: 0;
+/* Wishlist Box */
+.wishlistBox{
+    grid-area: wishlistBox;
+    background-color: rgba(20,20,20,.7);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: "wishlistTitle" "wishlistContent";
+}
+.wishlistTitle{
+    grid-area: wishlistTitle;   
+    background-color: rgba(20,20,20,.8);
+}
+.wishlistTitle h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.wishlistContent{
+    grid-area: wishlistContent;
+}
+.wishlistContent table{
+    border-collapse: separate;
+    border: none;
+    width: 100%;
+    padding: 0;   
+}
+.wishlistContent tr:nth-child(even){
+    background-color:  rgba(20,20,20,.5);
+}
+.wishlistContent td{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Wishlist Relics Box */
+.wishRelicBox{
+    grid-area: wishRelicBox;
+    background-color: rgba(20,20,20,.7);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: "wishRelicTitle" "wishRelicContent";
+}
+.wishRelicTitle{
+    grid-area: wishRelicTitle;   
+    background-color: rgba(20,20,20,.8);
+}
+.wishRelicTitle h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.wishRelicContent{
+    grid-area: wishRelicContent;
+}
+.wishRelicContent table{
+    border-collapse: separate;
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+.wishRelicContent tr:nth-child(even){
+    background-color:  rgba(20,20,20,.5);
+}
+.wishRelicContent td{
+    text-align: center;
+    font-size: 20px;
 }
 
 /* Relics box */
@@ -177,30 +278,44 @@ a:hover{
 .relics h3{
     background-color: rgba(20,20,20,.5);
     padding: 5px 0px;
+    font-size: 27px;
     margin: 0px;
 }
 .relics h4{
     font-weight: normal;
+    font-size: 22px;
     margin: 6px 0;
 }
 .relics hr{
     width: 80%;
-    margin: 0 10%;
 }
 .relics p{
     text-align: center;
     display: block;
     margin: 0;
-    padding: 10px 0px;
 }
 .common{
     color: chocolate;
+    font-size: 25px;
+    padding: 4px 0px;
 }
 .uncommon{
     color: silver;
+    font-size: 25px;
+    padding: 4px 0px;
 }
 .rare{
     color: gold;
+    font-size: 25px;
+    padding: 4px 0px;
+}
+.chance{
+    font-size: 25px;
+    padding: 4px 0px;
+}
+.vaultErr{
+    font-size: 20px;
+    padding: 40px 0px;
 }
 
 /* JScripted top-3 missions to farm for relics */
