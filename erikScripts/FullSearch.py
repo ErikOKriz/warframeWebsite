@@ -105,9 +105,9 @@ def FullSearch():
                     tempNode["RelicDrops"] = nodeDrops
                     nodes.append(tempNode)
                     nodeDrops = []
+                    rotation = ''
                 tempNode = dict()
                 tempNode["Planet"] = word
-                rotation = ''
 
             #Else append the word to tempNode, use the len of tempNode to
             # determine what aspect of a node this word describes
@@ -120,7 +120,7 @@ def FullSearch():
                     tempNode["MissionType"] = word
 
                 #in this case, it describes a drop
-                elif L > 2:
+                elif L > 2 and "Rotation" not in word:
                     if word in commDrop:
                         tempDrop.append(rotation)
                     else:
