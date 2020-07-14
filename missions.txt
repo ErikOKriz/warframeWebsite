@@ -15,8 +15,12 @@
 Maybe we need a checkbox to see if you're farming with either of these active. Need to do the math for either and both of these active based on these checks.
     - Also note that radsharing (or I guess flawless sharing) lessens the average time to get a radient relic by a factor of 0.33 assuming you do everything with the same 3 other guys and there's no time taken to form a group.
 
+- Note: It' sworth noting that ther are endless nodes which may drop 2 relics the user is looking for at different rarities. In such a case the time it takes to get A drops goes up because they won't quit once they get to the second A, this has to be factored in if the mission dorps another relic the user wants at B drop or C drop. The same is true for B drop relics if user needs a B and C drop relic from a node. 
 
 - Example Math: Assume a rare drop from a relic dropping from a survival mission at rotation A with an 11.06% chance of dropping. 5.75 minutes per drop * 1/.1106 ~= 52 minutes to aquire a relic on average. 23.83 minutes to farm void traces and 5.5 minutes to crack the relic. So that's 52 + 23.83 + 5.5 = 81.33 minutes per radiant relic cracked done solo. Without a radshare this would take an average of 813.3 minutes in order to get that part at a 10% drop chance from the relic. 
+
+- Check out https://warframe.fandom.com/wiki/Void_Relic for more info on relic drop tables and chances
+
 
 
 Survival- 
@@ -49,5 +53,23 @@ Interception
         - B drop 1.5 + 15*3.25 = 50.25 minutes per drop
         - C drop 1.5 + 20*3.25 = 66.5 minutes/ drop
 
+Excavation
+    - 1.5 minute set up
+    - 1.25 minutes per digger (assuming there's overlap time for diggers)
+    - need 2 diggers to get a drop
+        - A drop 1.5 + 5 minutes for 2 drops = 6.5/2 = 3.25 minutes per A drop
+        - B drops = 1.5 + 7.5 minutes = 9 minutes per drop
+        - C drop = 1.5 + 10 minutes = 11.5 minutes per drop
+
+Spy
+    - In the database, when defining rotation A,B, and C, A means one data vault opened, B means two and C means 3.
+    - take probably around 3 minutes just to run the full length of mission, plus a static amount of time to run a vault
+    - Let's assume that the time to run an average vault is 3 minutes. Some time for getting to the vault from the path to extraction, and some time to creack the vault and leave (This is total speculation and is up for debate).    
+    - Assume 2 players in a mission, or assuming that one vault's worht of time needs to be done at A drop, since literally one needs to be opened, one vault's time for a B drop since each player is doing one, and 2 vault's time for a C drop since one person will have to do two and the other person will have to wait for that person to get to the end anyway.
+        - The reason I say that the assumtion is 2 people running instead of 3 or 4 is that in my experience, outside of sorties some people just don't want to do the vaults and leave them to others, so on average I think that 2 people activly working on vault cracking is a good average, with longer times coming from some idle time possibly assuming someone is running a vault when they're not (Feel free to debate this).
+    - So, 
+        - A drops 1.5 + 3 + 3 = 7.5 minutes per drop
+        - B drops = 1.5 + 3 + 2*3 = 10.5 min/drop
+        - C drops = 13.5 min/drop
 
 
