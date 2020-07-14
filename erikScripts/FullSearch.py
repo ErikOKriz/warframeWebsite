@@ -18,6 +18,8 @@ def FullSearch():
     # a new nodenode is in here
     planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Phobos', 'Ceres', 'Sedna', 'Eris', 'Void', 'Derelict', 'Lua', 'Kuva_Fortress', 'Europa']
 
+    commDrop = ['Common', 'Uncommon', 'Rare', 'Legendary', 'Ultra Rare', 'Very Common']
+
     #since this is a one line file, we don't need a for loop, just the first line
     line = lines[0]
 
@@ -43,14 +45,29 @@ def FullSearch():
     # be trimmed to be just the relics the node drops
     nodeDrops = []
 
+    #this list defines the words in the html we would like to ignore, most involving punctuation
+    #skipWords = ['', '/', '(',')']
+
+    # this is so we know the rarity of eahc drop
+    rotation = ''
+
+    #for debugging
+    wordlist = []
+
     # this should be the main for loop
     for x in range(len(line)):
         # this statement should trigger when we are at the first character of a new word
         # needs to be long because there are a lot of different cases
         if line[x].isupper() and x > 0 and line[x - 1] != ' ' and line[x-1] != '-' or x > 0 and line[x].isdigit() and not line[
-            x - 1].isdigit() and line[x - 1] != '-' and line[x-1] != '.' and line[x-1] != ',' and "Relic" not in line[x:x+7]:
-            word = line[prev:x].replace('/', '').replace(')', '').replace('(', '').strip()
+            x - 1].isdigit() and line[x-1] != '.' and line[x-1] != ',' and "Relic" not in line[x:x+7]:
+            word = line[prev:x].replace('/','').replace(')', '').replace('(', '').replace('Event: ', '').strip()
             prev = x
+            if "Rotation" in word:
+                rotation = word.replace("Rotation ", '')
+            #test
+            #wordlist.append(word)
+            #if word in skipWords:
+                #continue
 
         # we only need to process beyond this when we come across a new word. Since we
         # iterate by character, each new character of a new word would have us process the
@@ -61,8 +78,10 @@ def FullSearch():
         # might not need this conditional, it might be enough to just check if the word is
         # in planets
         if filePoint == 0:
-            if word == "Missions:":
+            if "Missions:" in word:
                 filePoint = 1
+                #test
+                #wordlist = []
 
         # At this point, the file should be describing each mission node.
         # and we have to figure out what each word means. If the word is
@@ -88,6 +107,7 @@ def FullSearch():
                     nodeDrops = []
                 tempNode = dict()
                 tempNode["Planet"] = word
+                rotation = ''
 
             #Else append the word to tempNode, use the len of tempNode to
             # determine what aspect of a node this word describes
@@ -101,12 +121,18 @@ def FullSearch():
 
                 #in this case, it describes a drop
                 elif L > 2:
-                    tempDrop.append(word)
+                    if word in commDrop:
+                        tempDrop.append(rotation)
+                    else:
+                        tempDrop.append(word)
                     if "%" in word:
                         if "Relic" in tempDrop[0]:
                             tempDrop[0] = tempDrop[0].replace(' Relic','')
                             nodeDrops.append(tempDrop)
                         tempDrop = []
+
+    #testing
+    #print(wordlist)
 
     #could pull more info from this file, but nodes is all we're after for right now
     return nodes
