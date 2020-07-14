@@ -45,14 +45,8 @@ def FullSearch():
     # be trimmed to be just the relics the node drops
     nodeDrops = []
 
-    #this list defines the words in the html we would like to ignore, most involving punctuation
-    #skipWords = ['', '/', '(',')']
-
     # this is so we know the rarity of eahc drop
     rotation = ''
-
-    #for debugging
-    wordlist = []
 
     # this should be the main for loop
     for x in range(len(line)):
@@ -64,10 +58,6 @@ def FullSearch():
             prev = x
             if "Rotation" in word:
                 rotation = word.replace("Rotation ", '')
-            #test
-            #wordlist.append(word)
-            #if word in skipWords:
-                #continue
 
         # we only need to process beyond this when we come across a new word. Since we
         # iterate by character, each new character of a new word would have us process the
@@ -80,8 +70,6 @@ def FullSearch():
         if filePoint == 0:
             if "Missions:" in word:
                 filePoint = 1
-                #test
-                #wordlist = []
 
         # At this point, the file should be describing each mission node.
         # and we have to figure out what each word means. If the word is
@@ -130,9 +118,6 @@ def FullSearch():
                             tempDrop[0] = tempDrop[0].replace(' Relic','')
                             nodeDrops.append(tempDrop)
                         tempDrop = []
-
-    #testing
-    #print(wordlist)
 
     #could pull more info from this file, but nodes is all we're after for right now
     return nodes
