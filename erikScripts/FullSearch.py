@@ -16,7 +16,7 @@ def FullSearch():
 
     #this is for checking if the most recent word describes the start of
     # a new nodenode is in here
-    planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Phobos', 'Ceres', 'Sedna', 'Eris', 'Void', 'Derelict', 'Lua', 'Kuva_Fortress', 'Europa']
+    planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Phobos', 'Ceres', 'Sedna', 'Eris', 'Void', 'Derelict', 'Lua', 'Kuva Fortress', 'Europa', 'Sanctuary']
 
     commDrop = ['Common', 'Uncommon', 'Rare', 'Legendary', 'Ultra Rare', 'Very Common']
 
@@ -52,7 +52,7 @@ def FullSearch():
     for x in range(len(line)):
         # this statement should trigger when we are at the first character of a new word
         # needs to be long because there are a lot of different cases
-        if line[x].isupper() and x > 0 and line[x - 1] != ' ' and line[x-1] != '-' or x > 0 and line[x].isdigit() and not line[
+        if line[x].isupper() and x > 0 and line[x - 1] != ' ' and line[x-1] != '-' and line[x:x+7] != 'Radiant' or x > 0 and line[x].isdigit() and not line[
             x - 1].isdigit() and line[x-1] != '.' and line[x-1] != ',' and "Relic" not in line[x:x+7]:
             word = line[prev:x].replace('/','').replace(')', '').replace('(', '').replace('Event: ', '').strip()
             prev = x
@@ -114,10 +114,14 @@ def FullSearch():
                     else:
                         tempDrop.append(word)
                     if "%" in word:
-                        if "Relic" in tempDrop[0]:
-                            tempDrop[0] = tempDrop[0].replace(' Relic','')
+                        if 'Relic' in tempDrop[0]:
+                            tempDrop[0] = tempDrop[0].replace(' Relic', '')
                             nodeDrops.append(tempDrop)
                         tempDrop = []
+
+    #here for the last onslaught node
+    tempNode["RelicDrops"] = nodeDrops
+    nodes.append(tempNode)
 
     #could pull more info from this file, but nodes is all we're after for right now
     return nodes
