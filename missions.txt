@@ -1,0 +1,53 @@
+- Let's assume there is a time of around 5.5 minutes to get a drop of void traces
+    - I say around 1.5 minutes of set up from the end of one mission to the start of another
+    - and an average of 4 minutes between each drop once the mission starts
+
+- Let's also assume an average 18.75 void traces per drop (open to interpretation)
+
+- You need 100 void traces per radiant relic, since you get traces for breaking the relic you're trying to farm, you need 100 traces for the initial relic, + 81.25 traces for each subsequent relic. I think it's safe to assume that each person has at least 18.75 traces. 
+    - It's worth check out if a flawless relic is worth it to farm an uncommon drop, will have to compare time to farm a new relic and farming more traces to the increase in chance you get from a radiant relic
+
+- So it takes 81.25 traces for each radient relic or 81.25traces/18.75 traces/drops * 5.5 minutes = 23.83 minutes to farm up void traces
+    - 31.25 relics for flawless. 31.25/18.75 * 5.5 = 9.16667 minutes to farm up void traces
+    - 1.833 minutes to farm traces for an exceptional relic (probably never worth it but maybe in fringe case it could be fastest)
+
+- This info is with no modifiers, such modifiers being having a booster to drops to double the rate at which void traces drop and the kavat mod which help with drops.
+Maybe we need a checkbox to see if you're farming with either of these active. Need to do the math for either and both of these active based on these checks.
+    - Also note that radsharing (or I guess flawless sharing) lessens the average time to get a radient relic by a factor of 0.33 assuming you do everything with the same 3 other guys and there's no time taken to form a group.
+
+
+- Example Math: Assume a rare drop from a relic dropping from a survival mission at rotation A with an 11.06% chance of dropping. 5.75 minutes per drop * 1/.1106 ~= 52 minutes to aquire a relic on average. 23.83 minutes to farm void traces and 5.5 minutes to crack the relic. So that's 52 + 23.83 + 5.5 = 81.33 minutes per radiant relic cracked done solo. Without a radshare this would take an average of 813.3 minutes in order to get that part at a 10% drop chance from the relic. 
+
+
+Survival- 
+    - Assume 1.5 minutes of setup before mission starts
+    A drops - 1.5 + 10 minutes for 2 drops = 11.5/2 minutes per drop = 5.75 minutes per A drop. Probably not worth going to 25 minutes unless after a B or C drop form the same node.
+    B drops - 1.5 + 15 = 16.5 minutes per drop 
+    C drops - 21.5 minutes per drop
+
+Capture
+    - Let's assume it takes .5 minutes to set up and start a mission and 3 minutes on average. So the average run takes 3.5 minutes per drop
+
+Exterminate
+    - .5 minutes set up
+    - 5 minutes average time
+    - 5.5 minutes per drop
+
+Defence
+    - 1.5 minutes set up + time for people to join lobby
+    - 6 minutes per 5 waves* 
+        - A drop - 1.5 + 12 minutes for 2 drops
+            - 13.5/2 = 6.75 minutes per drop
+        - B drop 1.5 + 18 minutes per drop = 19.5 minutes/ drop
+        - C drop 1.5 + 24 = 25.5 minutes / drop
+
+Interception
+    - taking info from the wiki, double check time per round number, seems too long to get to a C drop
+    - 1.5 minutes set up
+    - 3.25 minututes per round assuming less than perfect time of 3 minutes
+        - A drop 1.5 + 32.5 minutes for 2 drops = 34/2 = 17 min/drop
+        - B drop 1.5 + 15*3.25 = 50.25 minutes per drop
+        - C drop 1.5 + 20*3.25 = 66.5 minutes/ drop
+
+
+
