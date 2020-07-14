@@ -72,4 +72,46 @@ Spy
         - B drops = 1.5 + 3 + 2*3 = 10.5 min/drop
         - C drops = 13.5 min/drop
 
+Mobile Defence
+    - Need to defend 2-3 terminals for a set time to complete objective. 
+        - What is that set time?
+    - add time to run mission
+
+
+Exterminate
+    - 6 minutes to run mission
+    - 1.5 set up
+    - 7.5 minutes per drop
+
+Skirmish
+    - No real clue. 
+        - Let's just call it an average of 10 minutes per drop (seems reasonable?)
+
+Disruption
+
+
+Pursuit
+
+
+Defection
+
+
+
+Infested salvage
+
+
+Sabotage
+
+
+Rush
+
+
+Sanctuary onslaugt
+
+
+
+
+
+
+
 
