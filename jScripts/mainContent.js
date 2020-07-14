@@ -152,15 +152,14 @@ function setFeaturedRelic(droplocation){
             
             //Then print each drop within that node
             for( var k = 0; curr[3][k] != undefined; k++){
-                //Switch for the first letter of the drop's rarity. Save A, B, or C to rotation
-                var rotation;
-                switch(curr[3][k][0][0]){
-                    case 'C': rotation = 'A'; break;
-                    case 'U': rotation = 'B'; break;
-                    case 'R': rotation = 'C'; break;
-                }
-                //Fill the drops in
-                relicInfoHTML.insertAdjacentHTML('beforeend', `<p class="chance">` + rotation + " - " + curr[3][k][1] +"</p>");
+                //Save A, B, or C to rotation
+                var rotation = curr[3][k][0][0];
+
+                //Fill the drops in, depending on if it's rotation-based or not
+                if(rotation != undefined)
+                    relicInfoHTML.insertAdjacentHTML('beforeend', `<p class="chance">` + rotation + " - " + curr[3][k][1] +"</p>");
+                else
+                    relicInfoHTML.insertAdjacentHTML('beforeend', `<p class="chance">` + curr[3][k][1] +"</p>");
             }
 
             //Horizontal line to separate entries
