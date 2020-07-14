@@ -88,9 +88,25 @@ Skirmish
         - Let's just call it an average of 10 minutes per drop (seems reasonable?)
 
 Disruption
+    - in practice this has around double the drops that survival has
+    - need math for farming A drops, B drops and C drops
+    - don't need to do math for if two relics drops at different rotations since it's easy to control which drops you get in this game mode
+    - Let's also say 8 rounds is the max we want people to go (this is very arbitrary. 12 may be a better number. It onlt matters for B and C drops).
+    - assume 1.5 min set up
+    - 3 min round time
+            - can only get A drops in first three rounds
+        - A drop 1.5 + 9 = 10.5/3 = 3.5 minutes for a drop
+            - cna get a B drop on eveyr wave forever, so at max of 8 rounds,        
+        - B drop 1.5 + 24 / 8 = 25.5/8= 3.2 min/drop
+            - C drop starts round two and goes forever (to round 8).
+        - C drop 1.5 + 24 / 6 C drops = 25.5/6 = 4.25 min/drop
 
 
 Pursuit
+    - again total guess for archwing stuff
+    - let's go with a total of 7 minutes to do mission
+    - 1.5 set up time
+    - 8.5 min/drop
 
 
 Defection
