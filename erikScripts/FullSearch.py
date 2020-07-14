@@ -47,7 +47,7 @@ def FullSearch():
     for x in range(len(line)):
         # this statement should trigger when we are at the first character of a new word
         # needs to be long because there are a lot of different cases
-        if line[x].isupper() and x > 0 and line[x - 1] != ' ' or x > 0 and line[x].isdigit() and not line[
+        if line[x].isupper() and x > 0 and line[x - 1] != ' ' and line[x-1] != '-' or x > 0 and line[x].isdigit() and not line[
             x - 1].isdigit() and line[x - 1] != '-' and line[x-1] != '.' and line[x-1] != ',' and "Relic" not in line[x:x+7]:
             word = line[prev:x].replace('/', '').replace(')', '').replace('(', '').strip()
             prev = x
