@@ -96,7 +96,6 @@ Pursuit
 Defection
 
 
-
 Infested salvage
 
 
@@ -106,8 +105,15 @@ Sabotage
 Rush
 
 
-Sanctuary onslaugt
+Sanctuary Onslaugt
+    - 1.5 minute set up time
+    - 5 minutes per rotation
+    - same as survival
+    - A drops - 1.5 + 10 minutes for 2 drops = 11.5/2 minutes per drop = 5.75 minutes per A drop.
+    - B drops - 1.5 + 15 = 16.5 minutes per drop 
+    - C drops - 21.5 minutes per drop
 
+    - Note: Elite Sanctuary onslaught drops radiant relics, so it takes big priority. Each farm able item must have a number associated with how long it will take to crack a radiant relic when farming from every given source, and when elite sactuary is taken as a source, remove the time it takes to farm up void traces to radiant. ie. 23.83 minutes (could still be a bad choice given the low drop rates for any given relic).
 
 
 
