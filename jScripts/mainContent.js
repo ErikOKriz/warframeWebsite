@@ -267,7 +267,8 @@ request3.send();
 //Fetch NodeBase.txt and build nTables
 var request4 = new XMLHttpRequest();
 //request4.open('GET','erikScripts/NodeBase.txt');
-request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt'); //For local machine use.
+//request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/NodeBase.txt'); //For local machine use.
+request4.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/innovation/erikScripts/NodeBase.txt'); //For local machine use.
 request4.onload = function(){
     nTables = JSON.parse(request4.responseText).Nodes;
     nTableCt = nTables.length;
