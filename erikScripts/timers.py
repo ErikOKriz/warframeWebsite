@@ -32,52 +32,51 @@ def main(missionType, relicRarity, dropChance, rotation = 'a'):
         missionType = 'sanctuary onslaught'
         elite = 1
 
-    #missionTypes = ['survival', 'capture', 'exterminate', 'defence', 'interception', 'excavation', 'spy', 'mobile defence', 'skirmish', 'disruption', 'pursuit', 'sanctuary onslaught', 'defection', 'infested salvage', 'sabotage', 'rush' ]
+    #this is the assumed time that a mobile defence terminal take to finish
+    terminalTime = 2.5
 
-    #this is a dict where each key is a mission type, and each value is the list of avg times to get a drop of that rarity (going [A,B,C] or just [A] if it's not an endless missions)
-    missionDict = dict()
-
-    missionDict['survival'] = [(setUpTime + 10) / 2, setUpTime + 15, setUpTime + 20]
-    #assuming 3 minutes to do a full capture mission
-    missionDict['capture'] = [setUpTime + 3]
-    #assuming 6 minutes to complete an exterminate node
-    missionDict['exterminate'] = [setUpTime + 6]
-    #this assumes an avg time of going through 5 waves as 5 minutes
+    #this is the assumed amount of time it takes to complete 5 waves of defence in minutes
     fiveWaveTime = 5
-    missionDict['defence'] = [(setUpTime + (fiveWaveTime * 2)) / 2 , setUpTime + (fiveWaveTime * 3) , setUpTime + (fiveWaveTime * 4)]
+
+    #this is the assumed amount of time needed to complete a full round of interception.
     #since a perfect time to hit 100% is 3 minutes, and since you probably won't get totally perfect and that you have to kill everyone on the mission, 4 minutes sounds avg
     waveTime = 4
-    missionDict['interception'] = [(setUpTime + (waveTime * 2)) / 2 , setUpTime + (waveTime * 3) , setUpTime + (waveTime * 4)]
+
+    #this is the assumed amount of time it takes to run through a mission from start to extract
+    runThroughTime = 3
+
+    #this is the assumed amount of time it takes to complete a vualt in a spy mission, including the time to run to it and towards extraction
+    vaultTime = 3
+
     #assumes an avg time to crack an excavator at 1.25 minutes, which assumes some overlap in excavator run times
     excavatorTime = 1.25
-    missionDict['excavation'] = [(setUpTime + (excavatorTime * 4)) / 2 , setUpTime + (excavatorTime * 6) , setUpTime + (excavatorTime * 8)]
-    runThroughTime = 3
-    vaultTime = 3
-    #check out missions.txt for the logic behind this mission times
-    missionDict['spy'] = [setUpTime + runThroughTime + vaultTime, setUpTime + runThroughTime + vaultTime, setUpTime + runThroughTime + (2*vaultTime)]
 
-    terminalTime = 2.5
-    missionDict['mobile defence'] = [setUpTime + (2.5 * terminalTime)]
-
-    missionDict['skirmish'] = [setUpTime + 10]
-
-    #check out missions.txt for logic on this
+    #check out missions.txt on disrupiton for logic on this
     maxWaves = 8
     disrWaveTime = 3
-    missionDict['disruption'] = [(setUpTime + (disrWaveTime * 3)) / 3 , (setUpTime + (disrWaveTime * maxWaves)) / maxWaves, (setUpTime + (disrWaveTime * maxWaves)) / (maxWaves - 2)]
 
-    missionDict['pursuit'] = [setUpTime + 7]
+    #Assuming 3.5 min to complete a capture node, 6 to complete an exterminate node, 10 for skirmish, 7 for pursuit
 
-    missionDict['sanctuary onslaught'] = [(setUpTime + 10) / 2 , setUpTime + 15 , setUpTime + 20]
-
-    missionDict['defection'] = [0]
-
-    missionDict['infested salvage'] = [0]
-
-    missionDict['sabotage'] = [0]
-
-    missionDict['rush'] = [0]
-
+    #this is a dict where each key is a mission type, and each value is the list of avg times to get a drop of that rarity (going [A,B,C] or just [A] if it's not an endless missions)
+    missionDict = {
+        'survival' : [(setUpTime + 10) / 2, setUpTime + 15, setUpTime + 20],
+        'capture' : [setUpTime + 3.5],
+        'exterminate' : [setUpTime + 6],
+        'defence' : [(setUpTime + (fiveWaveTime * 2)) / 2 , setUpTime + (fiveWaveTime * 3) , setUpTime + (fiveWaveTime * 4)],
+        'interception' : [(setUpTime + (waveTime * 2)) / 2 , setUpTime + (waveTime * 3) , setUpTime + (waveTime * 4)],
+        'excavation' : [(setUpTime + (excavatorTime * 4)) / 2 , setUpTime + (excavatorTime * 6) , setUpTime + (excavatorTime * 8)],
+        'spy' : [setUpTime + runThroughTime + vaultTime, setUpTime + runThroughTime + vaultTime, setUpTime + runThroughTime + (2*vaultTime)],
+        'mobile defence' : [setUpTime + (2.5 * terminalTime)],
+        'skirmish' : [setUpTime + 10],
+        'disruption' : [(setUpTime + (disrWaveTime * 3)) / 3 , (setUpTime + (disrWaveTime * maxWaves)) / maxWaves, (setUpTime + (disrWaveTime * maxWaves)) / (maxWaves - 2)],
+        'pursuit' : [setUpTime + 7],
+        'sanctuary onslaught' : [(setUpTime + 10) / 2 , setUpTime + 15 , setUpTime + 20],
+        'defection' : [0],
+        'infested salvage' : [0],
+        'sabotage' : [0],
+        'rush' : [0]
+    }
+    #endDict
     #uses the mission type, rotation, and drop chance to get the avg amount of time to recieve the relic you're looking for
     avgTime = missionDict[missionType][rotation]
     avgTime = avgTime * ((dropChance / 100) ** -1.0)
@@ -135,4 +134,4 @@ def main(missionType, relicRarity, dropChance, rotation = 'a'):
 
 
 
-print(main('capture', 'uncommon', 11.06, 'a'))
+print(main('disruption', 'uncommon', 10.2, 'c'))
