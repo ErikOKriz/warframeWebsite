@@ -182,6 +182,7 @@ function genWishlist(){
         if(getCookie(tag) != null){
             wishlist[i] = {"name":tag, "wish":true};
             wishlistCt++;
+            addWishlistItem(i);
         }else
             wishlist[i] = {"name":tag, "wish":false};
     }
@@ -189,33 +190,30 @@ function genWishlist(){
 //Add an item to the wishlist
 function addWishlist(ID){
     var tmp = wishlist[ID]
-    var name = tmp.name;
-    setCookie(name, "wishedFor", 365);
+    setCookie(tmp.name, "wishedFor", 365);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + name + `');" checked></p>`;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tmp.name + `');" checked></p>`;
     tmp.wish = true;
     addWishlistItem(ID);
 }
 //Remove an item from the wishlist
 function delWishlist(ID){
     var tmp = wishlist[ID]
-    var name = tmp.name;
-    eraseCookie(name);
+    eraseCookie(tmp.name);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + name + `');"></p>`;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tmp.name + `');"></p>`;
     tmp.wish = false;
     delWishlistItem(ID);
 }
 //Insert a formatted entry to the wishlist box
 function addWishlistItem(ID){
     var tmp = wishlist[ID]
-    var name = tmp.name;
     document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
-<span id="` + name + `_wish" class="wishlistItem">
+<span id="` + tmp.name + `_wish" class="wishlistItem">
     <tr>
         <td><a>x</a></td>
-        <td class="primeRowExpander"><a>` + name + ` Prime</a></td>
-        <td id="` + name + `_wish_exp"><</td>
+        <td class="primeRowExpander"><a>` + tmp.name + ` Prime</a></td>
+        <td id="` + tmp.name + `_wish_exp"><</td>
     </tr>
 </span>
 `)

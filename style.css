@@ -201,7 +201,7 @@ a:hover{
     width: 100%;
     padding: 0;   
 }
-.wishlistContent tr:nth-child(even){
+.wishlistContent tr{
     background-color:  rgba(20,20,20,.5);
 }
 .wishlistContent td{
@@ -237,7 +237,7 @@ a:hover{
     width: 100%;
     padding: 0;
 }
-.wishRelicContent tr:nth-child(even){
+.wishRelicContent tr{
     background-color:  rgba(20,20,20,.5);
 }
 .wishRelicContent td{
