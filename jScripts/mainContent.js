@@ -189,20 +189,18 @@ function genWishlist(){
 }
 //Add an item to the wishlist and handles all add events
 function addWishlist(ID){
-    console.log("Reading index " + ID + " of wishlist");
     setCookie(wishlist[ID].name, "wishedFor", 365);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + wishlist[ID].name + `');" checked></p>`;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + ID + `');" checked></p>`;
         wishlist[ID].wish = true;
     addWishlistItem(ID);
     wishlistCt++;
 }
 //Remove an item from the wishlist and handles all delete events
 function delWishlist(ID){
-    console.log("Reading index " + ID + " of wishlist");
     eraseCookie(wishlist[ID].name);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + wishlist[ID].name + `');"></p>`;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + ID + `');"></p>`;
         wishlist[ID].wish = false;
     delWishlistItem(ID);
     wishlistCt--;
