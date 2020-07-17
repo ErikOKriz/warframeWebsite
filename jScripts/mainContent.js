@@ -189,33 +189,30 @@ function genWishlist(){
 }
 //Add an item to the wishlist and handles all add events
 function addWishlist(ID){
-    var tmp = wishlist[ID]
-    setCookie(tmp.name, "wishedFor", 365);
+    setCookie(wishlist[ID].name, "wishedFor", 365);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tmp.name + `');" checked></p>`;
-    tmp.wish = true;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + wishlist[ID].name + `');" checked></p>`;
+        wishlist[ID].wish = true;
     addWishlistItem(ID);
     wishlistCt++;
 }
 //Remove an item from the wishlist and handles all delete events
 function delWishlist(ID){
-    var tmp = wishlist[ID]
-    eraseCookie(tmp.name);
+    eraseCookie(wishlist[ID].name);
     document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tmp.name + `');"></p>`;
-    tmp.wish = false;
+        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + wishlist[ID].name + `');"></p>`;
+        wishlist[ID].wish = false;
     delWishlistItem(ID);
     wishlistCt--;
 }
 //Insert a formatted entry to the wishlist box
 function addWishlistItem(ID){
-    var tmp = wishlist[ID];
     document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
-<span id="` + tmp.name + `_wish" class="wishlistItem">
+<span id="` + wishlist[ID].name + `_wish" class="wishlistItem">
     <tr>
         <td><a>x</a></td>
-        <td class="primeRowExpander"><a>` + tmp.name + ` Prime</a></td>
-        <td id="` + tmp.name + `_wish_exp"><</td>
+        <td class="primeRowExpander"><a>` + wishlist[ID].name + ` Prime</a></td>
+        <td id="` + wishlist[ID].name + `_wish_exp"><</td>
     </tr>
 </span>
 `);
@@ -230,8 +227,7 @@ function expWishlistItem(ID){
 }
 //Remove an entry from the wishlist box
 function delWishlistItem(ID){
-    var tmp = wishlist[ID];
-    document.getElementById(tmp.name + '_wish').innerHTML = "";
+    document.getElementById(wishlist[ID].name + '_wish').innerHTML = "";
 }
 
 function verFetch(){
