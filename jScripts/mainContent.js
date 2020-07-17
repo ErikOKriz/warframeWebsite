@@ -215,13 +215,11 @@ function addWishlistItem(ID){
     var element = document.getElementById(wishlist[ID].name + '_wish');
     if(element == undefined){
         document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
-        <span class="wishlistItem">
-            <tr id="` + wishlist[ID].name + `_wish">
-                <td><a href="javascript:delWishlist(` + ID + `)">x</a></td>
-                <td class="primeRowExpander"><a>` + wishlist[ID].name + ` Prime</a></td>
-                <td id="` + wishlist[ID].name + `_wish_exp"><</td>
-            </tr>
-        </span>`);
+        <tr id="` + wishlist[ID].name + `_wish">
+            <td><a href="javascript:delWishlist(` + ID + `)">x</a></td>
+            <td class="primeRowExpander"><a>` + wishlist[ID].name + ` Prime</a></td>
+            <td id="` + wishlist[ID].name + `_wish_exp"><</td>
+        </tr>`);
         }
     //Otherwise, it is hidden and needs to be displayed
     else{
