@@ -1,15 +1,18 @@
 //Define containers for use later
 var primeList = document.getElementById("primeList");
-    //Primes.json and its quantity
+//Primes.json and its quantity
 var primes;     
 var primeCt;
-    //Database.json and its quantity
+//Database.json and its quantity
 var pTables;
 var pTableCt;
-    //relicList.txt and qty
+//relicList.txt and qty
 var relics;
 var relicCt;
 var relicEraIndex = Array(4);
+//Wishlist structure generated from cookies
+var wishlist;
+var wishlistCt;
 
 
 /********* 
@@ -53,7 +56,7 @@ function addTitleBar(title){
 //Main
 
 function setFeaturedPrime(ID){
-    //Find the prime in the primes list
+    //Find the prime tmp in the primes list
     var tmp = primes[ID];
     if(tmp == undefined){
         console.log("ERR: A prime was attempted to be set featured and failed (ID: " + ID + ")\n")
@@ -80,12 +83,10 @@ function setFeaturedPrime(ID){
     
     //Set wishlist tickbox. If cookied, display checked. Otherwise, display empty.
     if(getCookie(tag) != null){
-        document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
+        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
     }
     else{
-        document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tag + `');"></p>`;
+        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tag + `');"></p>`;
 
     }
 }
@@ -167,25 +168,58 @@ function setFeaturedRelic(droplocation){
         }
     }
 }
+//Insert a formatted entry to the primes box on the far left
 function addPrime(tmp){
     var string = `<a href="#" id="` + tmp.ID + `"onclick="javascript:setFeaturedPrime('` + tmp.ID + `')">` + tmp.name + `</a>`;
     primeList.insertAdjacentHTML('beforeend', string);
 }
+//Build the existing wishlist from cookies when the site opens
+function genWishlist(){
+    wishlist = new Array(primeCt);
+    wishlistCt = 0;
+    for(var i = 0; i < primeCt; i++){
+        var tag = primes[i].name.replace(' ', '_');
+        if(getCookie(tag) != null){
+            wishlist.push([tag, true]);
+            wishlistCt++;
+        }else
+            wishlist.push([tag, false]);
+    }
+}
+//Add an item to the wishlist
 function addWishlist(name){
-    setCookie(name, "asdf", 365);
+    setCookie(name, "wishedFor", 365);
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + name + `');" checked></p>`;
 }
+//Remove an item from the wishlist
 function delWishlist(name){
     eraseCookie(name);
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + name + `');"></p>`;
 }
+//Insert a formatted entry to the wishlist box
+function addWishlistItem(name){
+
+}
+//Minimize an item's entry in the wishlist box
+function minWishlistItem(name){
+
+}
+//Expand an item's entry in the wishlist box
+function expWishlistItem(name){
+
+}
+//Remove an entry from the wishlist box
+function delWishlistItem(name){
+
+}
+
 function verFetch(){
     $.ajax({
         url: "erikScripts/versionFetch.py",
         success: function(response) {
-            console.log("VFetch called.");
+            console.log("VerFetch called.");
         }
     });
 }
@@ -203,6 +237,10 @@ request.onload = function(){
     primes = JSON.parse(request.responseText).primes;
     primeCt = primes.length;
     console.log(primes);                           //Debug Print
+
+    //Generate the wishlist structure
+    genWishlist();
+    console.log(wishlist);
 
     //Populate primelist with each prime
     addTitleBar("Frames");
@@ -227,18 +265,11 @@ request.onload = function(){
     }
 };
 request.send();
-/*
-//Fetch database.json and build pTables
-request2 = new XMLHttpRequest();
-//request2.open('GET','erikScripts/database.json');
-request2.open('GET','https://raw.githubusercontent.com/ErikOKriz/warframeWebsite/master/erikScripts/database.json'); //For local machine use.
-request2.onload = function(){
-    pTables = JSON.parse(request2.responseText);
-    pTableCt = pTables.length;
-    console.log(pTables);
-}
-request2.send();
-*/
+
+//Build the wishlist from cookies
+genWishlist(); 
+console.log(wishlist);
+
 //Fetch relicMasterTemp.txt and build pTables
 var request3 = new XMLHttpRequest();
 //request3.open('GET','erikScripts/relicTables.txt');
