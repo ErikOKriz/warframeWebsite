@@ -219,9 +219,9 @@ function addWishlistItem(ID){
             </tr>
         </span>`);
         }
-        //Otherwise, it is hidden and needs to be displayed
-        else{
-        element.style.display = "block";
+    //Otherwise, it is hidden and needs to be displayed
+    else{
+        element.style.display = "table-row";
     }
 }
 //Minimize an item's entry in the wishlist box
