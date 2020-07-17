@@ -187,7 +187,7 @@ function genWishlist(){
             wishlist[i] = {"name":tag, "wish":false};
     }
 }
-//Add an item to the wishlist
+//Add an item to the wishlist and handles all add events
 function addWishlist(ID){
     var tmp = wishlist[ID]
     setCookie(tmp.name, "wishedFor", 365);
@@ -195,8 +195,9 @@ function addWishlist(ID){
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tmp.name + `');" checked></p>`;
     tmp.wish = true;
     addWishlistItem(ID);
+    wishlistCt++;
 }
-//Remove an item from the wishlist
+//Remove an item from the wishlist and handles all delete events
 function delWishlist(ID){
     var tmp = wishlist[ID]
     eraseCookie(tmp.name);
@@ -204,10 +205,11 @@ function delWishlist(ID){
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tmp.name + `');"></p>`;
     tmp.wish = false;
     delWishlistItem(ID);
+    wishlistCt--;
 }
 //Insert a formatted entry to the wishlist box
 function addWishlistItem(ID){
-    var tmp = wishlist[ID]
+    var tmp = wishlist[ID];
     document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
 <span id="` + tmp.name + `_wish" class="wishlistItem">
     <tr>
@@ -216,8 +218,7 @@ function addWishlistItem(ID){
         <td id="` + tmp.name + `_wish_exp"><</td>
     </tr>
 </span>
-`)
-    wihslistCt++;
+`);
 }
 //Minimize an item's entry in the wishlist box
 function minWishlistItem(ID){
@@ -229,7 +230,8 @@ function expWishlistItem(ID){
 }
 //Remove an entry from the wishlist box
 function delWishlistItem(ID){
-
+    var tmp = wishlist[ID];
+    document.getElementById(tmp.name + '_wish').innerHTML = "";
 }
 
 function verFetch(){
