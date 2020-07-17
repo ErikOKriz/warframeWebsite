@@ -83,10 +83,10 @@ function setFeaturedPrime(ID){
     
     //Set wishlist tickbox. If cookied, display checked. Otherwise, display empty.
     if(getCookie(tag) != null){
-        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tag + `');" checked></p>`;
+        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tmp.ID + `');" checked></p>`;
     }
     else{
-        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tag + `');"></p>`;
+        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tmp.ID + `');"></p>`;
 
     }
 }
@@ -180,23 +180,29 @@ function genWishlist(){
     for(var i = 0; i < primeCt; i++){
         var tag = primes[i].name.replace(' ', '_');
         if(getCookie(tag) != null){
-            wishlist[i] = [tag, true];
+            wishlist[i] = {"name":tag, "wish":true};
             wishlistCt++;
         }else
-            wishlist[i] = [tag, false];
+            wishlist[i] = {"name":tag, "wish":false};
     }
 }
 //Add an item to the wishlist
-function addWishlist(name){
+function addWishlist(ID){
+    var tmp = wishlist[ID]
+    var name = tmp.name;
     setCookie(name, "wishedFor", 365);
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + name + `');" checked></p>`;
+    tmp.wish = true;
 }
 //Remove an item from the wishlist
-function delWishlist(name){
+function delWishlist(ID){
+    var tmp = wishlist[ID]
+    var name = tmp.name;
     eraseCookie(name);
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + name + `');"></p>`;
+    tmp.wish = false;
 }
 //Insert a formatted entry to the wishlist box
 function addWishlistItem(name){
