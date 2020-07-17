@@ -13,6 +13,8 @@ var relicEraIndex = Array(4);
 //Wishlist structure generated from cookies
 var wishlist;
 var wishlistCt;
+//ID of currently focused prime
+var pFocusID;
 
 
 /********* 
@@ -58,6 +60,7 @@ function addTitleBar(title){
 function setFeaturedPrime(ID){
     //Find the prime tmp in the primes list
     var tmp = primes[ID];
+    pFocusID = ID;
     if(tmp == undefined){
         console.log("ERR: A prime was attempted to be set featured and failed (ID: " + ID + ")\n")
         return;
@@ -82,13 +85,7 @@ function setFeaturedPrime(ID){
     document.getElementById('itemTable').insertAdjacentHTML('beforeend','</tr>');
     
     //Set wishlist tickbox. If cookied, display checked. Otherwise, display empty.
-    if(getCookie(tag) != null){
-        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + tmp.ID + `');" checked></p>`;
-    }
-    else{
-        document.getElementById('wishDiv').innerHTML = `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + tmp.ID + `');"></p>`;
-
-    }
+    drawWishCheckbox();
 }
 function setFeaturedRelic(droplocation){
     var dropsplit = droplocation.split(' ');
@@ -187,21 +184,28 @@ function genWishlist(){
             wishlist[i] = {"name":tag, "wish":false};
     }
 }
+function drawWishCheckbox(){
+    if(wishlist[pFocusID].wish == true){
+        document.getElementById('wishDiv').innerHTML = 
+            `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + pFocusID + `');" checked></p>`;
+    }else{
+        document.getElementById('wishDiv').innerHTML = 
+            `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + pFocusID + `');"></p>`;
+    }
+}
 //Add an item to the wishlist and handles all add events
 function addWishlist(ID){
     setCookie(wishlist[ID].name, "wishedFor", 365);
-    document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + ID + `');" checked></p>`;
-        wishlist[ID].wish = true;
+    wishlist[ID].wish = true;
+    drawWishCheckbox();
     addWishlistItem(ID);
     wishlistCt++;
 }
 //Remove an item from the wishlist and handles all delete events
 function delWishlist(ID){
     eraseCookie(wishlist[ID].name);
-    document.getElementById('wishDiv').innerHTML = 
-        `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + ID + `');"></p>`;
-        wishlist[ID].wish = false;
+    wishlist[ID].wish = false;
+    drawWishCheckbox();
     delWishlistItem(ID);
     wishlistCt--;
 }
