@@ -217,7 +217,7 @@ function addWishlistItem(ID){
         document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
         <tr id="` + wishlist[ID].name + `_wish">
             <td><a href="javascript:delWishlist(` + ID + `)">x</a></td>
-            <td class="primeRowExpander"><a>` + wishlist[ID].name + ` Prime</a></td>
+            <td class="primeRowExpander"><a href="#" id="` + ID + `"onclick="javascript:setFeaturedPrime('` + ID + `')">` + wishlist[ID].name + ` Prime</a></td>
             <td id="` + wishlist[ID].name + `_wish_exp"><</td>
         </tr>`);
         }
