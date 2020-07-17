@@ -207,15 +207,22 @@ function delWishlist(ID){
 }
 //Insert a formatted entry to the wishlist box
 function addWishlistItem(ID){
-    document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
-<span id="` + wishlist[ID].name + `_wish" class="wishlistItem">
-    <tr>
-        <td><a>x</a></td>
-        <td class="primeRowExpander"><a>` + wishlist[ID].name + ` Prime</a></td>
-        <td id="` + wishlist[ID].name + `_wish_exp"><</td>
-    </tr>
-</span>
-`);
+    //If the relevant wish element is undefined, insert html
+    var element = document.getElementById(wishlist[ID].name + '_wish');
+    if(element == undefined){
+        document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
+        <span class="wishlistItem">
+            <tr id="` + wishlist[ID].name + `_wish">
+                <td><a href="javascript:delWishlist(` + ID + `)">x</a></td>
+                <td class="primeRowExpander"><a>` + wishlist[ID].name + ` Prime</a></td>
+                <td id="` + wishlist[ID].name + `_wish_exp"><</td>
+            </tr>
+        </span>`);
+        }
+        //Otherwise, it is hidden and needs to be displayed
+        else{
+        element.style.display = "block";
+    }
 }
 //Minimize an item's entry in the wishlist box
 function minWishlistItem(ID){
@@ -227,7 +234,7 @@ function expWishlistItem(ID){
 }
 //Remove an entry from the wishlist box
 function delWishlistItem(ID){
-    document.getElementById(wishlist[ID].name + '_wish').innerHTML = "";
+    document.getElementById(wishlist[ID].name + '_wish').style.display = "none";
 }
 
 function verFetch(){
