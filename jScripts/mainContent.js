@@ -180,10 +180,10 @@ function genWishlist(){
     for(var i = 0; i < primeCt; i++){
         var tag = primes[i].name.replace(' ', '_');
         if(getCookie(tag) != null){
-            wishlist.push([tag, true]);
+            wishlist[i] = [tag, true];
             wishlistCt++;
         }else
-            wishlist.push([tag, false]);
+            wishlist[i] = [tag, false];
     }
 }
 //Add an item to the wishlist
@@ -265,10 +265,6 @@ request.onload = function(){
     }
 };
 request.send();
-
-//Build the wishlist from cookies
-genWishlist(); 
-console.log(wishlist);
 
 //Fetch relicMasterTemp.txt and build pTables
 var request3 = new XMLHttpRequest();
