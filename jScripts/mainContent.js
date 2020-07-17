@@ -194,6 +194,7 @@ function addWishlist(ID){
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:delWishlist('` + name + `');" checked></p>`;
     tmp.wish = true;
+    addWishlistItem(ID);
 }
 //Remove an item from the wishlist
 function delWishlist(ID){
@@ -203,21 +204,33 @@ function delWishlist(ID){
     document.getElementById('wishDiv').innerHTML = 
         `<p>Add to Wishlist: <input type="checkbox" id="wishBox" onclick="javascript:addWishlist('` + name + `');"></p>`;
     tmp.wish = false;
+    delWishlistItem(ID);
 }
 //Insert a formatted entry to the wishlist box
-function addWishlistItem(name){
-
+function addWishlistItem(ID){
+    var tmp = wishlist[ID]
+    var name = tmp.name;
+    document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
+<span id="` + name + `_wish" class="wishlistItem">
+    <tr>
+        <td><a>x</a></td>
+        <td class="primeRowExpander"><a>` + name + ` Prime</a></td>
+        <td id="` + name + `_wish_exp"><</td>
+    </tr>
+</span>
+`)
+    wihslistCt++;
 }
 //Minimize an item's entry in the wishlist box
-function minWishlistItem(name){
+function minWishlistItem(ID){
 
 }
 //Expand an item's entry in the wishlist box
-function expWishlistItem(name){
+function expWishlistItem(ID){
 
 }
 //Remove an entry from the wishlist box
-function delWishlistItem(name){
+function delWishlistItem(ID){
 
 }
 
