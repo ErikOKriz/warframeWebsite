@@ -172,16 +172,29 @@ function addPrime(tmp){
 }
 //Build the existing wishlist from cookies when the site opens
 function genWishlist(){
+    //Init the array and count
     wishlist = new Array(primeCt);
     wishlistCt = 0;
+    
+    //For each prime
     for(var i = 0; i < primeCt; i++){
         var tag = primes[i].name.replace(' ', '_');
+        //If its cookie is set
         if(getCookie(tag) != null){
-            wishlist[i] = {"name":tag, "wish":true};
+            //Insert the default struct for true, then set parts to true until there are no more. This leaves nonexistant parts with an undefined.
+            wishlist[i] = {"name":tag, "wish":true, parts:[undefined, undefined, undefined, undefined]};
+            for(var j = 0; primes[i].partNames[j] != undefined; j++)
+                wishlist[i].parts[j] = true;
+            
+            //Update the count and add the item to wishlist
             wishlistCt++;
             addWishlistItem(i);
-        }else
-            wishlist[i] = {"name":tag, "wish":false};
+        }else{
+            //Do the similar struct initialization for false, then add falses for each part
+            wishlist[i] = {"name":tag, "wish":false, parts:[undefined, undefined, undefined, undefined]};
+            for(var j = 0; primes[i].partNames[j] != undefined; j++)
+                wishlist[i].parts[j] = false;
+        }
     }
 }
 function drawWishCheckbox(){
@@ -201,6 +214,20 @@ function addWishlist(ID){
     addWishlistItem(ID);
     wishlistCt++;
 }
+//Subfunction for parts of primes
+function addWishlistPart(ID, part){
+    console.log("Adding wishlist part " + ID + "," + part);
+    setCookie(wishlist[ID].name + part, "wishedFor", 365);
+    wishlist[ID].parts[part] = true;
+    var box = document.getElementById(primes[ID].name + `_` + part + `_wish`);
+    if(box != undefined){
+        box.innerHTML = (`
+        <tr id="` + primes[ID].name + `_` + part + `_wish">
+            <td><input type="checkbox" onclick="javascript:delWishlistPart(` + ID + `,` + part + `);" checked></td>
+            <td>`+ primes[ID].partNames[part] + `</td>
+        </tr>`)
+    }
+}
 //Remove an item from the wishlist and handles all delete events
 function delWishlist(ID){
     eraseCookie(wishlist[ID].name);
@@ -209,18 +236,43 @@ function delWishlist(ID){
     delWishlistItem(ID);
     wishlistCt--;
 }
+//Subfunction for parts of primes
+function delWishlistPart(ID, part){
+    console.log("Removing wishlist part " + ID + "," + part);
+    eraseCookie(wishlist[ID].name + part);
+    wishlist[ID].parts[part] = false;
+    var box = document.getElementById(primes[ID].name + `_` + part + `_wish`);
+    if(box != undefined){
+        box.innerHTML = (`
+        <tr id="` + primes[ID].name + `_` + part + `_wish">
+            <td><input type="checkbox" onclick="javascript:addWishlistPart(` + ID + `,` + part + `);"></td>
+            <td>`+ primes[ID].partNames[part] + `</td>
+        </tr>`)
+    }
+}
+
 //Insert a formatted entry to the wishlist box
 function addWishlistItem(ID){
-    //If the relevant wish element is undefined, insert html
     var element = document.getElementById(wishlist[ID].name + '_wish');
+    //If the relevant wish element is undefined, insert html for the name
     if(element == undefined){
         document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
-        <tr id="` + wishlist[ID].name + `_wish">
-            <td><a href="javascript:delWishlist(` + ID + `)">x</a></td>
-            <td class="primeRowExpander"><a href="#" id="` + ID + `"onclick="javascript:setFeaturedPrime('` + ID + `')">` + wishlist[ID].name + ` Prime</a></td>
-            <td id="` + wishlist[ID].name + `_wish_exp"><</td>
-        </tr>`);
+            <tr id="` + wishlist[ID].name + `_wish" class="wishPrime">
+                <td><a href="javascript:delWishlist(` + ID + `)">x</a></td>
+                <td><a href="javascript:setFeaturedPrime('` + ID + `')">` + wishlist[ID].name + ` Prime</a></td>
+                <td id="` + wishlist[ID].name + `_wish_expander"><a href="javascript:expWishlistItem(` + ID + `)"><</a></td>
+            </tr>`);
+        //Then add a line for each part and do addWishlist
+        for(var i = 0; wishlist[ID].parts[i] != undefined; i++){
+            document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
+                <tr id="` + primes[ID].name + `_` + i + `_wish">
+                    <td><input type="checkbox" onclick="javascript:delWishlistPart(` + ID + `,` + i + `);" checked></td>
+                    <td>`+ primes[ID].partNames[i] + `</td>
+                </tr>`);
+            addWishlist(ID, i);
         }
+        minWishlistItem(ID);
+    }
     //Otherwise, it is hidden and needs to be displayed
     else{
         element.style.display = "table-row";
@@ -228,14 +280,19 @@ function addWishlistItem(ID){
 }
 //Minimize an item's entry in the wishlist box
 function minWishlistItem(ID){
-
+    for(var i = 0; document.getElementById(primes[ID].name + `_` + i + `_wish`) != undefined; i++)
+        document.getElementById(primes[ID].name + `_` + i + `_wish`).style.display = "none";
+    document.getElementById(wishlist[ID].name + `_wish_expander`).innerHTML = `<a href="javascript:expWishlistItem(` + ID + `)"><</a>`;
 }
 //Expand an item's entry in the wishlist box
 function expWishlistItem(ID){
-
+    for(var i = 0; document.getElementById(primes[ID].name + `_` + i + `_wish`) != undefined; i++)
+        document.getElementById(primes[ID].name + `_` + i + `_wish`).style.display = "table-row";
+    document.getElementById(wishlist[ID].name + `_wish_expander`).innerHTML = `<a href="javascript:minWishlistItem(` + ID + `)">v</a>`;
 }
 //Remove an entry from the wishlist box
 function delWishlistItem(ID){
+    minWishlistItem(ID);
     document.getElementById(wishlist[ID].name + '_wish').style.display = "none";
 }
 
