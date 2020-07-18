@@ -269,7 +269,7 @@ function addWishlistItem(ID){
                     <td><input type="checkbox" onclick="javascript:delWishlistPart(` + ID + `,` + i + `);" checked></td>
                     <td>`+ primes[ID].partNames[i] + `</td>
                 </tr>`);
-            addWishlist(ID, i);
+            addWishlistPart(ID, i);
         }
         minWishlistItem(ID);
     }
@@ -382,3 +382,4 @@ request4.onload = function(){
     console.log(nTables);
 }
 request4.send();
+
