@@ -258,9 +258,9 @@ function addWishlistItem(ID){
     if(element == undefined){
         document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
             <tr id="` + wishlist[ID].name + `_wish" class="wishPrime">
-                <td><a href="javascript:delWishlist(` + ID + `)">x</a></td>
-                <td><a href="javascript:setFeaturedPrime('` + ID + `')">` + wishlist[ID].name + ` Prime</a></td>
-                <td id="` + wishlist[ID].name + `_wish_expander"><a href="javascript:expWishlistItem(` + ID + `)"><</a></td>
+                <td><a href="#" onclick="javascript:delWishlist(` + ID + `)">x</a></td>
+                <td><a href="#" onclick="javascript:setFeaturedPrime('` + ID + `')">` + wishlist[ID].name + ` Prime</a></td>
+                <td id="` + wishlist[ID].name + `_wish_expander"><a href="#" onclick="javascript:expWishlistItem(` + ID + `)"><</a></td>
             </tr>`);
         //Then add a line for each part and do addWishlist
         for(var i = 0; wishlist[ID].parts[i] != undefined; i++){
