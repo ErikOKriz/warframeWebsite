@@ -220,34 +220,7 @@ function addWishlist(ID){
     addWishlistItem(ID);
     wishlistCt++;
 }
-//Subfunction for parts of primes
-function addWishlistPart(ID, part){
-    console.log("Adding wishlist part " + ID + "," + part);
-    setCookie(wishlist[ID].name + part, "wishedFor", 365);
-    wishlist[ID].parts[part] = true;
-    var box = document.getElementById(primes[ID].name + `_` + part + `_wish`);
-    if(box != undefined){
-        for(var i = 0; wishlist[ID].parts[i] != undefined; i++){
-            if( wishlist[ID].parts[i] == true){
-                box.innerHTML = (`
-                    <tr id="` + primes[ID].name + `_` + part + `_wish">
-                        <td><input type="checkbox" onclick="javascript:delWishlistPart(` + ID + `,` + part + `);" checked></td>
-                        <td>`+ primes[ID].partNames[part] + `</td>
-                    </tr>`
-                );
-            }
-            else{
-                box.innerHTML = (`
-                    <tr id="` + primes[ID].name + `_` + part + `_wish">
-                        <td><input type="checkbox" onclick="javascript:addWishlistPart(` + ID + `,` + part + `);"></td>
-                        <td>`+ primes[ID].partNames[part] + `</td>
-                    </tr>`
-                );
-            }
-        }
-        
-    }
-}
+
 //Remove an item from the wishlist and handles all delete events
 function delWishlist(ID){
     eraseCookie(wishlist[ID].name);
@@ -259,20 +232,6 @@ function delWishlist(ID){
     drawWishCheckbox();
     delWishlistItem(ID);
     wishlistCt--;
-}
-//Subfunction for parts of primes
-function delWishlistPart(ID, part){
-    console.log("Removing wishlist part " + ID + "," + part);
-    eraseCookie(wishlist[ID].name + part);
-    wishlist[ID].parts[part] = false;
-    var box = document.getElementById(primes[ID].name + `_` + part + `_wish`);
-    if(box != undefined){
-        box.innerHTML = (`
-        <tr id="` + primes[ID].name + `_` + part + `_wish">
-            <td><input type="checkbox" onclick="javascript:addWishlistPart(` + ID + `,` + part + `);"></td>
-            <td>`+ primes[ID].partNames[part] + `</td>
-        </tr>`)
-    }
 }
 
 //Insert a formatted entry to the wishlist box
@@ -289,11 +248,12 @@ function addWishlistItem(ID){
         //Then add a line for each part and do addWishlist
         for(var i = 0; wishlist[ID].parts[i] != undefined; i++){
             document.getElementById('wishTable').insertAdjacentHTML('beforeend', `
-                <tr id="` + primes[ID].name + `_` + i + `_wish">
-                    <td><input type="checkbox" onclick="javascript:delWishlistPart(` + ID + `,` + i + `);" checked></td>
-                    <td>`+ primes[ID].partNames[i] + `</td>
-                </tr>`);
-            addWishlistPart(ID, i);
+                <tr id="` + primes[ID].name + `_` + i + `_wish"></tr>`
+            );
+            if(wishlist[ID].parts[i] == true)
+                addCheckedWishlistPart(ID, i);
+            else
+                addUncheckedWishlistPart(ID, i);
         }
         minWishlistItem(ID);
     }
@@ -318,6 +278,35 @@ function expWishlistItem(ID){
 function delWishlistItem(ID){
     minWishlistItem(ID);
     document.getElementById(wishlist[ID].name + '_wish').style.display = "none";
+}
+//Subfunction for parts of primes
+function addCheckedWishlistPart(ID, part){
+    //console.log("Adding wishlist part " + ID + "," + part);       //DEBUG
+    setCookie(wishlist[ID].name + part, "wishedFor", 365);
+    wishlist[ID].parts[part] = true;
+    var box = document.getElementById(primes[ID].name + `_` + part + `_wish`);
+    if(box != undefined){
+        box.innerHTML = (`
+            <tr id="` + primes[ID].name + `_` + part + `_wish">
+                <td><input type="checkbox" onclick="javascript:addUncheckedWishlistPart(` + ID + `,` + part + `);" checked></td>
+                <td>`+ primes[ID].partNames[part] + `</td>
+            </tr>`
+        );
+    }
+}
+//Subfunction for parts of primes
+function addUncheckedWishlistPart(ID, part){
+    //console.log("Removing wishlist part " + ID + "," + part);     //DEBUG
+    eraseCookie(wishlist[ID].name + part);
+    wishlist[ID].parts[part] = false;
+    var box = document.getElementById(primes[ID].name + `_` + part + `_wish`);
+    if(box != undefined){
+        box.innerHTML = (`
+        <tr id="` + primes[ID].name + `_` + part + `_wish">
+            <td><input type="checkbox" onclick="javascript:addCheckedWishlistPart(` + ID + `,` + part + `);"></td>
+            <td>`+ primes[ID].partNames[part] + `</td>
+        </tr>`)
+    }
 }
 
 function verFetch(){
