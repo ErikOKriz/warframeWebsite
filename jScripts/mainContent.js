@@ -185,7 +185,7 @@ function genWishlist(){
             wishlist[i] = {"name":tag, "wish":true, parts:[undefined, undefined, undefined, undefined]};
             //Check if any subpart cookies are set
             for(var j = 0; primes[i].partNames[j] != undefined; j++){
-                if(getCookie(wishlist[ID].name + part) != null){
+                if(getCookie(wishlist[i].name + part) != null){
                     wishlist[i].parts[j] = true;
                 } 
                 else
@@ -252,6 +252,10 @@ function addWishlistPart(ID, part){
 function delWishlist(ID){
     eraseCookie(wishlist[ID].name);
     wishlist[ID].wish = false;
+    for(var i = 0;  wishlist[ID].part[i] != undefined; i++){
+        wishlist[ID].part[i] = false;
+        eraseCookie(wishlist[ID].name + i);
+    }
     drawWishCheckbox();
     delWishlistItem(ID);
     wishlistCt--;
