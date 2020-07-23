@@ -183,15 +183,21 @@ function genWishlist(){
         if(getCookie(tag) != null){
             //Insert the default struct for true, then set parts to true until there are no more. This leaves nonexistant parts with an undefined.
             wishlist[i] = {"name":tag, "wish":true, parts:[undefined, undefined, undefined, undefined]};
-            for(var j = 0; primes[i].partNames[j] != undefined; j++)
-                wishlist[i].parts[j] = true;
-            
+            //Check if any subpart cookies are set
+            for(var j = 0; primes[i].partNames[j] != undefined; j++){
+                if(getCookie(wishlist[ID].name + part) != null){
+                    wishlist[i].parts[j] = true;
+                } 
+                else
+                    wishlist[i].parts[j] = false;
+            }
             //Update the count and add the item to wishlist
             wishlistCt++;
             addWishlistItem(i);
         }else{
             //Do the similar struct initialization for false, then add falses for each part
             wishlist[i] = {"name":tag, "wish":false, parts:[undefined, undefined, undefined, undefined]};
+            //Assign false only to the parts that exist. Any nonexistent parts will be undefined
             for(var j = 0; primes[i].partNames[j] != undefined; j++)
                 wishlist[i].parts[j] = false;
         }
@@ -221,11 +227,25 @@ function addWishlistPart(ID, part){
     wishlist[ID].parts[part] = true;
     var box = document.getElementById(primes[ID].name + `_` + part + `_wish`);
     if(box != undefined){
-        box.innerHTML = (`
-        <tr id="` + primes[ID].name + `_` + part + `_wish">
-            <td><input type="checkbox" onclick="javascript:delWishlistPart(` + ID + `,` + part + `);" checked></td>
-            <td>`+ primes[ID].partNames[part] + `</td>
-        </tr>`)
+        for(var i = 0; wishlist[ID].parts[i] != undefined; i++){
+            if( wishlist[ID].parts[i] == true){
+                box.innerHTML = (`
+                    <tr id="` + primes[ID].name + `_` + part + `_wish">
+                        <td><input type="checkbox" onclick="javascript:delWishlistPart(` + ID + `,` + part + `);" checked></td>
+                        <td>`+ primes[ID].partNames[part] + `</td>
+                    </tr>`
+                );
+            }
+            else{
+                box.innerHTML = (`
+                    <tr id="` + primes[ID].name + `_` + part + `_wish">
+                        <td><input type="checkbox" onclick="javascript:addWishlistPart(` + ID + `,` + part + `);"></td>
+                        <td>`+ primes[ID].partNames[part] + `</td>
+                    </tr>`
+                );
+            }
+        }
+        
     }
 }
 //Remove an item from the wishlist and handles all delete events
