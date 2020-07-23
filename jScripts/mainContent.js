@@ -252,8 +252,8 @@ function addWishlistPart(ID, part){
 function delWishlist(ID){
     eraseCookie(wishlist[ID].name);
     wishlist[ID].wish = false;
-    for(var i = 0;  wishlist[ID].part[i] != undefined; i++){
-        wishlist[ID].part[i] = false;
+    for(var i = 0;  wishlist[ID].parts[i] != undefined; i++){
+        wishlist[ID].parts[i] = false;
         eraseCookie(wishlist[ID].name + i);
     }
     drawWishCheckbox();
