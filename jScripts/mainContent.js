@@ -205,7 +205,7 @@ function genWishlist(){
             }
             //Update the count and add the item to wishlist
             wishlistCt++;
-            addWishlistItem(i);
+            addWishlist(i);
         }else{
             //Do the similar struct initialization for false, then add falses for each part
             wishlist[i] = {"name":tag, "wish":false, parts:[undefined, undefined, undefined, undefined]};
@@ -267,7 +267,7 @@ function addWishlistItem(ID){
             else
                 addUncheckedWishlistPart(ID, i);
         }
-        minWishlistItem(ID);
+        //minWishlistItem(ID);
     }
     //Otherwise, it is hidden and needs to be displayed
     else{
