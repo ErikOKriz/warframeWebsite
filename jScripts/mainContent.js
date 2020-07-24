@@ -187,22 +187,18 @@ function genWishlist(){
             var partDataFound = false;
             for(var j = 0; primes[i].partNames[j] != undefined; j++){
                 if(getCookie(wishlist[i].name + j) != null){
+                    wishlist[i].parts[j] = true;
                     partDataFound = true;
                 } 
+                else
+                    wishlist[i].parts[j] = false;
             }
-            //Then set all to true if no cookies set, or set the cookies as the data tells
-            for(var j = 0; primes[i].partNames[j] != undefined; j++){
-                if(partDataFound){
-                    if(getCookie(wishlist[i].name + j) != null){
-                        wishlist[i].parts[j] = true;
-                    } 
-                    else
-                        wishlist[i].parts[j] = false;
-                }
-                else{
+            //Then set all to true if no data was found
+            if(!partDataFound){
+                for(var j = 0; wishlist[i].parts[j] != undefined; j++)
                     wishlist[i].parts[j] = true;
-                }
             }
+            
             //Update the count and add the item to wishlist
             wishlistCt++;
             addWishlistItem(i);
