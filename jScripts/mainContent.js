@@ -185,7 +185,7 @@ function genWishlist(){
             wishlist[i] = {"name":tag, "wish":true, parts:[undefined, undefined, undefined, undefined]};
             //Check if any subpart cookies are set
             for(var j = 0; primes[i].partNames[j] != undefined; j++){
-                if(getCookie(wishlist[i].name + part) != null){
+                if(getCookie(wishlist[i].name + j) != null){
                     wishlist[i].parts[j] = true;
                 } 
                 else
