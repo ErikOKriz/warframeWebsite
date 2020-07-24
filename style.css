@@ -194,12 +194,14 @@ a:hover{
 }
 .wishlistContent{
     grid-area: wishlistContent;
+    overflow-y: auto;
 }
 .wishlistContent table{
     border-collapse: separate;
     border: none;
     width: 100%;
     padding: 0;   
+    overflow-y: auto;
 }
 .wishPrime td{
     background-color:  rgba(20,20,20,.5);

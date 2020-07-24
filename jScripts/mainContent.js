@@ -228,8 +228,8 @@ function drawWishCheckbox(){
 function addWishlist(ID){
     setCookie(wishlist[ID].name, "wishedFor", 365);
     wishlist[ID].wish = true;
-    drawWishCheckbox();
     addWishlistItem(ID);
+    drawWishCheckbox();
     wishlistCt++;
 }
 
@@ -267,7 +267,7 @@ function addWishlistItem(ID){
             else
                 addUncheckedWishlistPart(ID, i);
         }
-        //minWishlistItem(ID);
+        minWishlistItem(ID);
     }
     //Otherwise, it is hidden and needs to be displayed
     else{
