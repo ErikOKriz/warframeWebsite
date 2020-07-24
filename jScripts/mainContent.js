@@ -184,12 +184,24 @@ function genWishlist(){
             //Insert the default struct for true, then set parts to true until there are no more. This leaves nonexistant parts with an undefined.
             wishlist[i] = {"name":tag, "wish":true, parts:[undefined, undefined, undefined, undefined]};
             //Check if any subpart cookies are set
+            var partDataFound = false;
             for(var j = 0; primes[i].partNames[j] != undefined; j++){
                 if(getCookie(wishlist[i].name + j) != null){
-                    wishlist[i].parts[j] = true;
+                    partDataFound = true;
                 } 
-                else
-                    wishlist[i].parts[j] = false;
+            }
+            //Then set all to true if no cookies set, or set the cookies as the data tells
+            for(var j = 0; primes[i].partNames[j] != undefined; j++){
+                if(partDataFound){
+                    if(getCookie(wishlist[i].name + j) != null){
+                        wishlist[i].parts[j] = true;
+                    } 
+                    else
+                        wishlist[i].parts[j] = false;
+                }
+                else{
+                    wishlist[i].parts[j] = true;
+                }
             }
             //Update the count and add the item to wishlist
             wishlistCt++;
