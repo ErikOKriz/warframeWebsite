@@ -205,7 +205,7 @@ function genWishlist(){
             }
             //Update the count and add the item to wishlist
             wishlistCt++;
-            addWishlist(i);
+            addWishlistItem(i);
         }else{
             //Do the similar struct initialization for false, then add falses for each part
             wishlist[i] = {"name":tag, "wish":false, parts:[undefined, undefined, undefined, undefined]};
