@@ -203,7 +203,6 @@ function genWishlist(){
             wishlistCt++;
             addWishlistItem(i);
         }else{
-            //Do the similar struct initialization for false, then add falses for each part
             wishlist[i] = {"name":tag, "wish":false, parts:[undefined, undefined, undefined, undefined]};
             //Assign false only to the parts that exist. Any nonexistent parts will be undefined
             for(var j = 0; primes[i].partNames[j] != undefined; j++)
@@ -286,6 +285,7 @@ function expWishlistItem(ID){
 function delWishlistItem(ID){
     minWishlistItem(ID);
     document.getElementById(wishlist[ID].name + '_wish').style.display = "none";
+    console.log("Deleting wishlist item: " + wishlist[ID].name + '_wish');
 }
 //Subfunction for parts of primes
 function addCheckedWishlistPart(ID, part){
